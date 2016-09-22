@@ -7,6 +7,7 @@
 - [分析](#分析)
 - [讨论](#讨论)
 - [教程](#教程)
+- [文章](#文章)
 - [代码](#代码)
 
 扫码加群：(如果群满了加我个人微信号(justjavac)我拉你入群)
@@ -39,13 +40,17 @@
 - [微信小程序的出现会给前端开发带来什么？(知乎)](https://www.zhihu.com/question/50900987)
 - [封闭一周开发微信应用号（小程序）(v2ex)](https://www.v2ex.com/t/308005)
 - [一个天大的误会：Vux并非微信应用号项目(github)](https://github.com/airyland/vux/issues/587)
-- [未来是h5的：写在微信应用号发布之际(CNode)](https://cnodejs.org/topic/57e330d07d8293463a01e7e0)
 
 ## 教程
 
 - [首个微信小程序开发教程(掘金)](http://gold.xitu.io/entry/57e34d6bd2030900691e9ad7)
 - [微信小程序怎么开发？玩物志用一个上午上线了电商应用(爱范儿)](http://www.ifanr.com/721124)
 - [开发微信小程序入门前(Laravel China)](https://laravel-china.org/index.php/topics/2890)
+
+## 文章
+
+- [未来是h5的：写在微信应用号发布之际(CNode)](https://cnodejs.org/topic/57e330d07d8293463a01e7e0)
+- [微信“小程序”让我脑洞大开(简书)](http://www.jianshu.com/p/60c8fd8d6862)
 
 ## 代码
 
