@@ -1,5 +1,14 @@
 # 微信小程序开发资源汇总
 
+## 目录
+
+- [新闻报道](#新闻报道)
+- [工具破解](#工具破解)
+- [分析](#分析)
+- [讨论](#讨论)
+- [教程](#教程)
+- [代码](#代码)
+
 扫码加群：(如果群满了加我个人微信号(justjavac)我拉你入群)
 
 ![微信小程序交流区群](./qrcode.png)
@@ -9,6 +18,11 @@
 - [微信正式开放内测“小程序”，不开发APP的日子真的来了？(36氪)](http://36kr.com/p/5053349.html)
 - [关于微信小程序（应用号），我能透露的几个细节(可能吧)](https://kenengba.com/post/3515.html)
 - [你的产品适不适合做微信小程序？你需要这篇产品逻辑分析(虎嗅网)](https://www.huxiu.com/article/164700.html)
+
+## 工具破解
+
+- [微信小程序 (应用号) 微信 web 开发者工具破解版(DiyCode)](http://www.diycode.cc/topics/308)
+- [IDE + 破解 + Demo(gavinkwoe/weapp-ide-crack)](https://github.com/gavinkwoe/weapp-ide-crack)
 
 ## 分析
 
@@ -32,3 +46,7 @@
 - [首个微信小程序开发教程(掘金)](http://gold.xitu.io/entry/57e34d6bd2030900691e9ad7)
 - [微信小程序怎么开发？玩物志用一个上午上线了电商应用(爱范儿)](http://www.ifanr.com/721124)
 - [开发微信小程序入门前(Laravel China)](https://laravel-china.org/index.php/topics/2890)
+
+## 代码
+
+- [微信小应用示例代码(phodal/weapp-quick)](https://github.com/phodal/weapp-quick)
