@@ -46,6 +46,8 @@
 - [首个微信小程序开发教程(掘金)](http://gold.xitu.io/entry/57e34d6bd2030900691e9ad7)
 - [微信小程序怎么开发？玩物志用一个上午上线了电商应用(爱范儿)](http://www.ifanr.com/721124)
 - [开发微信小程序入门前(Laravel China)](https://laravel-china.org/index.php/topics/2890)
+- [微信小程序「官方示例代码」浅析【上】(微信公众号)](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974082&idx=1&sn=47c7f672caf629cd846e315b8df2b1c5&scene=21#wechat_redirect)
+- [微信小程序剖析【下】：运行机制(微信公众号)](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974093&idx=1&sn=0570a243304ea8bb7d1b636624886fb1&scene=21#wechat_redirect)
 
 ## 文章
 
