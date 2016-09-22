@@ -25,6 +25,10 @@
 - [微信小程序 (应用号) 微信 web 开发者工具破解版(DiyCode)](http://www.diycode.cc/topics/308)
 - [IDE + 破解 + Demo(gavinkwoe/weapp-ide-crack)](https://github.com/gavinkwoe/weapp-ide-crack)
 
+## 文档
+
+- [微信公众平台 |小程序 API文档(非官方)](http://wxopen.notedown.cn/)
+
 ## 分析
 
 - [从程序员的角度分析微信小程序(CSDN)](http://blog.csdn.net/yulianlin/article/details/52621413)
