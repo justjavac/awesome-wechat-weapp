@@ -44,6 +44,7 @@
 - [微信小程序的出现会给前端开发带来什么？(知乎)](https://www.zhihu.com/question/50900987)
 - [封闭一周开发微信应用号（小程序）(v2ex)](https://www.v2ex.com/t/308005)
 - [一个天大的误会：Vux并非微信应用号项目(github)](https://github.com/airyland/vux/issues/587)
+- [微信小程序即将发布，你怎么看？有啥有趣的点子？它会替代原生App吗？(掘金)](http://gold.xitu.io/entry/57e31c72bf22ec00584ca6b8/detail)
 
 ## 教程
 
