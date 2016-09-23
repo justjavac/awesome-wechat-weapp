@@ -48,6 +48,8 @@
 
 ## 教程
 
+- [全球首个微信应用号开发教程第一弹！通宵吐血赶稿，每日更新！](http://www.diycode.cc/topics/311)
+- [全球首个微信应用号开发教程第二弹！通宵吐血赶稿，每日更新！](http://www.diycode.cc/topics/312)
 - [首个微信小程序开发教程(掘金)](http://gold.xitu.io/entry/57e34d6bd2030900691e9ad7)
 - [微信小程序开发教程！(稀土区)](http://xituqu.com/508.html)
 - [微信小程序怎么开发？玩物志用一个上午上线了电商应用(爱范儿)](http://www.ifanr.com/721124)
