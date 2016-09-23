@@ -2,6 +2,7 @@
 
 ## 目录
 
+- [官方文档](#官方文档)
 - [新闻报道](#新闻报道)
 - [工具破解](#工具破解)
 - [分析](#分析)
@@ -13,6 +14,12 @@
 扫码加群：(如果群满了加我个人微信号(justjavac)我拉你入群)
 
 ![微信小程序交流区群](./qrcode.png)
+
+## 官方文档
+
+- [小程序开发文档](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
+- [小程序设计指南](https://mp.weixin.qq.com/debug/wxadoc/design/index.html)
+- [小程序开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)
 
 ## 新闻报道
 
