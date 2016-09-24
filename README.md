@@ -77,3 +77,4 @@
 
 - [微信小应用示例代码(phodal/weapp-quick)](https://github.com/phodal/weapp-quick)
 - [微信小应用地图定位demo(giscafer/wechat-weapp-mapdemo)](https://github.com/giscafer/wechat-weapp-mapdemo)
+- [微信小应用- 掘金主页信息流](https://github.com/hilongjw/weapp-gold)
