@@ -63,6 +63,7 @@
 - [开发微信小程序入门前(Laravel China)](https://laravel-china.org/index.php/topics/2890)
 - [微信小程序「官方示例代码」浅析【上】(微信公众号)](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974082&idx=1&sn=47c7f672caf629cd846e315b8df2b1c5&scene=21#wechat_redirect)
 - [微信小程序剖析【下】：运行机制(微信公众号)](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974093&idx=1&sn=0570a243304ea8bb7d1b636624886fb1&scene=21#wechat_redirect)
+- [小程序来临，前端工程师的春天(简书)](http://www.jianshu.com/p/fc958b73441a)
 
 ## 文章
 
