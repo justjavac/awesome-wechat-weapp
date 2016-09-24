@@ -83,3 +83,4 @@
 - [微信小程序（应用号）示例：微信小程序豆瓣电影(zce/weapp-demo)](https://github.com/zce/weapp-demo)
 - [微信小程序-豆瓣电影(hingsir/weapp-douban-film)](https://github.com/hingsir/weapp-douban-film)
 - [小程序 hello world 尝鲜(kunkun12/weapp)](https://github.com/kunkun12/weapp)
+- [使用微信小程序开发2048游戏(sammffl/wechat-weapp-2048)](https://github.com/sammffl/wechat-weapp-2048)
