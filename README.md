@@ -4,7 +4,7 @@
 
 - [官方文档](#官方文档)
 - [新闻报道](#新闻报道)
-- [工具破解](#工具破解)
+- [工具](#工具)
 - [分析](#分析)
 - [讨论](#讨论)
 - [教程](#教程)
@@ -27,10 +27,11 @@
 - [关于微信小程序（应用号），我能透露的几个细节(可能吧)](https://kenengba.com/post/3515.html)
 - [你的产品适不适合做微信小程序？你需要这篇产品逻辑分析(虎嗅网)](https://www.huxiu.com/article/164700.html)
 
-## 工具破解
+## 工具
 
 - [微信小程序 (应用号) 微信 web 开发者工具破解版(DiyCode)](http://www.diycode.cc/topics/308)
 - [IDE + 破解 + Demo(gavinkwoe/weapp-ide-crack)](https://github.com/gavinkwoe/weapp-ide-crack)
+- [为 sublime text 2&3 准备的微信应用号/小程序 snippet(Abbotton/weapp-snippet-for-sublime-text-2-3)](https://github.com/Abbotton/weapp-snippet-for-sublime-text-2-3)
 
 ## 文档
 
@@ -65,6 +66,7 @@
 - [微信小程序剖析【下】：运行机制(微信公众号)](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974093&idx=1&sn=0570a243304ea8bb7d1b636624886fb1&scene=21#wechat_redirect)
 - [小程序来临，前端工程师的春天(简书)](http://www.jianshu.com/p/fc958b73441a)
 - [hello-weapp 微信小程序最简示例教程(dingyiming/weapp-example)](https://github.com/dingyiming/weapp-example)
+- [微信小应用IDE的安装以及安装过程的常见问题(champion32/WeAppIdeIssue)](https://github.com/champion32/WeAppIdeIssue)
 
 ## 文章
 
@@ -84,3 +86,4 @@
 - [微信小程序-豆瓣电影(hingsir/weapp-douban-film)](https://github.com/hingsir/weapp-douban-film)
 - [小程序 hello world 尝鲜(kunkun12/weapp)](https://github.com/kunkun12/weapp)
 - [使用微信小程序开发2048游戏(sammffl/wechat-weapp-2048)](https://github.com/sammffl/wechat-weapp-2048)
+- [微信小程序-微票(wangmingjob/weapp-weipiao)](https://github.com/wangmingjob/weapp-weipiao)
