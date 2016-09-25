@@ -32,11 +32,11 @@
 
 - [微信小程序 (应用号) 微信 web 开发者工具破解版(DiyCode)](http://www.diycode.cc/topics/308)
 - [IDE + 破解 + Demo(gavinkwoe/weapp-ide-crack)](https://github.com/gavinkwoe/weapp-ide-crack)
-- [为 sublime text 2&3 准备的微信应用号/小程序 snippet(Abbotton/weapp-snippet-for-sublime-text-2-3)](https://github.com/Abbotton/weapp-snippet-for-sublime-text-2-3)
 
 ## 插件
 
 - [vim 插件](https://github.com/chemzqm/wxapp.vim)
+- [为 sublime text 2&3 准备的微信应用号/小程序 snippet(Abbotton/weapp-snippet-for-sublime-text-2-3)](https://github.com/Abbotton/weapp-snippet-for-sublime-text-2-3)
 
 ## 文档
 
