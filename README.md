@@ -89,3 +89,4 @@
 - [使用微信小程序开发2048游戏(sammffl/wechat-weapp-2048)](https://github.com/sammffl/wechat-weapp-2048)
 - [微信小程序-微票(wangmingjob/weapp-weipiao)](https://github.com/wangmingjob/weapp-weipiao)
 - [微信小程序购物车DEMO(SeptemberMaples/wechat-weapp-demo)](https://github.com/SeptemberMaples/wechat-weapp-demo)
+- [微信小程序-知乎日报](https://github.com/myronliu347/wechat-app-zhihudaily)
