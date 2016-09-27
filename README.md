@@ -36,8 +36,8 @@
 
 ## 插件
 
-- [vim 插件](https://github.com/chemzqm/wxapp.vim)
-- [为 sublime text 2&3 准备的微信应用号/小程序 snippet(Abbotton/weapp-snippet-for-sublime-text-2-3)](https://github.com/Abbotton/weapp-snippet-for-sublime-text-2-3)
+- [vim 插件(chemzqm/wxapp.vim)](https://github.com/chemzqm/wxapp.vim)
+- [sublime text 2&3 snippet(Abbotton/weapp-snippet-for-sublime-text-2-3)](https://github.com/Abbotton/weapp-snippet-for-sublime-text-2-3)
 
 ## 文档
 
