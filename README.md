@@ -40,7 +40,7 @@
 
 ## 文档
 
-- [微信公众平台 |小程序 API文档(非官方)](http://wxopen.notedown.cn/)
+- [从搭建一个微信小程序开始(腾讯云)](https://www.qcloud.com/act/event/yingyonghao.html)
 
 ## 分析
 
