@@ -89,7 +89,6 @@
 
 ## 代码
 
-- [微信小程序版Gank客户端]（https://github.com/lypeer/wechat-weapp-gank）
 - [微信小应用示例代码(phodal/weapp-quick)](https://github.com/phodal/weapp-quick)
 - [微信小应用地图定位demo(giscafer/wechat-weapp-mapdemo)](https://github.com/giscafer/wechat-weapp-mapdemo)
 - [微信小应用- 掘金主页信息流(hilongjw/weapp-gold)](https://github.com/hilongjw/weapp-gold)
@@ -102,7 +101,7 @@
 - [微信小程序V2EX(jectychen/wechat-v2ex)](https://github.com/jectychen/wechat-v2ex)
 - [微信小程序-知乎日报(myronliu347/wechat-app-zhihudaily)](https://github.com/myronliu347/wechat-app-zhihudaily)
 - [微信小程序-公众号热门文章信息流(hijiangtao/weapp-newsapp)](https://github.com/hijiangtao/weapp-newsapp)
+- [微信小程序版Gank客户端(lypeer/wechat-weapp-gank)](https://github.com/lypeer/wechat-weapp-gank)
 
 ## 其他
-
 - [如何看待知乎用户 @ justjavac 因「抄袭」在各大平台撕逼 PHPhub 管理员「发哥」？](https://www.zhihu.com/question/50967529)
