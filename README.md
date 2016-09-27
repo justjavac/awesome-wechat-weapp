@@ -69,7 +69,7 @@
 - [首个微信小程序开发教程(掘金)](http://gold.xitu.io/entry/57e34d6bd2030900691e9ad7)
 - [微信小程序开发教程！(稀土区)](http://xituqu.com/508.html)
 - [微信小程序怎么开发？玩物志用一个上午上线了电商应用(爱范儿)](http://www.ifanr.com/721124)
-- [开发微信小程序入门前(Laravel China)](https://laravel-china.org/index.php/topics/2890)
+- [开发微信小程序入门前(LatteCake)](http://lattecake.com/post/20098)
 - [微信小程序「官方示例代码」浅析(微信公众号)](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974082&idx=1&sn=47c7f672caf629cd846e315b8df2b1c5&scene=21#wechat_redirect)
 - [微信小程序剖析（一）：运行机制(微信公众号)](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974093&idx=1&sn=0570a243304ea8bb7d1b636624886fb1&scene=21#wechat_redirect)
 - [微信小程序剖析（二）：框架原理(微信公众号)](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974111&idx=1&sn=93a868cdb59b5dd77c65c7a5303e6e31#rd)
@@ -77,7 +77,7 @@
 - [小程序来临，前端工程师的春天(简书)](http://www.jianshu.com/p/fc958b73441a)
 - [hello-weapp 微信小程序最简示例教程(dingyiming/weapp-example)](https://github.com/dingyiming/weapp-example)
 - [微信小应用IDE的安装以及安装过程的常见问题(champion32/WeAppIdeIssue)](https://github.com/champion32/WeAppIdeIssue)
-- [分享我用cnode社区api做微信小应用的入门过程(cnode)](https://cnodejs.org/topic/57ea257b3670ca3f44c5beb6)
+- [分享我用cnode社区api做微信小应用的入门过程(CNode)](https://cnodejs.org/topic/57ea257b3670ca3f44c5beb6)
 
 ## 文章
 
@@ -106,4 +106,4 @@
 - [微信小程序版Gank客户端(lypeer/wechat-weapp-gank)](https://github.com/lypeer/wechat-weapp-gank)
 
 ## 其他
-- [如何看待知乎用户 @ justjavac 因「抄袭」在各大平台撕逼 PHPhub 管理员「发哥」？](https://www.zhihu.com/question/50967529)
+- [如何看待知乎用户 @ justjavac 因「抄袭」在各大平台撕逼 PHPhub 管理员「发哥」？(知乎)](https://www.zhihu.com/question/50967529)
