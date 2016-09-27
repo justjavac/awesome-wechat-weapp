@@ -77,6 +77,7 @@
 - [小程序来临，前端工程师的春天(简书)](http://www.jianshu.com/p/fc958b73441a)
 - [hello-weapp 微信小程序最简示例教程(dingyiming/weapp-example)](https://github.com/dingyiming/weapp-example)
 - [微信小应用IDE的安装以及安装过程的常见问题(champion32/WeAppIdeIssue)](https://github.com/champion32/WeAppIdeIssue)
+- [分享我用cnode社区api做微信小应用的入门过程(cnode)](https://cnodejs.org/topic/57ea257b3670ca3f44c5beb6)
 
 ## 文章
 
