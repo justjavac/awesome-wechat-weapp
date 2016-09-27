@@ -89,6 +89,7 @@
 
 ## 代码
 
+- [微信小程序版Gank客户端]（https://github.com/lypeer/wechat-weapp-gank）
 - [微信小应用示例代码(phodal/weapp-quick)](https://github.com/phodal/weapp-quick)
 - [微信小应用地图定位demo(giscafer/wechat-weapp-mapdemo)](https://github.com/giscafer/wechat-weapp-mapdemo)
 - [微信小应用- 掘金主页信息流(hilongjw/weapp-gold)](https://github.com/hilongjw/weapp-gold)
