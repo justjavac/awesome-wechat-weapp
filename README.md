@@ -92,7 +92,7 @@
 - [一张图看微信小程序(前端之路 - DRY)](http://zhenhua-lee.github.io/manmage/wx.html)
 
 ## 代码
-- [微信小程序集成Redux实现的Todo list](https://github.com/charleyw/wechat-weapp-redux-todos)
+
 - [微信小应用示例代码(phodal/weapp-quick)](https://github.com/phodal/weapp-quick)
 - [微信小应用地图定位demo(giscafer/wechat-weapp-mapdemo)](https://github.com/giscafer/wechat-weapp-mapdemo)
 - [微信小应用- 掘金主页信息流(hilongjw/weapp-gold)](https://github.com/hilongjw/weapp-gold)
@@ -106,6 +106,7 @@
 - [微信小程序-知乎日报(myronliu347/wechat-app-zhihudaily)](https://github.com/myronliu347/wechat-app-zhihudaily)
 - [微信小程序-公众号热门文章信息流(hijiangtao/weapp-newsapp)](https://github.com/hijiangtao/weapp-newsapp)
 - [微信小程序版Gank客户端(lypeer/wechat-weapp-gank)](https://github.com/lypeer/wechat-weapp-gank)
+- [微信小程序集成Redux实现的Todo list(charleyw/wechat-weapp-redux-todos)](https://github.com/charleyw/wechat-weapp-redux-todos)
 
 ## 其他
 - [如何看待知乎用户 @ justjavac 因「抄袭」在各大平台撕逼 PHPhub 管理员「发哥」？(知乎)](https://www.zhihu.com/question/50967529)
