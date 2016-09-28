@@ -34,6 +34,7 @@
 - [微信小程序 (应用号) 微信 web 开发者工具破解版(DiyCode)](http://www.diycode.cc/topics/308)
 - [微信小程序配置及目录在线生成工具](https://weapptool.com)
 - [IDE + 破解 + Demo(gavinkwoe/weapp-ide-crack)](https://github.com/gavinkwoe/weapp-ide-crack)
+- [微信小程序的脚手架 - wxapp](https://github.com/MeCKodo/wxapp-cli)
 
 ## 插件
 
