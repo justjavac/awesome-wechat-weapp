@@ -109,6 +109,7 @@
 - [微信小程序集成Redux实现的Todo list(charleyw/wechat-weapp-redux-todos)](https://github.com/charleyw/wechat-weapp-redux-todos)
 - [微信小程序-番茄时钟(kraaas/timer)](https://github.com/kraaas/timer)
 - [微信小程序项目汇总](http://javascript.ctolib.com/categories/javascript-wechat-weapp.html)
+- [微信小程序版聊天室(ericzyh/wechat-chat)](https://github.com/ericzyh/wechat-chat)
 
 ## 其他
 - [如何看待知乎用户 @ justjavac 因「抄袭」在各大平台撕逼 PHPhub 管理员「发哥」？(知乎)](https://www.zhihu.com/question/50967529)
