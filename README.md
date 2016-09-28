@@ -106,6 +106,7 @@
 - [微信小程序-知乎日报(myronliu347/wechat-app-zhihudaily)](https://github.com/myronliu347/wechat-app-zhihudaily)
 - [微信小程序-公众号热门文章信息流(hijiangtao/weapp-newsapp)](https://github.com/hijiangtao/weapp-newsapp)
 - [微信小程序版Gank客户端(lypeer/wechat-weapp-gank)](https://github.com/lypeer/wechat-weapp-gank)
+- [微信小程序项目汇总](http://javascript.ctolib.com/categories/javascript-wechat-weapp.html)
 
 ## 其他
 - [如何看待知乎用户 @ justjavac 因「抄袭」在各大平台撕逼 PHPhub 管理员「发哥」？(知乎)](https://www.zhihu.com/question/50967529)
