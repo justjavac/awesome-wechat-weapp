@@ -85,6 +85,7 @@
 
 ## 文章
 
+- [微信小程序要这样解读](http://blog.csdn.net/yanzhenjie1003/article/details/52698184)
 - [未来是h5的：写在微信应用号发布之际(CNode)](https://cnodejs.org/topic/57e330d07d8293463a01e7e0)
 - [微信“小程序”让我脑洞大开(简书)](http://www.jianshu.com/p/60c8fd8d6862)
 - [关于微信小程序（应用号）的底层逻辑分析和拥抱建议(知乎专栏)](https://zhuanlan.zhihu.com/p/22565340)
