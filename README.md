@@ -72,6 +72,7 @@
 - [微信小程序剖析（二）：框架原理(微信公众号)](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974111&idx=1&sn=93a868cdb59b5dd77c65c7a5303e6e31#rd)
 - [微信小程序剖析（三）：让小程序运行在Chrome浏览器上(微信公众号)](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974133&idx=1&sn=3b67419e8ac0bb8262ca4c1e3cdabb35#rd)
 - [微信小程序剖析（四）：原生的实时DOM转Virtual DOM(微信公众号)](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974146&idx=1&sn=52041fdca4245e8f4b670ed20efa77de#rd)
+- [微信小程序剖析（五）：创建一个兼容「微信小程序」的Web框架(微信公众号)](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974149&idx=1&sn=3efe5e6ee479ad6cbddc0a607cd40411#rd)
 - [首个微信小程序开发教程(掘金)](http://gold.xitu.io/entry/57e34d6bd2030900691e9ad7)
 - [微信小程序开发教程！(稀土区)](http://xituqu.com/508.html)
 - [微信小程序怎么开发？玩物志用一个上午上线了电商应用(爱范儿)](http://www.ifanr.com/721124)
