@@ -113,6 +113,7 @@
 - [微信小程序项目汇总](http://javascript.ctolib.com/categories/javascript-wechat-weapp.html)
 - [微信小程序版聊天室(ericzyh/wechat-chat)](https://github.com/ericzyh/wechat-chat)
 - [微信小程序-HiApp(BelinChung/wxapp-hiapp)](https://github.com/BelinChung/wxapp-hiapp)
+- [微信小程序版微信(18380435477/WeApp)](https://github.com/18380435477/WeApp)
 
 ## 其他
 - [如何看待知乎用户 @ justjavac 因「抄袭」在各大平台撕逼 PHPhub 管理员「发哥」？(知乎)](https://www.zhihu.com/question/50967529)
