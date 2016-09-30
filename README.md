@@ -115,3 +115,4 @@
 - [微信小程序版聊天室(ericzyh/wechat-chat)](https://github.com/ericzyh/wechat-chat)
 - [微信小程序-HiApp(BelinChung/wxapp-hiapp)](https://github.com/BelinChung/wxapp-hiapp)
 - [小程序Redux绑定库(charleyw/wechat-weapp-redux)](https://github.com/charleyw/wechat-weapp-redux)
+- [微信小程序版微信(18380435477/WeApp)](https://github.com/18380435477/WeApp)
