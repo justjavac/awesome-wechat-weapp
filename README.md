@@ -117,3 +117,4 @@
 - [微信小程序-HiApp(BelinChung/wxapp-hiapp)](https://github.com/BelinChung/wxapp-hiapp)
 - [小程序Redux绑定库(charleyw/wechat-weapp-redux)](https://github.com/charleyw/wechat-weapp-redux)
 - [微信小程序版微信(18380435477/WeApp)](https://github.com/18380435477/WeApp)
+- [小程序开发从布局开始](https://github.com/hardog/wechat-app-flexlayout)
