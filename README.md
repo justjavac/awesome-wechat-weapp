@@ -83,6 +83,7 @@
 - [hello-weapp 微信小程序最简示例教程(dingyiming/weapp-example)](https://github.com/dingyiming/weapp-example)
 - [微信小应用IDE的安装以及安装过程的常见问题(champion32/WeAppIdeIssue)](https://github.com/champion32/WeAppIdeIssue)
 - [分享我用cnode社区api做微信小应用的入门过程(CNode)](https://cnodejs.org/topic/57ea257b3670ca3f44c5beb6)
+- [微信小程序开发教程-从零开始(简书)](http://www.jianshu.com/p/aaef5ceb3936)
 
 ## 文章
 
