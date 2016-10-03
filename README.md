@@ -104,7 +104,7 @@
 - [微信小程序（应用号）示例：微信小程序豆瓣电影(zce/weapp-demo)](https://github.com/zce/weapp-demo)
 - [微信小程序-豆瓣电影(hingsir/weapp-douban-film)](https://github.com/hingsir/weapp-douban-film)
 - [小程序 hello world 尝鲜(kunkun12/weapp)](https://github.com/kunkun12/weapp)
-- [微信小程序版2048小游戏(jeffche/wechat-app-2048)](https://github.com/jeffche/wechat-app-2048)
+- [微信小程序版2048小游戏(natee/wxapp-2048)](https://github.com/natee/wxapp-2048)
 - [微信小程序-微票(wangmingjob/weapp-weipiao)](https://github.com/wangmingjob/weapp-weipiao)
 - [微信小程序购物车DEMO(SeptemberMaples/wechat-weapp-demo)](https://github.com/SeptemberMaples/wechat-weapp-demo)
 - [微信小程序V2EX(jectychen/wechat-v2ex)](https://github.com/jectychen/wechat-v2ex)
