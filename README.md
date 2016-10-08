@@ -40,6 +40,7 @@
 
 - [vim 插件(chemzqm/wxapp.vim)](https://github.com/chemzqm/wxapp.vim)
 - [sublime text 2&3 snippet(Abbotton/weapp-snippet-for-sublime-text-2-3)](https://github.com/Abbotton/weapp-snippet-for-sublime-text-2-3)
+- [IntelliJ IDEA插件，注入方法](https://github.com/lypeer/Matchmaker)
 
 ## 文档
 
@@ -95,6 +96,8 @@
 - [在微信小程序里，我们要怎样做数据分析（上）(微信公众号)](http://mp.weixin.qq.com/s?__biz=MzI0ODU0MDg0Mw==&mid=2247483754&idx=1&sn=9578311da11d1fd3889e0829505c3993&scene=2&srcid=0924io6H1CmEPGYJxmEQVtlA)
 - [一张图看微信小程序(前端之路 - DRY)](http://zhenhua-lee.github.io/manmage/wx.html)
 - [微信小程序要这样解读](http://blog.csdn.net/yanzhenjie1003/article/details/52698184)
+- [一名Android开发者的微信小程序填坑之路(1)](http://blog.csdn.net/luoyanglizi/article/details/52681245)
+- [小程序开发利器：Matchmaker](http://blog.csdn.net/luoyanglizi/article/details/52711634)
 
 ## 代码
 
