@@ -126,3 +126,4 @@
 - [微信小程序-音乐播放器(eyasliu/wechat-app-music)](https://github.com/eyasliu/wechat-app-music)
 - [微信小程序-简易计算器-适合入门（dunizb/wxapp-sCalc）](https://github.com/dunizb/wxapp-sCalc)
 - [微信小程序-github(zhengxiaowai/weapp-github)](https://github.com/zhengxiaowai/weapp-github)
+- [微信小程序-小熊の日记（harveyqing/BearDiary）](https://github.com/harveyqing/BearDiary)
