@@ -98,6 +98,7 @@
 - [微信小程序要这样解读](http://blog.csdn.net/yanzhenjie1003/article/details/52698184)
 - [一名Android开发者的微信小程序填坑之路(1)](http://blog.csdn.net/luoyanglizi/article/details/52681245)
 - [小程序开发利器：Matchmaker](http://blog.csdn.net/luoyanglizi/article/details/52711634)
+- [微信小程序开发三宗罪和解决方案(SegmentFault)](https://segmentfault.com/a/1190000007017985)
 
 ## 代码
 
