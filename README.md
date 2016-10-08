@@ -124,3 +124,4 @@
 - [小程序开发从布局开始(hardog/wechat-app-flexlayout)](https://github.com/hardog/wechat-app-flexlayout)
 - [微信小程序-音乐播放器(eyasliu/wechat-app-music)](https://github.com/eyasliu/wechat-app-music)
 - [微信小程序-简易计算器-适合入门（dunizb/wxapp-sCalc）](https://github.com/dunizb/wxapp-sCalc)
+- [微信小程序-github(zhengxiaowai/weapp-github)](https://github.com/zhengxiaowai/weapp-github)
