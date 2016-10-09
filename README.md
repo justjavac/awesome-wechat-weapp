@@ -9,9 +9,10 @@
 - [分析](#分析)
 - [讨论](#讨论)
 - [教程](#教程)
+- [视频教程](#视频教程)
 - [文章](#文章)
 - [代码](#代码)
-- [其他](#其他)
+- [轮子](#轮子)
 
 扫码加群：(如果群满了加我个人微信号(justjavac)我拉你入群)
 
@@ -86,6 +87,9 @@
 - [分享我用cnode社区api做微信小应用的入门过程(CNode)](https://cnodejs.org/topic/57ea257b3670ca3f44c5beb6)
 - [微信小程序开发教程-从零开始(简书)](http://www.jianshu.com/p/aaef5ceb3936)
 - [Seahub - 我所理解的小程序 - 小程序真机调试](https://seahub.github.io/2016/10/09/%E6%88%91%E6%89%80%E7%90%86%E8%A7%A3%E7%9A%84%E5%B0%8F%E7%A8%8B%E5%BA%8F/)
+
+## 视频教程
+
 - [视频 - 全网首个微信小程序开发视频教程](http://www.howzhi.com/course/15035/)
 - [视频 - 微信小程序开发实战第一季](http://edu.csdn.net/course/detail/3011)
 - [视频 - 微信小程序开发实战第二季](http://edu.csdn.net/course/detail/3045)
@@ -96,6 +100,7 @@
 
 - [未来是h5的：写在微信应用号发布之际(CNode)](https://cnodejs.org/topic/57e330d07d8293463a01e7e0)
 - [微信“小程序”让我脑洞大开(简书)](http://www.jianshu.com/p/60c8fd8d6862)
+- [关于小程序你不知道的秘密(腾讯云助手)](http://mp.weixin.qq.com/s?__biz=MzA3NTE4NTgzMQ==&mid=2648022620&idx=1&sn=7cdff020ee181c661d62d2e971a6230e&chksm=87555594b022dc822eeebf203e9a236268fef86d133b38d8d2dab73ebaee3cff236a5184a63a&mpshare=1&scene=1&srcid=0927JARMptVhu0L9MzFdoZuZ#rd)
 - [关于微信小程序（应用号）的底层逻辑分析和拥抱建议(知乎专栏)](https://zhuanlan.zhihu.com/p/22565340)
 - [开发微信小程序的必备技能图谱(CSDN)](http://geek.csdn.net/news/detail/103138)
 - [微信小程序和谷歌PWA有什么关系？(微信公众号)](http://mp.weixin.qq.com/s?__biz=MzAwODY4OTk2Mg==&mid=2652039482&idx=2&sn=778e1313ebbd832b590b81a8088b63db#rd)
@@ -133,3 +138,8 @@
 - [微信小程序-简易计算器-适合入门（dunizb/wxapp-sCalc）](https://github.com/dunizb/wxapp-sCalc)
 - [微信小程序-github(zhengxiaowai/weapp-github)](https://github.com/zhengxiaowai/weapp-github)
 - [微信小程序 - Seahub/PigRaising](https://github.com/SeaHub/PigRaising)
+
+## 轮子
+
+- [微信小程序倒计时组件 - 黄秀杰](http://mp.weixin.qq.com/s?__biz=MzI0MjYwMjM2NQ==&mid=2247483670&idx=1&sn=5aa5da2fff2415e9b19f848712ddf480&chksm=e9789904de0f1012159332fda391c3eec0bb3d1c0db2c34ab557208ff0c04806a40d00e844fe&mpshare=1&scene=1&srcid=1007cWRXdd0ug9oAceCsIWp6#rd)
+- [微信小程序下拉筛选组件 - 黄秀杰](http://mp.weixin.qq.com/s?__biz=MzI0MjYwMjM2NQ==&mid=2247483674&idx=1&sn=2bf242b391144f3f0e57e0ed0ebce36f&chksm=e9789908de0f101ee23f7c125c9a48c4f9ba3f242a3b1c89b05ca5b9e8e68262c02b47fe3d12&mpshare=1&scene=1&srcid=1008NvO9oI8wWGp4XBxlpLeL#rd)
