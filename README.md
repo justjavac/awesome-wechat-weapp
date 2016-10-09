@@ -9,9 +9,10 @@
 - [分析](#分析)
 - [讨论](#讨论)
 - [教程](#教程)
+- [视频教程](#视频教程)
 - [文章](#文章)
 - [代码](#代码)
-- [其他](#其他)
+- [轮子](#轮子)
 
 扫码加群：(如果群满了加我个人微信号(justjavac)我拉你入群)
 
@@ -65,11 +66,12 @@
 
 ## 教程
 
-- [全球首个微信应用号开发教程第一弹！通宵吐血赶稿，每日更新！](http://www.diycode.cc/topics/311)
-- [全球首个微信应用号开发教程第二弹！通宵吐血赶稿，每日更新！](http://www.diycode.cc/topics/312)
-- [全球首个微信应用号开发教程第三弹！通宵吐血赶稿，每日更新！](http://www.diycode.cc/topics/316)
-- [全球首个微信应用号开发教程第四弹！通宵吐血赶稿，每日更新！](http://www.diycode.cc/topics/325)
-- [全球首个微信应用号开发教程第五弹！通宵吐血赶稿，每日更新！](http://www.diycode.cc/topics/328)
+- 全球首个微信应用号开发教程！通宵吐血赶稿，每日更新！
+  - [第一弹](http://www.diycode.cc/topics/311)
+  - [第二弹](http://www.diycode.cc/topics/312)
+  - [第三弹](http://www.diycode.cc/topics/316)
+  - [第四弹](http://www.diycode.cc/topics/325)
+  - [第五弹](http://www.diycode.cc/topics/328)
 - 微信小程序剖析(微信公众号)
   - [「官方示例代码」浅析](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974082&idx=1&sn=47c7f672caf629cd846e315b8df2b1c5&scene=21#wechat_redirect)
   - [（一）：运行机制](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974093&idx=1&sn=0570a243304ea8bb7d1b636624886fb1&scene=21#wechat_redirect)
@@ -86,19 +88,29 @@
 - [微信小应用IDE的安装以及安装过程的常见问题(champion32/WeAppIdeIssue)](https://github.com/champion32/WeAppIdeIssue)
 - [分享我用cnode社区api做微信小应用的入门过程(CNode)](https://cnodejs.org/topic/57ea257b3670ca3f44c5beb6)
 - [微信小程序开发教程-从零开始(简书)](http://www.jianshu.com/p/aaef5ceb3936)
+- [我所理解的小程序 - 小程序真机调试(seahub)](https://seahub.github.io/2016/10/09/%E6%88%91%E6%89%80%E7%90%86%E8%A7%A3%E7%9A%84%E5%B0%8F%E7%A8%8B%E5%BA%8F/)
+
+## 视频教程
+
+- [视频 - 全网首个微信小程序开发视频教程](http://www.howzhi.com/course/15035/)
+- [视频 - 微信小程序开发实战第一季(CSDN)](http://edu.csdn.net/course/detail/3011)
+- [视频 - 微信小程序开发实战第二季(CSDN)](http://edu.csdn.net/course/detail/3045)
+- [视频 - 极客学院微信小程序开发](http://www.jikexueyuan.com/zhiye/course/34.html?type=8&utm_source=jike&utm_medium=www_index_cf&utm_campaign=wechat_app&utm_content=0930)
+- [视频 - 微信小程序新手入门(51CTO)](http://edu.51cto.com/course/course_id-7242.html)
 
 ## 文章
 
 - [未来是h5的：写在微信应用号发布之际(CNode)](https://cnodejs.org/topic/57e330d07d8293463a01e7e0)
 - [微信“小程序”让我脑洞大开(简书)](http://www.jianshu.com/p/60c8fd8d6862)
+- [关于小程序你不知道的秘密(腾讯云助手)](http://mp.weixin.qq.com/s?__biz=MzA3NTE4NTgzMQ==&mid=2648022620&idx=1&sn=7cdff020ee181c661d62d2e971a6230e&chksm=87555594b022dc822eeebf203e9a236268fef86d133b38d8d2dab73ebaee3cff236a5184a63a&mpshare=1&scene=1&srcid=0927JARMptVhu0L9MzFdoZuZ#rd)
 - [关于微信小程序（应用号）的底层逻辑分析和拥抱建议(知乎专栏)](https://zhuanlan.zhihu.com/p/22565340)
 - [开发微信小程序的必备技能图谱(CSDN)](http://geek.csdn.net/news/detail/103138)
 - [微信小程序和谷歌PWA有什么关系？(微信公众号)](http://mp.weixin.qq.com/s?__biz=MzAwODY4OTk2Mg==&mid=2652039482&idx=2&sn=778e1313ebbd832b590b81a8088b63db#rd)
 - [在微信小程序里，我们要怎样做数据分析（上）(微信公众号)](http://mp.weixin.qq.com/s?__biz=MzI0ODU0MDg0Mw==&mid=2247483754&idx=1&sn=9578311da11d1fd3889e0829505c3993&scene=2&srcid=0924io6H1CmEPGYJxmEQVtlA)
 - [一张图看微信小程序(前端之路 - DRY)](http://zhenhua-lee.github.io/manmage/wx.html)
-- [微信小程序要这样解读](http://blog.csdn.net/yanzhenjie1003/article/details/52698184)
+- [微信小程序要这样解读(CSDN)](http://blog.csdn.net/yanzhenjie1003/article/details/52698184)
 - [一名Android开发者的微信小程序填坑之路(1)](http://blog.csdn.net/luoyanglizi/article/details/52681245)
-- [小程序开发利器：Matchmaker](http://blog.csdn.net/luoyanglizi/article/details/52711634)
+- [小程序开发利器：Matchmaker(CSDN)](http://blog.csdn.net/luoyanglizi/article/details/52711634)
 - [微信小程序开发三宗罪和解决方案(SegmentFault)](https://segmentfault.com/a/1190000007017985)
 
 ## 代码
@@ -127,4 +139,10 @@
 - [微信小程序-音乐播放器(eyasliu/wechat-app-music)](https://github.com/eyasliu/wechat-app-music)
 - [微信小程序-简易计算器-适合入门（dunizb/wxapp-sCalc）](https://github.com/dunizb/wxapp-sCalc)
 - [微信小程序-github(zhengxiaowai/weapp-github)](https://github.com/zhengxiaowai/weapp-github)
-- [微信小程序-小熊の日记（harveyqing/BearDiary）](https://github.com/harveyqing/BearDiary)
+- [微信小程序-小熊の日记(harveyqing/BearDiary)](https://github.com/harveyqing/BearDiary)
+- [微信小程序(Seahub/PigRaising)](https://github.com/SeaHub/PigRaising)
+
+## 轮子
+
+- [微信小程序倒计时组件(微信公众号)](http://mp.weixin.qq.com/s?__biz=MzI0MjYwMjM2NQ==&mid=2247483670&idx=1&sn=5aa5da2fff2415e9b19f848712ddf480&chksm=e9789904de0f1012159332fda391c3eec0bb3d1c0db2c34ab557208ff0c04806a40d00e844fe&mpshare=1&scene=1&srcid=1007cWRXdd0ug9oAceCsIWp6#rd)
+- [微信小程序下拉筛选组件(微信公众号)](http://mp.weixin.qq.com/s?__biz=MzI0MjYwMjM2NQ==&mid=2247483674&idx=1&sn=2bf242b391144f3f0e57e0ed0ebce36f&chksm=e9789908de0f101ee23f7c125c9a48c4f9ba3f242a3b1c89b05ca5b9e8e68262c02b47fe3d12&mpshare=1&scene=1&srcid=1008NvO9oI8wWGp4XBxlpLeL#rd)
