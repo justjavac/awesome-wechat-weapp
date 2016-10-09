@@ -69,6 +69,7 @@
 - [全球首个微信应用号开发教程第二弹！通宵吐血赶稿，每日更新！](http://www.diycode.cc/topics/312)
 - [全球首个微信应用号开发教程第三弹！通宵吐血赶稿，每日更新！](http://www.diycode.cc/topics/316)
 - [全球首个微信应用号开发教程第四弹！通宵吐血赶稿，每日更新！](http://www.diycode.cc/topics/325)
+- [全球首个微信应用号开发教程第五弹！通宵吐血赶稿，每日更新！](http://www.diycode.cc/topics/328)
 - 微信小程序剖析(微信公众号)
   - [「官方示例代码」浅析](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974082&idx=1&sn=47c7f672caf629cd846e315b8df2b1c5&scene=21#wechat_redirect)
   - [（一）：运行机制](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974093&idx=1&sn=0570a243304ea8bb7d1b636624886fb1&scene=21#wechat_redirect)
