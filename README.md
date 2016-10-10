@@ -90,6 +90,7 @@
 - [微信小程序开发教程-从零开始(简书)](http://www.jianshu.com/p/aaef5ceb3936)
 - [我所理解的小程序 - 小程序真机调试(seahub)](https://seahub.github.io/2016/10/09/%E6%88%91%E6%89%80%E7%90%86%E8%A7%A3%E7%9A%84%E5%B0%8F%E7%A8%8B%E5%BA%8F/)
 - [微信小程序快速入门教程|VR视频推荐DEMO(简书)](http://www.jianshu.com/p/0831f0b08a57)
+- [微信小程序集成Redux(Segmentfault)](https://segmentfault.com/a/1190000007107646)
 
 ## 视频教程
 
