@@ -145,6 +145,7 @@
 - [微信小程序-github(zhengxiaowai/weapp-github)](https://github.com/zhengxiaowai/weapp-github)
 - [微信小程序-小熊の日记(harveyqing/BearDiary)](https://github.com/harveyqing/BearDiary)
 - [微信小程序(Seahub/PigRaising)](https://github.com/SeaHub/PigRaising)
+- [微信小程序(WeChatMeiZhi妹子图)](https://github.com/brucevanfdm/WeChatMeiZhi)
 
 ## 轮子
 
