@@ -146,6 +146,7 @@
 - [微信小程序-小熊の日记(harveyqing/BearDiary)](https://github.com/harveyqing/BearDiary)
 - [微信小程序(Seahub/PigRaising)](https://github.com/SeaHub/PigRaising)
 - [微信小程序(WeChatMeiZhi妹子图)](https://github.com/brucevanfdm/WeChatMeiZhi)
+- [微信小程序快速开发骨架](https://github.com/zce/weapp-boilerplate)
 
 ## 轮子
 
