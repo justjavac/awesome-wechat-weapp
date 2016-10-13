@@ -147,6 +147,7 @@
 - [微信小程序(Seahub/PigRaising)](https://github.com/SeaHub/PigRaising)
 - [微信小程序(WeChatMeiZhi妹子图)](https://github.com/brucevanfdm/WeChatMeiZhi)
 - [微信小程序快速开发骨架](https://github.com/zce/weapp-boilerplate)
+- [微信小程序 - Artand 最专业的艺术设计平台](https://github.com/SuperKieran/weapp-artand)
 
 ## 轮子
 
