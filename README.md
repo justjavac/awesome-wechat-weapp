@@ -156,6 +156,7 @@
 - [微信小程序 - Artand 最专业的艺术设计平台](https://github.com/SuperKieran/weapp-artand)
 - [微信小程序 - 开心一刻(zhijieeeeee/wechat-app-joke)](https://github.com/zhijieeeeee/wechat-app-joke)
 - [微信小程序 - GitHubFeed(uniquexiaobai/wechat-app-githubfeed)](https://github.com/uniquexiaobai/wechat-app-githubfeed)
+- [微信小程序 - 国外摄影社区500px(fluency03/weapp-500px)](https://github.com/fluency03/weapp-500px)
 
 ## 轮子
 
