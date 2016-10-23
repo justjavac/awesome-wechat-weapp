@@ -122,6 +122,8 @@
 - [小程序开发利器：Matchmaker(CSDN)](http://blog.csdn.net/luoyanglizi/article/details/52711634)
 - [微信小程序开发三宗罪和解决方案(SegmentFault)](https://segmentfault.com/a/1190000007017985)
 - [使用Labrador 0.3构建ES6/ES7标准模块化微信小程序(SegmentFault)](https://segmentfault.com/a/1190000007109050)
+- [微信小程序真机测试多个DEMO)(微信公众号)](http://mp.weixin.qq.com/s?__biz=MzA5NTQ4NjkyMQ==&mid=2650723004&idx=1&sn=a6bcbf354beca3e745c47e542e119e5c&chksm=88b4e41abfc36d0c547698b6f4f3669b1aa351a879332c2848ffd6618dbf23cb41316dca570a&scene=0#rd)
+- [微信小程序真机测试视频源文件](https://github.com/bestony/WeApp-Demo)
 
 ## 代码
 
