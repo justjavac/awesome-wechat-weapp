@@ -160,6 +160,7 @@
 - [微信小程序 - GitHubFeed(uniquexiaobai/wechat-app-githubfeed)](https://github.com/uniquexiaobai/wechat-app-githubfeed)
 - [微信小程序 - 国外摄影社区500px(fluency03/weapp-500px)](https://github.com/fluency03/weapp-500px)
 - [微信小程序 - 巴爷供销社－电商平台(bayetech)](https://github.com/bayetech/wechat_mall_applet)
+- [基于微信小程序的UI库（Wa-UI）](https://github.com/liujians/Wa-UI)
 
 ## 轮子
 
