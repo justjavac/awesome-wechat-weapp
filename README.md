@@ -32,9 +32,9 @@
 
 ## 工具
 
-- [微信小程序 (应用号) 微信 web 开发者工具破解版(DiyCode)](http://www.diycode.cc/topics/308)
+- ~~[微信小程序 (应用号) 微信 web 开发者工具破解版(DiyCode)](http://www.diycode.cc/topics/308)~~
 - [微信小程序配置及目录在线生成工具](https://weapptool.com)
-- [IDE + 破解 + Demo(gavinkwoe/weapp-ide-crack)](https://github.com/gavinkwoe/weapp-ide-crack)
+- ~~[IDE + 破解 + Demo(gavinkwoe/weapp-ide-crack)](https://github.com/gavinkwoe/weapp-ide-crack)~~
 - [Egret Wing 3.2.x 支持微信小程序实时预览的IDE)](http://developer.egret.com/cn/github/egret-docs/Wing/update/update320/index.html)
 - [Labrador 支持ES6/7的微信小程序组件化开发框架](https://github.com/maichong/labrador)
 - [WEPT 一个微信小程序实时运行环境](https://github.com/chemzqm/wept)
