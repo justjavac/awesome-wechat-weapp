@@ -163,6 +163,7 @@
 - [微信小程序 - 巴爷供销社－电商平台(bayetech)](https://github.com/bayetech/wechat_mall_applet)
 - [基于微信小程序的UI库（Wa-UI）](https://github.com/liujians/Wa-UI)
 - [微信小程序-豆瓣美女/妹子图(weapp-girls)](https://github.com/litt1e-p/weapp-girls)
+- [微信小程序-美女模特(BeautifulGirl)](https://github.com/liumulin614/BeautifulGirl)
 
 ## 轮子
 
