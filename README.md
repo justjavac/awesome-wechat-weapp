@@ -164,7 +164,7 @@
 - [基于微信小程序的UI库（Wa-UI）](https://github.com/liujians/Wa-UI)
 - [微信小程序-豆瓣美女/妹子图(weapp-girls)](https://github.com/litt1e-p/weapp-girls)
 - [微信小程序-美女模特(BeautifulGirl)](https://github.com/liumulin614/BeautifulGirl)
-- [微信小程序--仿知乎(RebeccaHanjw/weapp-wechat-zhihu)(包括下拉刷新,自定义 顶部 tabbar 等)](https://github.com/RebeccaHanjw/weapp-wechat-zhihu)
+- [微信小程序 - 知乎仿写(RebeccaHanjw/weapp-wechat-zhihu)](https://github.com/RebeccaHanjw/weapp-wechat-zhihu)
 
 ## 轮子
 
