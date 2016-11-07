@@ -169,6 +169,7 @@
 - [微信小程序-豆瓣美女/妹子图(weapp-girls)](https://github.com/litt1e-p/weapp-girls)
 - [微信小程序-美女模特(BeautifulGirl)](https://github.com/liumulin614/BeautifulGirl)
 - [微信小程序 - 知乎仿写(RebeccaHanjw/weapp-wechat-zhihu)](https://github.com/RebeccaHanjw/weapp-wechat-zhihu)
+- [微信小程序 - 面包旅行(romoo/weapp-demo-breadtrip)](https://github.com/romoo/weapp-demo-breadtrip)
 
 ## 轮子
 
