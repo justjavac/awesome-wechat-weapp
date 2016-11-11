@@ -33,6 +33,7 @@
 - [微信正式开放内测“小程序”，不开发APP的日子真的来了？(36氪)](http://36kr.com/p/5053349.html)
 - [关于微信小程序（应用号），我能透露的几个细节(可能吧)](https://kenengba.com/post/3515.html)
 - [你的产品适不适合做微信小程序？你需要这篇产品逻辑分析(虎嗅网)](https://www.huxiu.com/article/164700.html)
+- [微信公众平台小程序开放公测 (微信官方)](https://mp.weixin.qq.com/cgi-bin/announce?action=getannouncement&key=1478163659&version=15&lang=zh_CN)
 
 ## 工具
 
