@@ -14,9 +14,13 @@
 - [代码](#代码)
 - [轮子](#轮子)
 
-扫码加群：(如果群满了加我个人微信号(justjavac)我拉你入群)
+## 加群交流
 
-![微信小程序交流区群](./qrcode.png)
+现在最新群是“微信小程序交流16号群”，这个群并不是第 16 个群，而是第 6 个群，群号依次是 0，1，2，4，8，16。
+
+由于微信群的限制，超过 100 人就不能扫码加群。所以可以先关注我公众号，然后发送 `微信小程序`，按照提示一步一步加群。
+
+![微信小程序交流区群](https://camo.githubusercontent.com/4dfb439531d42a47d29f4153e3d4b7268802bb9a/687474703a2f2f6a7573746a617661632e636f6d2f6173736574732f696d616765732f77656978696e2d6a7573746a617661632e6a7067)
 
 ## 官方文档
 
@@ -37,6 +41,8 @@
 - [IDE + 破解 + Demo(gavinkwoe/weapp-ide-crack)](https://github.com/gavinkwoe/weapp-ide-crack)
 - [Egret Wing 3.2.x 支持微信小程序实时预览的IDE)](http://developer.egret.com/cn/github/egret-docs/Wing/update/update320/index.html)
 - [Labrador 支持ES6/7的微信小程序组件化开发框架](https://github.com/maichong/labrador)
+- [WEPT 一个微信小程序实时运行环境](https://github.com/chemzqm/wept)
+- [wxml-parser JavaScript WXML parser](https://github.com/seanlong/wxml-parser) 以及[在线页面demo](https://seanlong.github.io/wxapp-page-editor)
 
 ## 插件
 
@@ -121,6 +127,8 @@
 - [小程序开发利器：Matchmaker(CSDN)](http://blog.csdn.net/luoyanglizi/article/details/52711634)
 - [微信小程序开发三宗罪和解决方案(SegmentFault)](https://segmentfault.com/a/1190000007017985)
 - [使用Labrador 0.3构建ES6/ES7标准模块化微信小程序(SegmentFault)](https://segmentfault.com/a/1190000007109050)
+- [微信小程序真机测试多个DEMO)(微信公众号)](http://mp.weixin.qq.com/s?__biz=MzA5NTQ4NjkyMQ==&mid=2650723004&idx=1&sn=a6bcbf354beca3e745c47e542e119e5c&chksm=88b4e41abfc36d0c547698b6f4f3669b1aa351a879332c2848ffd6618dbf23cb41316dca570a&scene=0#rd)
+- [微信小程序真机测试视频源文件](https://github.com/bestony/WeApp-Demo)
 
 ## 代码
 
@@ -154,6 +162,14 @@
 - [微信小程序快速开发骨架](https://github.com/zce/weapp-boilerplate)
 - [微信小程序 - Artand 最专业的艺术设计平台](https://github.com/SuperKieran/weapp-artand)
 - [微信小程序 - 开心一刻(zhijieeeeee/wechat-app-joke)](https://github.com/zhijieeeeee/wechat-app-joke)
+- [微信小程序 - GitHubFeed(uniquexiaobai/wechat-app-githubfeed)](https://github.com/uniquexiaobai/wechat-app-githubfeed)
+- [微信小程序 - 国外摄影社区500px(fluency03/weapp-500px)](https://github.com/fluency03/weapp-500px)
+- [微信小程序 - 巴爷供销社－电商平台(bayetech)](https://github.com/bayetech/wechat_mall_applet)
+- [基于微信小程序的UI库（Wa-UI）](https://github.com/liujians/Wa-UI)
+- [微信小程序-豆瓣美女/妹子图(weapp-girls)](https://github.com/litt1e-p/weapp-girls)
+- [微信小程序-美女模特(BeautifulGirl)](https://github.com/liumulin614/BeautifulGirl)
+- [微信小程序 - 知乎仿写(RebeccaHanjw/weapp-wechat-zhihu)](https://github.com/RebeccaHanjw/weapp-wechat-zhihu)
+- [微信小程序 - 面包旅行(romoo/weapp-demo-breadtrip)](https://github.com/romoo/weapp-demo-breadtrip)
 
 ## 轮子
 
