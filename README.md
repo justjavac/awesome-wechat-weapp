@@ -4,6 +4,7 @@
 
 - [官方文档](#官方文档)
 - [新闻报道](#新闻报道)
+- [社区](#社区)
 - [工具](#工具)
 - [插件](#插件)
 - [分析](#分析)
@@ -34,6 +35,9 @@
 - [关于微信小程序（应用号），我能透露的几个细节(可能吧)](https://kenengba.com/post/3515.html)
 - [你的产品适不适合做微信小程序？你需要这篇产品逻辑分析(虎嗅网)](https://www.huxiu.com/article/164700.html)
 - [微信公众平台小程序开放公测 (微信官方)](https://mp.weixin.qq.com/cgi-bin/announce?action=getannouncement&key=1478163659&version=15&lang=zh_CN)
+
+## 社区
+- [WXOPEN Club | 微信小程序专业社区](http://wxopen.club/)
 
 ## 工具
 
