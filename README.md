@@ -111,7 +111,7 @@
 - [微信小程序剖析 | 运行机制及框架原理(前端之巅)](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484316&idx=1&sn=463bbea1626458beb30f55ce155b4983&chksm=9723615ea054e848497c3b72e5264d99c9230144bd21862c508211085bf93b71078cc2fc1fc5&mpshare=1&scene=1&srcid=1013yiCsz6WNYwpKs2UDYuOO#rd)
 
 ## 视频教程
-
+- [免费视频教程 - WXOPEN.Club 出品微信小程序开发视频教程（持续更新中...）](http://wxopen.club/topic/582d4999745f85100cd13a65)
 - [视频 - 全网首个微信小程序开发视频教程](http://www.howzhi.com/course/15035/)
 - [视频 - 微信小程序开发实战第一季(CSDN)](http://edu.csdn.net/course/detail/3011)
 - [视频 - 微信小程序开发实战第二季(CSDN)](http://edu.csdn.net/course/detail/3045)
