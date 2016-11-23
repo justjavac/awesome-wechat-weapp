@@ -40,7 +40,7 @@
 - [WXOPEN Club | 微信小程序专业社区](http://wxopen.club/)
 
 ## 工具
-- [一个支持组件化的小程序开发框架](https://github.com/wepyjs/wepy)
+- [wepy 一个支持组件化的小程序开发框架](https://github.com/wepyjs/wepy)
 - ~~[微信小程序 (应用号) 微信 web 开发者工具破解版(DiyCode)](http://www.diycode.cc/topics/308)~~
 - [微信小程序配置及目录在线生成工具](https://weapptool.com)
 - ~~[IDE + 破解 + Demo(gavinkwoe/weapp-ide-crack)](https://github.com/gavinkwoe/weapp-ide-crack)~~
