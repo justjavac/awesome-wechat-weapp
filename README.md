@@ -178,6 +178,7 @@
 - [微信小程序 - 知乎仿写(RebeccaHanjw/weapp-wechat-zhihu)](https://github.com/RebeccaHanjw/weapp-wechat-zhihu)
 - [微信小程序 - 面包旅行(romoo/weapp-demo-breadtrip)](https://github.com/romoo/weapp-demo-breadtrip)
 - [微信小程序-淘票票(weapp-film)](https://github.com/luuman/weapp-film)
+- [微信小程序-仿ONE(ahonn/weapp-one)](https://github.com/ahonn/weapp-one)
 
 ## 轮子
 
