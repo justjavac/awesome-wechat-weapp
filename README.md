@@ -179,6 +179,7 @@
 - [微信小程序 - 面包旅行(romoo/weapp-demo-breadtrip)](https://github.com/romoo/weapp-demo-breadtrip)
 - [微信小程序-淘票票(weapp-film)](https://github.com/luuman/weapp-film)
 - [微信小程序-仿ONE(ahonn/weapp-one)](https://github.com/ahonn/weapp-one)
+- [微信小程序-新闻阅读器(vace/wechatapp-news-reader)](https://github.com/vace/wechatapp-news-reader)
 
 ## 轮子
 
