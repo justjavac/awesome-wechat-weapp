@@ -153,6 +153,7 @@
 - [微信小程序-公众号热门文章信息流(hijiangtao/weapp-newsapp)](https://github.com/hijiangtao/weapp-newsapp)
 - [微信小程序版Gank客户端(lypeer/wechat-weapp-gank)](https://github.com/lypeer/wechat-weapp-gank)
 - [微信小程序集成Redux实现的Todo list(charleyw/wechat-weapp-redux-todos)](https://github.com/charleyw/wechat-weapp-redux-todos)
+- [微信小程序集成 LeanCloud 实现的 Todo list(leancloud/leantodo-weapp)](https://github.com/leancloud/leantodo-weapp)
 - [微信小程序-番茄时钟(kraaas/timer)](https://github.com/kraaas/timer)
 - [微信小程序项目汇总](http://javascript.ctolib.com/categories/javascript-wechat-weapp.html)
 - [微信小程序版聊天室(ericzyh/wechat-chat)](https://github.com/ericzyh/wechat-chat)
@@ -187,3 +188,4 @@
 - [socket.io 风格的 websocket 类库](https://github.com/fanweixiao/wxapp-socket-io)
 - [微信小程序倒计时组件(微信公众号)](http://mp.weixin.qq.com/s?__biz=MzI0MjYwMjM2NQ==&mid=2247483670&idx=1&sn=5aa5da2fff2415e9b19f848712ddf480&chksm=e9789904de0f1012159332fda391c3eec0bb3d1c0db2c34ab557208ff0c04806a40d00e844fe&mpshare=1&scene=1&srcid=1007cWRXdd0ug9oAceCsIWp6#rd)
 - [微信小程序下拉筛选组件(微信公众号)](http://mp.weixin.qq.com/s?__biz=MzI0MjYwMjM2NQ==&mid=2247483674&idx=1&sn=2bf242b391144f3f0e57e0ed0ebce36f&chksm=e9789908de0f101ee23f7c125c9a48c4f9ba3f242a3b1c89b05ca5b9e8e68262c02b47fe3d12&mpshare=1&scene=1&srcid=1008NvO9oI8wWGp4XBxlpLeL#rd)
+- [w3c 标准 API polyfill](https://github.com/leancloud/weapp-polyfill)
