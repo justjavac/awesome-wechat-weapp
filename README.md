@@ -38,6 +38,8 @@
 
 ## 社区
 - [WXOPEN Club | 微信小程序专业社区](http://wxopen.club/)
+- [wxapp-union | 微信小程序联盟](http://www.wxapp-union.com/)
+- [larkapp | 白鹭青雀社区](http://bbs.larkapp.com/)
 
 ## 工具
 - [wepy 一个支持组件化的小程序开发框架](https://github.com/wepyjs/wepy)
