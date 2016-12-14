@@ -184,6 +184,7 @@
 - [微信小程序-仿ONE(ahonn/weapp-one)](https://github.com/ahonn/weapp-one)
 - [微信小程序-新闻阅读器(vace/wechatapp-news-reader)](https://github.com/vace/wechatapp-news-reader)
 - [微信小程序 - 百思不得姐(Symous/WechatApp-BaisiSister)](https://github.com/Symous/WechatApp-BaisiSister)
+- [微信小程序 - We重邮(lanshan-studio/wecqupt)](https://github.com/lanshan-studio/wecqupt)
 
 ## 轮子
 
