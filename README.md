@@ -57,6 +57,7 @@
 - [vim 插件(chemzqm/wxapp.vim)](https://github.com/chemzqm/wxapp.vim)
 - [sublime text 2&3 snippet(Abbotton/weapp-snippet-for-sublime-text-2-3)](https://github.com/Abbotton/weapp-snippet-for-sublime-text-2-3)
 - [IntelliJ IDEA插件，注入方法](https://github.com/lypeer/Matchmaker)
+- [webstorm 插件（代码提示）](https://github.com/qbright/wechatCode-complete)
 
 ## 文档
 
