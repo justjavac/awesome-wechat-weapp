@@ -37,11 +37,14 @@
 - 为什么我反对微信小程序(虎嗅网 • SeedHeart • 2016-11-23) 前两天发的，貌似有些版权问题，不再提供链接
 
 ## 社区
+
+- [小程序开发者社区](http://wxappfans.com)
 - [WXOPEN Club | 微信小程序专业社区](http://wxopen.club/)
 - [wxapp-union | 微信小程序联盟](http://www.wxapp-union.com/)
 - [larkapp | 白鹭青雀社区](http://bbs.larkapp.com/)
 
 ## 工具
+
 - [wepy 一个支持组件化的小程序开发框架](https://github.com/wepyjs/wepy)
 - ~~[微信小程序 (应用号) 微信 web 开发者工具破解版(DiyCode)](http://www.diycode.cc/topics/308)~~
 - [微信小程序配置及目录在线生成工具](https://weapptool.com)
@@ -114,6 +117,7 @@
 - [微信小程序剖析 | 运行机制及框架原理(前端之巅)](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484316&idx=1&sn=463bbea1626458beb30f55ce155b4983&chksm=9723615ea054e848497c3b72e5264d99c9230144bd21862c508211085bf93b71078cc2fc1fc5&mpshare=1&scene=1&srcid=1013yiCsz6WNYwpKs2UDYuOO#rd)
 
 ## 视频教程
+
 - [免费视频教程 - WXOPEN.Club 出品微信小程序开发视频教程（持续更新中...）](http://wxopen.club/topic/582d4999745f85100cd13a65)
 - [视频 - 全网首个微信小程序开发视频教程](http://www.howzhi.com/course/15035/)
 - [视频 - 微信小程序开发实战第一季(CSDN)](http://edu.csdn.net/course/detail/3011)
