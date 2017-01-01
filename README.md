@@ -23,6 +23,11 @@
 
 ![微信小程序交流区群](https://camo.githubusercontent.com/4dfb439531d42a47d29f4153e3d4b7268802bb9a/687474703a2f2f6a7573746a617661632e636f6d2f6173736574732f696d616765732f77656978696e2d6a7573746a617661632e6a7067)
 
+## 置顶
+
+- [小程序开发者社区](http://wxappfans.com) :100:
+- [wepy：组件化的小程序开发框架](https://github.com/wepyjs/wepy) :100:
+
 ## 官方文档
 
 - [小程序开发文档](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
