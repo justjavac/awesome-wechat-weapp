@@ -197,6 +197,7 @@
 - [微信小程序 - We重邮(lanshan-studio/wecqupt)](https://github.com/lanshan-studio/wecqupt)
 - [微信小程序 - IOS计算器](https://github.com/DengKe1994/weapp-calculator/tree/master)
 - [微信小程序 - github简历(monkindey/wx-github)](https://github.com/monkindey/wx-github) 
+- [微信小程序-程序员老黄历(xujinyang/CoderCalendar-WeApp)](https://github.com/xujinyang/CoderCalendar-WeApp)
 
 ## 轮子
 
