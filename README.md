@@ -21,7 +21,7 @@
 
 群号：593495800
 
-<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=c115f1cc90f22065ebc7ea9c0cf8d292369d28b3307bc592ef5dbbcec28c56f3"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="微信小程序" title="微信小程序"></a>
+<a target="_blank" href="https://shang.qq.com/wpa/qunwpa?idkey=c115f1cc90f22065ebc7ea9c0cf8d292369d28b3307bc592ef5dbbcec28c56f3"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="微信小程序" title="微信小程序"></a>
 
 ### 微信群
 
