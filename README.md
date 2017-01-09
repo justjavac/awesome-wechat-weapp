@@ -17,6 +17,14 @@
 
 ## 加群交流
 
+### QQ群
+
+群号：593495800
+
+<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=c115f1cc90f22065ebc7ea9c0cf8d292369d28b3307bc592ef5dbbcec28c56f3"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="微信小程序" title="微信小程序"></a>
+
+### 微信群
+
 现在最新群是“微信小程序交流16号群”，这个群并不是第 16 个群，而是第 6 个群，群号依次是 0，1，2，4，8，16。
 
 由于微信群的限制，超过 100 人就不能扫码加群。所以可以先关注我公众号，然后发送 `微信小程序`，按照提示一步一步加群。
