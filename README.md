@@ -216,3 +216,4 @@
 - [w3c 标准 API polyfill](https://github.com/leancloud/weapp-polyfill)
 - [WeToast——微信小程序toast增强插件](https://github.com/kiinlam/wetoast)
 - [wxParse-微信小程序富文本解析自定义组件，支持HTML及markdown解析](https://github.com/icindy/wxParse)
+- [wx-alphabetical-listview带字母滑动的列表](https://github.com/zhongjie-chen/wx-alphabetical-listview)
