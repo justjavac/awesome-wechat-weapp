@@ -219,3 +219,4 @@
 - [wxParse-微信小程序富文本解析自定义组件，支持HTML及markdown解析](https://github.com/icindy/wxParse)
 - [wx-alphabetical-listview带字母滑动的列表](https://github.com/zhongjie-chen/wx-alphabetical-listview)
 - [wx-drawer模仿QQ6.0侧滑菜单](https://github.com/zhongjie-chen/wx-drawer)
+- [wx-scrollable-tab-view可滚动的tabview](https://github.com/zhongjie-chen/wx-scrollable-tab-view)
