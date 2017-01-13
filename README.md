@@ -23,6 +23,10 @@
 
 <a target="_blank" href="https://shang.qq.com/wpa/qunwpa?idkey=c115f1cc90f22065ebc7ea9c0cf8d292369d28b3307bc592ef5dbbcec28c56f3"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="微信小程序" title="微信小程序"></a>
 
+群号：139122611
+
+<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=e1474fb930743ea273abc7caa1646cc622d03daf6c51b5ac9d92b9f9b39c698e"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="微信小程序" title="微信小程序"></a>
+
 ### 微信群
 
 现在最新群是“微信小程序交流16号群”，这个群并不是第 16 个群，而是第 6 个群，群号依次是 0，1，2，4，8，16。
