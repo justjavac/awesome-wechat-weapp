@@ -25,7 +25,7 @@
 
 群号：139122611
 
-<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=e1474fb930743ea273abc7caa1646cc622d03daf6c51b5ac9d92b9f9b39c698e"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="微信小程序" title="微信小程序"></a>
+<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=e1474fb930743ea273abc7caa1646cc622d03daf6c51b5ac9d92b9f9b39c698e"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="微信小程序" title="微信小程序"></a>
 
 ### 微信群
 
