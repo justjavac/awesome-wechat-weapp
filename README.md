@@ -212,6 +212,7 @@
 - [微信小程序 - github简历(monkindey/wx-github)](https://github.com/monkindey/wx-github) 
 - [微信小程序-程序员老黄历(xujinyang/CoderCalendar-WeApp)](https://github.com/xujinyang/CoderCalendar-WeApp)
 - [微信小程序 - TODOS（任务清单）(zce/weapp-todos)](https://github.com/zce/weapp-todos)
+- [微信小程序 - 企业宣传小程序(yaoshanliang/weapp-ssha)](https://github.com/yaoshanliang/weapp-ssha)
 
 ## 轮子
 
