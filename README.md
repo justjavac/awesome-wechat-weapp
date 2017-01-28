@@ -134,6 +134,7 @@
 - [微信小程序ajax请求到自己的网站(庆恺的笔记)](http://www.toutiao.com/i6337811737235948034/?tt_from=weixin&utm_campaign=client_share&from=groupmessage&app=news_article&utm_source=weixin&isappinstalled=1&iid=5802414556&utm_medium=toutiao_ios&wxshare_count=2&pbid=21507233636)
 - [微信小程序剖析 | 运行机制及框架原理(前端之巅)](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484316&idx=1&sn=463bbea1626458beb30f55ce155b4983&chksm=9723615ea054e848497c3b72e5264d99c9230144bd21862c508211085bf93b71078cc2fc1fc5&mpshare=1&scene=1&srcid=1013yiCsz6WNYwpKs2UDYuOO#rd)
 - [在微信小程序里实现图片预加载组件(凹凸实验室)](https://aotu.io/notes/2017/01/06/wxapp-img-loader/)
+- [开发到上线仅十六天 海外党微信小程序全攻略(简书)](http://www.jianshu.com/p/6ceee5026d61) 海外双机加速，免费证书配置等
 
 ## 视频教程
 
