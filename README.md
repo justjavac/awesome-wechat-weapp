@@ -72,6 +72,7 @@
 - [wxml-parser JavaScript WXML parser](https://github.com/seanlong/wxml-parser) 以及[在线页面demo](https://seanlong.github.io/wxapp-page-editor)
 - [Px转Rpx在线工具](http://allanguys.github.io/px2rpx)
 - [微信小程序云端增强 SDK XpmJS ](https://github.com/xpmjs/xpmjs)
+- [4kb模块化开发工具 将模块化的属性和方法映射成小程序页面](https://github.com/chenzhuo1992/wech)
 
 ## 插件
 
