@@ -39,6 +39,7 @@
 
 - [小程序开发者社区](http://wxappfans.com) :100:
 - [wepy：组件化的小程序开发框架](https://github.com/wepyjs/wepy) :100:
+- [ZanUI-WeApp: 高颜值、好用、易扩展的微信小程序 UI 库，Powered by 有赞](https://github.com/youzan/zanui-weapp) :100:
 
 ## 官方文档
 
