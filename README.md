@@ -148,7 +148,7 @@
 - [视频 - 微信小程序新手入门(51CTO)](http://edu.51cto.com/course/course_id-7242.html)
 
 ## 文章
-
+- [24小时从0到1开发阴阳师小程序](https://www.rapospectre.com/blog/create-an-onmyoji-weapp-in-24-hours)
 - [未来是h5的：写在微信应用号发布之际(CNode)](https://cnodejs.org/topic/57e330d07d8293463a01e7e0)
 - [微信“小程序”让我脑洞大开(简书)](http://www.jianshu.com/p/60c8fd8d6862)
 - [关于小程序你不知道的秘密(腾讯云助手)](http://mp.weixin.qq.com/s?__biz=MzA3NTE4NTgzMQ==&mid=2648022620&idx=1&sn=7cdff020ee181c661d62d2e971a6230e&chksm=87555594b022dc822eeebf203e9a236268fef86d133b38d8d2dab73ebaee3cff236a5184a63a&mpshare=1&scene=1&srcid=0927JARMptVhu0L9MzFdoZuZ#rd)
@@ -166,7 +166,7 @@
 - [微信小程序真机测试视频源文件](https://github.com/bestony/WeApp-Demo)
 
 ## 代码
-
+- [微信小程序-阴阳师线索查询-式神猎手(bluedazzle/hellspawn-hunter-weapp)](https://github.com/bluedazzle/hellspawn-hunter-weapp)
 - [微信小程序官方Demo(Hao-Wu/WeApp-Demo)](https://github.com/Hao-Wu/WeApp-Demo)
 - [微信小应用示例代码(phodal/weapp-quick)](https://github.com/phodal/weapp-quick)
 - [微信小应用地图定位demo(giscafer/wechat-weapp-mapdemo)](https://github.com/giscafer/wechat-weapp-mapdemo)
