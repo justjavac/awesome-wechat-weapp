@@ -218,6 +218,8 @@
 - [微信小程序 - TODOS（任务清单）(zce/weapp-todos)](https://github.com/zce/weapp-todos)
 - [微信小程序 - 企业宣传小程序(yaoshanliang/weapp-ssha)](https://github.com/yaoshanliang/weapp-ssha)
 - [微信小程序 - Zhihu Live (dongweiming/weapp-zhihulive)](https://github.com/dongweiming/weapp-zhihulive)
+- [微信小程序 - 豆瓣电影(bruintong/wechat-webapp-douban-movie)](https://github.com/bruintong/wechat-webapp-douban-movie)
+- [微信小程序 - 豆瓣同城(bruintong/wechat-webapp-douban-location)](https://github.com/bruintong/wechat-webapp-douban-location)
 
 ## 轮子
 
