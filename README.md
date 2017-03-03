@@ -60,6 +60,7 @@
 - [WXOPEN Club | 微信小程序专业社区](http://wxopen.club/)
 - [wxapp-union | 微信小程序联盟](http://www.wxapp-union.com/)
 - [larkapp | 白鹭青雀社区](http://bbs.larkapp.com/)
+- [蜂鸟小程序开发者社区](http://weixin1024.cn/)
 
 ## 工具
 
