@@ -107,6 +107,7 @@
 
 ## 教程
 
+- [微信小程序解决方案专辑](http://www.wxapp-union.com/special/solution.html)
 - 全球首个微信应用号开发教程！通宵吐血赶稿，每日更新！
   - [第一弹](http://www.diycode.cc/topics/311)
   - [第二弹](http://www.diycode.cc/topics/312)
