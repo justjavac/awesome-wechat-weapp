@@ -222,6 +222,8 @@
 - [微信小程序 - Zhihu Live (dongweiming/weapp-zhihulive)](https://github.com/dongweiming/weapp-zhihulive)
 - [微信小程序 - 豆瓣电影(bruintong/wechat-webapp-douban-movie)](https://github.com/bruintong/wechat-webapp-douban-movie)
 - [微信小程序 - 豆瓣同城(bruintong/wechat-webapp-douban-location)](https://github.com/bruintong/wechat-webapp-douban-location)
+- [微信小程序 - 煎蛋微信小程序(arkilis/weapp-jandan)](https://github.com/arkilis/weapp-jandan)
+
 
 ## 轮子
 
