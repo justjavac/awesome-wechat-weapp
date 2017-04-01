@@ -84,6 +84,7 @@
 - [sublime text 2&3 snippet(Abbotton/weapp-snippet-for-sublime-text-2-3)](https://github.com/Abbotton/weapp-snippet-for-sublime-text-2-3)
 - [IntelliJ IDEA插件，注入方法](https://github.com/lypeer/Matchmaker)
 - [webstorm 插件（代码提示）](https://github.com/qbright/wechatCode-complete)
+- [sublime plugin - wxapp](https://github.com/FloydaGithub/wxapp)
 
 ## 文档
 
@@ -217,7 +218,7 @@
 - [微信小程序 - 百思不得姐(Symous/WechatApp-BaisiSister)](https://github.com/Symous/WechatApp-BaisiSister)
 - [微信小程序 - We重邮(lanshan-studio/wecqupt)](https://github.com/lanshan-studio/wecqupt)
 - [微信小程序 - IOS计算器](https://github.com/DengKe1994/weapp-calculator/tree/master)
-- [微信小程序 - github简历(monkindey/wx-github)](https://github.com/monkindey/wx-github) 
+- [微信小程序 - github简历(monkindey/wx-github)](https://github.com/monkindey/wx-github)
 - [微信小程序-程序员老黄历(xujinyang/CoderCalendar-WeApp)](https://github.com/xujinyang/CoderCalendar-WeApp)
 - [微信小程序 - TODOS（任务清单）(zce/weapp-todos)](https://github.com/zce/weapp-todos)
 - [微信小程序 - 企业宣传小程序(yaoshanliang/weapp-ssha)](https://github.com/yaoshanliang/weapp-ssha)
