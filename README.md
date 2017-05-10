@@ -242,3 +242,4 @@
 - [wx-scrollable-tab-view可滚动的tabview](https://github.com/zhongjie-chen/wx-scrollable-tab-view)
 - [wxapp-img-loader 图片预加载组件](https://github.com/o2team/wxapp-img-loader)
 - [we-swiper 内容滑动插件](https://github.com/dlhandsome/we-swiper)
+- [we-cropper 微信小程序图片裁剪工具](https://github.com/dlhandsome/we-cropper)
