@@ -243,3 +243,4 @@
 - [wxapp-img-loader 图片预加载组件](https://github.com/o2team/wxapp-img-loader)
 - [we-swiper 内容滑动插件](https://github.com/dlhandsome/we-swiper)
 - [we-cropper 微信小程序图片裁剪工具](https://github.com/dlhandsome/we-cropper)
+- [wx-promise-request 微信小程序请求队列管理库](https://github.com/JoeZheng2015/wx-promise-request)
