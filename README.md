@@ -76,6 +76,7 @@
 - [微信小程序云端增强 SDK XpmJS ](https://github.com/xpmjs/xpmjs)
 - [4kb模块化开发工具 将模块化的属性和方法映射成小程序页面](https://github.com/chenzhuo1992/wech)
 - [gulp-wxa-copy-npm插件 能够使用ES6/7和NPM库](https://github.com/mdsb100/gulp-wxa-copy-npm)
+- [wechat_web_devtools Linux下微信开发者工具](https://github.com/cytle/wechat_web_devtools)
 
 ## 插件
 
