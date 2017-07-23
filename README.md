@@ -77,6 +77,7 @@
 - [4kb模块化开发工具 将模块化的属性和方法映射成小程序页面](https://github.com/chenzhuo1992/wech)
 - [gulp-wxa-copy-npm插件 能够使用ES6/7和NPM库](https://github.com/mdsb100/gulp-wxa-copy-npm)
 - [wechat_web_devtools Linux下微信开发者工具](https://github.com/cytle/wechat_web_devtools)
+- [WeApp-Workflow 基于Gulp 的微信小程序前端开发工作流](https://github.com/Jeff2Ma/WeApp-Workflow)
 
 ## 插件
 
@@ -170,6 +171,9 @@
 - [使用Labrador 0.3构建ES6/ES7标准模块化微信小程序(SegmentFault)](https://segmentfault.com/a/1190000007109050)
 - [微信小程序真机测试多个DEMO)(微信公众号)](http://mp.weixin.qq.com/s?__biz=MzA5NTQ4NjkyMQ==&mid=2650723004&idx=1&sn=a6bcbf354beca3e745c47e542e119e5c&chksm=88b4e41abfc36d0c547698b6f4f3669b1aa351a879332c2848ffd6618dbf23cb41316dca570a&scene=0#rd)
 - [微信小程序真机测试视频源文件](https://github.com/bestony/WeApp-Demo)
+- [WordPress 网站基于REST API 开发“微信小程序”实战](https://devework.com/wordpress-rest-api-weixin-weapp.html)
+- [WordPress 网站开发“微信小程序“实战(二)](https://devework.com/wordpress-weapp-2.html)
+- [WordPress 网站开发“微信小程序“实战(三)](https://devework.com/wordpress-weapp-3.html)
 
 ## 代码
 
