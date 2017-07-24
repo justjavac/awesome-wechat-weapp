@@ -27,14 +27,6 @@
 
 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=e1474fb930743ea273abc7caa1646cc622d03daf6c51b5ac9d92b9f9b39c698e"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="微信小程序" title="微信小程序"></a>
 
-### 微信群
-
-现在最新群是“微信小程序交流16号群”，这个群并不是第 16 个群，而是第 6 个群，群号依次是 1，2，4，8，16。
-
-由于微信群的限制，超过 100 人就不能扫码加群。所以可以先关注我公众号，然后发送 `微信小程序`，按照提示一步一步加群。
-
-![微信小程序交流区群](https://camo.githubusercontent.com/4dfb439531d42a47d29f4153e3d4b7268802bb9a/687474703a2f2f6a7573746a617661632e636f6d2f6173736574732f696d616765732f77656978696e2d6a7573746a617661632e6a7067)
-
 ## 置顶
 
 - [WePY：组件化的小程序开发框架](https://github.com/wepyjs/wepy) :100:
