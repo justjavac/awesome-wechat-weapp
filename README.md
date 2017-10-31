@@ -32,7 +32,6 @@
 - [WePY：组件化的小程序开发框架](https://github.com/wepyjs/wepy) :100:
 - [WePY开发资源汇总](https://github.com/aben1188/awesome-wepy) :100:
 - [ZanUI-WeApp: 高颜值、好用、易扩展的微信小程序 UI 库，Powered by 有赞](https://github.com/youzan/zanui-weapp) :100:
-- [wxDraw-小程序的Canvas动画库 支持图形创建 动画以及各类事件](https://github.com/bobiscool/wxDraw) :100:
 
 ## 官方文档
 
@@ -55,7 +54,7 @@
 - [微信小程序垂直开发社区](https://weappdev.com/)
 
 ## 工具
-
+- [wxDraw 小程序的Canvas动画库 支持图形创建 动画以及各类事件](https://github.com/bobiscool/wxDraw)
 - [WePY 一个支持组件化的小程序开发框架](https://github.com/wepyjs/wepy)
 - ~~[微信小程序 (应用号) 微信 web 开发者工具破解版(DiyCode)](http://www.diycode.cc/topics/308)~~
 - [微信小程序配置及目录在线生成工具](https://weapptool.com)
