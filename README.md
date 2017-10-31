@@ -56,6 +56,7 @@
 ## 工具
 
 - [WePY 一个支持组件化的小程序开发框架](https://github.com/wepyjs/wepy)
+- [wxDraw 小程序Canvas动画库 支持创建各种图形，动画以及主要手势交互事件](https://github.com/bobiscool/wxDraw)
 - ~~[微信小程序 (应用号) 微信 web 开发者工具破解版(DiyCode)](http://www.diycode.cc/topics/308)~~
 - [微信小程序配置及目录在线生成工具](https://weapptool.com)
 - ~~[IDE + 破解 + Demo(gavinkwoe/weapp-ide-crack)](https://github.com/gavinkwoe/weapp-ide-crack)~~
