@@ -239,3 +239,4 @@
 - [we-swiper 内容滑动插件](https://github.com/dlhandsome/we-swiper)
 - [we-cropper 微信小程序图片裁剪工具](https://github.com/dlhandsome/we-cropper)
 - [wx-promise-request 微信小程序请求队列管理库](https://github.com/JoeZheng2015/wx-promise-request)
+- [wxDraw 全面的小程序Canvas动画库 支持创建各种图形，动画以及主要手势交互事件](https://github.com/bobiscool/wxDraw)
