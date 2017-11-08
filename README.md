@@ -67,6 +67,7 @@
 - [gulp-wxa-copy-npm 插件 能够使用 ES6/7 和 NPM 库](https://github.com/mdsb100/gulp-wxa-copy-npm)
 - [wechat_web_devtools Linux 下微信开发者工具](https://github.com/cytle/wechat_web_devtools)
 - [WeApp-Workflow 基于 Gulp 的微信小程序前端开发工作流](https://github.com/Jeff2Ma/WeApp-Workflow)
+- [小程序助手 轻松实现小程序互转](https://openclub.alipay.com/read.php?tid=2888&fid=51)
 
 ## 插件
 
