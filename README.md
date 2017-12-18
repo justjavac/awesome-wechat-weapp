@@ -29,7 +29,7 @@
 
 ## 置顶
 
-- [WePY：组件化的小程序开发框架](https://github.com/wepyjs/wepy) :100:
+- [WePY：组件化的小程序开发框架](https://github.com/Tencent/wepy) :100:
 - [WePY 开发资源汇总](https://github.com/aben1188/awesome-wepy) :100:
 - [ZanUI-WeApp: 高颜值、好用、易扩展的微信小程序 UI 库，Powered by 有赞](https://github.com/youzan/zanui-weapp) :100:
 
@@ -55,7 +55,7 @@
 
 ## 工具
 
-- [WePY 一个支持组件化的小程序开发框架](https://github.com/wepyjs/wepy)
+- [WePY 一个支持组件化的小程序开发框架](https://github.com/Tencent/wepy)
 - [微信小程序配置及目录在线生成工具](https://weapptool.com)
 - [Egret Wing 3.2.x 支持微信小程序实时预览的 IDE)](http://developer.egret.com/cn/github/egret-docs/Wing/update/update320/index.html)
 - [Labrador 支持 ES6/7 的微信小程序组件化开发框架](https://github.com/maichong/labrador)
