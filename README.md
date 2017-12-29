@@ -19,13 +19,8 @@
 
 ### QQ群
 
-群号：593495800
-
-<a target="_blank" href="https://shang.qq.com/wpa/qunwpa?idkey=c115f1cc90f22065ebc7ea9c0cf8d292369d28b3307bc592ef5dbbcec28c56f3"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="微信小程序" title="微信小程序"></a>
-
-群号：139122611
-
-<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=e1474fb930743ea273abc7caa1646cc622d03daf6c51b5ac9d92b9f9b39c698e"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="微信小程序" title="微信小程序"></a>
+- 微信小程序1号群：593495800 <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5vqgNd0">微信小程序1号群</a>
+- 微信小程序3号群：682463867 <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5pNiKHt">微信小程序3号群</a>
 
 ## 置顶
 
