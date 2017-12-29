@@ -2,9 +2,9 @@
 
 ## QQ交流群
 
-- <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5vqgNd0">微信小程序1号群</a>：593495800
-- <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5DYIJtv">微信小程序2号群</a>：139122611
-- <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5pNiKHt">微信小程序3号群</a>：682463867
+- [微信小程序1号群](https://jq.qq.com/?_wv=1027&k=5vqgNd0)：593495800
+- [微信小程序2号群](https://jq.qq.com/?_wv=1027&k=5DYIJtv)：139122611
+- [微信小程序3号群](https://jq.qq.com/?_wv=1027&k=5pNiKHt)：682463867
 
 ## 目录
 
