@@ -1,5 +1,11 @@
 # 微信小程序开发资源汇总
 
+## QQ交流群
+
+- <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5vqgNd0">微信小程序1号群</a>：593495800
+- <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5DYIJtv">微信小程序2号群</a>：139122611
+- <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5pNiKHt">微信小程序3号群</a>：682463867
+
 ## 目录
 
 - [官方文档](#官方文档)
@@ -14,13 +20,6 @@
 - [文章](#文章)
 - [代码](#代码)
 - [轮子](#轮子)
-
-## 加群交流
-
-### QQ群
-
-- 微信小程序1号群：593495800 <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5vqgNd0">微信小程序1号群</a>
-- 微信小程序3号群：682463867 <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5pNiKHt">微信小程序3号群</a>
 
 ## 置顶
 
