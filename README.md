@@ -71,6 +71,7 @@
 - [IntelliJ IDEA 插件，注入方法](https://github.com/lypeer/Matchmaker)
 - [webstorm 插件（代码提示）](https://github.com/qbright/wechatCode-complete)
 - [sublime plugin - wxapp](https://github.com/FloydaGithub/wxapp)
+- [vscode 插件(代码提示)](https://segmentfault.com/a/1190000007132719)
 
 ## 文档
 
