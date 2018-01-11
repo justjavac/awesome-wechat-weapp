@@ -216,6 +216,7 @@
 - [微信小程序 - 豆瓣同城(bruintong/wechat-webapp-douban-location)](https://github.com/bruintong/wechat-webapp-douban-location)
 - [微信小程序 - 煎蛋微信小程序(arkilis/weapp-jandan)](https://github.com/arkilis/weapp-jandan)
 - [微信小程序 - 微信天气(bodekjan/wechat-weather)](https://github.com/bodekjan/wechat-weather)
+- [微信小程序 - 我要圣诞帽 (jasscia/ChristmasHat)](https://github.com/jasscia/ChristmasHat)
 
 
 ## 轮子
