@@ -219,6 +219,7 @@
 - [微信小程序 - 我要圣诞帽 (jasscia/ChristmasHat)](https://github.com/jasscia/ChristmasHat)
 - [微信小程序 - 跳一跳(yaoshanliang/weapp-jump)](https://github.com/yaoshanliang/weapp-jump)
 - [微信小程序 - 滑块拼图(nanwangjkl/sliding_puzzle)](https://github.com/nanwangjkl/sliding_puzzle)
+- [微信小程序 - 纪念碑谷(yaoshanliang/weapp-monument-valley)](https://github.com/yaoshanliang/weapp-monument-valley)
 
 
 ## 轮子
