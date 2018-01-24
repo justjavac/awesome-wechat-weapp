@@ -71,6 +71,7 @@
 - [IntelliJ IDEA 插件，注入方法](https://github.com/lypeer/Matchmaker)
 - [webstorm 插件（代码提示）](https://github.com/qbright/wechatCode-complete)
 - [sublime plugin - wxapp](https://github.com/FloydaGithub/wxapp)
+- [vscode 插件(代码提示)](https://segmentfault.com/a/1190000007132719)
 
 ## 文档
 
@@ -238,3 +239,4 @@
 - [we-cropper 微信小程序图片裁剪工具](https://github.com/dlhandsome/we-cropper)
 - [wx-promise-request 微信小程序请求队列管理库](https://github.com/JoeZheng2015/wx-promise-request)
 - [wxDraw 全面的小程序 Canvas 动画库 支持创建各种图形，动画以及主要手势交互事件](https://github.com/bobiscool/wxDraw)
+- [小程序使用外部字体](https://github.com/Hongye567/weapp-mark/blob/master/doc/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BD%BF%E7%94%A8%E5%A4%96%E9%83%A8%E5%AD%97%E4%BD%93.md)
