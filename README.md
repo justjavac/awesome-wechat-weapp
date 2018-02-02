@@ -63,6 +63,7 @@
 - [WeApp-Workflow 基于 Gulp 的微信小程序前端开发工作流](https://github.com/Jeff2Ma/WeApp-Workflow)
 - [小程序助手 轻松实现小程序互转](https://openclub.alipay.com/read.php?tid=2888&fid=51)
 - [weact 用 JSX 快速开发小程序](https://github.com/haojy/weact)
+- [Tina.js - 一款轻巧的渐进式微信小程序框架](https://github.com/tinajs/tina)
 
 ## 插件
 
