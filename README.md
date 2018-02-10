@@ -9,7 +9,6 @@
 ## 目录
 
 - [官方文档](#官方文档)
-- [社区](#社区)
 - [工具](#工具)
 - [插件](#插件)
 - [分析](#分析)
@@ -31,14 +30,6 @@
 - [小程序开发文档](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
 - [小程序设计指南](https://mp.weixin.qq.com/debug/wxadoc/design/index.html)
 - [小程序开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)
-
-## 社区
-
-- [WXOPEN Club | 微信小程序专业社区](http://wxopen.club/)
-- [wxapp-union | 微信小程序联盟](http://www.wxapp-union.com/)
-- [larkapp | 白鹭青雀社区](http://bbs.larkapp.com/)
-- [蜂鸟小程序开发者社区](http://weixin1024.cn/)
-- [微信小程序垂直开发社区](https://weappdev.com/)
 
 ## 工具
 
