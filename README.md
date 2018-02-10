@@ -119,6 +119,7 @@
 ## 视频教程
 
 - [免费视频教程 - WXOPEN.Club 出品微信小程序开发视频教程（持续更新中...）](http://wxopen.club/topic/582d4999745f85100cd13a65)
+- [微信小程序开发视频教程](https://www.youtube.com/playlist?list=PLXbU-2B80FvA5bNILAS8-zY3_KkE-PVn0) (youtube)
 - [视频 - 全网首个微信小程序开发视频教程](http://www.howzhi.com/course/15035/)
 
 ## 文章
