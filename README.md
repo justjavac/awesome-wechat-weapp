@@ -9,7 +9,6 @@
 ## 目录
 
 - [官方文档](#官方文档)
-- [新闻报道](#新闻报道)
 - [社区](#社区)
 - [工具](#工具)
 - [插件](#插件)
@@ -32,12 +31,6 @@
 - [小程序开发文档](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
 - [小程序设计指南](https://mp.weixin.qq.com/debug/wxadoc/design/index.html)
 - [小程序开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)
-
-## 新闻报道
-
-- [微信正式开放内测“小程序”，不开发APP的日子真的来了？(36氪 • 缪定纯 • 2016-09-22 09:05)](https://36kr.com/p/5053349.html)
-- [关于微信小程序（应用号），我能透露的几个细节(可能吧 • Jason Ng • 2016-9-22)](https://kenengba.com/post/3515.html)
-- [你的产品适不适合做微信小程序？你需要这篇产品逻辑分析(虎嗅网 • 三节课 • 2016-9-22)](https://www.huxiu.com/article/164700.html)
 
 ## 社区
 
