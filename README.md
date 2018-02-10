@@ -120,8 +120,6 @@
 
 - [免费视频教程 - WXOPEN.Club 出品微信小程序开发视频教程（持续更新中...）](http://wxopen.club/topic/582d4999745f85100cd13a65)
 - [视频 - 全网首个微信小程序开发视频教程](http://www.howzhi.com/course/15035/)
-- [视频 - 微信小程序开发实战第一季(CSDN)](http://edu.csdn.net/course/detail/3011)
-- [视频 - 微信小程序开发实战第二季(CSDN)](http://edu.csdn.net/course/detail/3045)
 - [视频 - 微信小程序新手入门(51CTO)](http://edu.51cto.com/course/course_id-7242.html)
 
 ## 文章
