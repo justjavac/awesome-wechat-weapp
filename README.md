@@ -11,7 +11,6 @@
 - [官方文档](#官方文档)
 - [工具](#工具)
 - [插件](#插件)
-- [分析](#分析)
 - [讨论](#讨论)
 - [教程](#教程)
 - [视频教程](#视频教程)
@@ -62,12 +61,6 @@
 
 - [从搭建一个微信小程序开始(腾讯云)](https://www.qcloud.com/act/event/yingyonghao.html)
 
-## 分析
-
-- [从程序员的角度分析微信小程序(CSDN)](http://blog.csdn.net/yulianlin/article/details/52621413)
-- [微信小程序，一个有局限的类似 React Native 轮子！(简书)](http://www.jianshu.com/p/060c6f3dd4e8)
-- [一篇文章读懂微信小程序(应用号)是什么？(简书)](http://www.jianshu.com/p/a256ea4a3d0e)
-
 ## 讨论
 
 - [如何评价 9 月 21 日开始内测的「微信小程序」？(知乎)](https://www.zhihu.com/question/50874500)
@@ -75,9 +68,6 @@
 - [微信小程序（应用号）价值是什么？(知乎)](https://www.zhihu.com/question/50875544)
 - [微信应用号是否真能颠覆APP？(知乎)](https://www.zhihu.com/question/50878415)
 - [微信小程序的出现会给前端开发带来什么？(知乎)](https://www.zhihu.com/question/50900987)
-- [封闭一周开发微信应用号（小程序）(v2ex)](https://www.v2ex.com/t/308005)
-- [一个天大的误会：Vux并非微信应用号项目(github)](https://github.com/airyland/vux/issues/587)
-- [微信小程序即将发布，你怎么看？有啥有趣的点子？它会替代原生App吗？(掘金)](http://gold.xitu.io/entry/57e31c72bf22ec00584ca6b8/detail)
 
 ## 教程
 
@@ -99,36 +89,24 @@
 - [微信小程序架构分析(下)](https://zhuanlan.zhihu.com/p/22932309)
 - [首个微信小程序开发教程(掘金)](http://gold.xitu.io/entry/57e34d6bd2030900691e9ad7)
 - [微信小程序开发教程！(稀土区)](http://xituqu.com/508.html)
-- [微信小程序怎么开发？玩物志用一个上午上线了电商应用(爱范儿)](http://www.ifanr.com/721124)
-- [开发微信小程序入门前(LatteCake)](http://lattecake.com/post/20098)
-- [小程序来临，前端工程师的春天(简书)](http://www.jianshu.com/p/fc958b73441a)
 - [hello-weapp 微信小程序最简示例教程(dingyiming/weapp-example)](https://github.com/dingyiming/weapp-example)
 - [微信小应用 IDE 的安装以及安装过程的常见问题(champion32/WeAppIdeIssue)](https://github.com/champion32/WeAppIdeIssue)
 - [分享我用 cnode 社区 api 做微信小应用的入门过程(CNode)](https://cnodejs.org/topic/57ea257b3670ca3f44c5beb6)
 - [微信小程序开发教程-从零开始(简书)](http://www.jianshu.com/p/aaef5ceb3936)
 - [我所理解的小程序 - 小程序真机调试(seahub)](https://seahub.github.io/2016/10/09/%E6%88%91%E6%89%80%E7%90%86%E8%A7%A3%E7%9A%84%E5%B0%8F%E7%A8%8B%E5%BA%8F/)
-- [微信小程序快速入门教程|VR 视频推荐 DEMO(简书)](http://www.jianshu.com/p/0831f0b08a57)
 - [微信小程序集成 mobx](https://www.v2ex.com/t/352472)
 - [微信小程序集成 Redux(Segmentfault)](https://segmentfault.com/a/1190000007107646)
-- [微信小程序ajax请求到自己的网站(庆恺的笔记)](http://www.toutiao.com/i6337811737235948034/?tt_from=weixin&utm_campaign=client_share&from=groupmessage&app=news_article&utm_source=weixin&isappinstalled=1&iid=5802414556&utm_medium=toutiao_ios&wxshare_count=2&pbid=21507233636)
-- [微信小程序剖析 | 运行机制及框架原理(前端之巅)](http://mp.weixin.qq.com/s?__biz=MzIwNjQwMzUwMQ==&mid=2247484316&idx=1&sn=463bbea1626458beb30f55ce155b4983&chksm=9723615ea054e848497c3b72e5264d99c9230144bd21862c508211085bf93b71078cc2fc1fc5&mpshare=1&scene=1&srcid=1013yiCsz6WNYwpKs2UDYuOO#rd)
 - [在微信小程序里实现图片预加载组件(凹凸实验室)](https://aotu.io/notes/2017/01/06/wxapp-img-loader/)
-- [开发到上线仅十六天 海外党微信小程序全攻略(简书)](http://www.jianshu.com/p/6ceee5026d61) 海外双机加速，免费证书配置等
-- [微信小程序解决方案专辑](http://www.wxapp-union.com/special/solution.html)
 
 ## 视频教程
 
-- [免费视频教程 - WXOPEN.Club 出品微信小程序开发视频教程（持续更新中...）](http://wxopen.club/topic/582d4999745f85100cd13a65)
 - [微信小程序开发视频教程](https://www.youtube.com/playlist?list=PLXbU-2B80FvA5bNILAS8-zY3_KkE-PVn0) (youtube)
-- [视频 - 全网首个微信小程序开发视频教程](http://www.howzhi.com/course/15035/)
 
 ## 文章
 
 - [未来是 h5 的：写在微信应用号发布之际(CNode)](https://cnodejs.org/topic/57e330d07d8293463a01e7e0)
 - [微信“小程序”让我脑洞大开(简书)](http://www.jianshu.com/p/60c8fd8d6862)
-- [关于小程序你不知道的秘密(腾讯云助手)](http://mp.weixin.qq.com/s?__biz=MzA3NTE4NTgzMQ==&mid=2648022620&idx=1&sn=7cdff020ee181c661d62d2e971a6230e&chksm=87555594b022dc822eeebf203e9a236268fef86d133b38d8d2dab73ebaee3cff236a5184a63a&mpshare=1&scene=1&srcid=0927JARMptVhu0L9MzFdoZuZ#rd)
 - [关于微信小程序（应用号）的底层逻辑分析和拥抱建议(知乎专栏)](https://zhuanlan.zhihu.com/p/22565340)
-- [开发微信小程序的必备技能图谱(CSDN)](http://geek.csdn.net/news/detail/103138)
 - [微信小程序和谷歌 PWA 有什么关系？(微信公众号)](http://mp.weixin.qq.com/s?__biz=MzAwODY4OTk2Mg==&mid=2652039482&idx=2&sn=778e1313ebbd832b590b81a8088b63db#rd)
 - [在微信小程序里，我们要怎样做数据分析（上）(微信公众号)](http://mp.weixin.qq.com/s?__biz=MzI0ODU0MDg0Mw==&mid=2247483754&idx=1&sn=9578311da11d1fd3889e0829505c3993&scene=2&srcid=0924io6H1CmEPGYJxmEQVtlA)
 - [一张图看微信小程序(前端之路 - DRY)](http://zhenhua-lee.github.io/manmage/wx.html)
