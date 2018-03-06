@@ -2,7 +2,7 @@
 
 ## QQ交流群
 
-- [微信小程序1号群](https://jq.qq.com/?_wv=1027&k=5vqgNd0)：593495800
+- [微信小程序1号群](https://jq.qq.com/?_wv=1027&k=5vqgNd0)：593495800 （已满）
 - [微信小程序2号群](https://jq.qq.com/?_wv=1027&k=5DYIJtv)：139122611
 - [微信小程序3号群](https://jq.qq.com/?_wv=1027&k=5pNiKHt)：682463867
 
