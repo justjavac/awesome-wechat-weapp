@@ -183,7 +183,7 @@
 - [微信小程序 - 滑块拼图(nanwangjkl/sliding_puzzle)](https://github.com/nanwangjkl/sliding_puzzle)
 - [微信小程序 - 纪念碑谷(yaoshanliang/weapp-monument-valley)](https://github.com/yaoshanliang/weapp-monument-valley)
 - [微信小程序 - 使用Scala.js开发(kaiwu/weui-scalajs)](https://github.com/kaiwu/weui-scalajs)
-
+- [微信小程序 - Hacker News 热点 (tinajs/tina-hackernews)](https://github.com/tinajs/tina-hackernews)
 
 ## 轮子
 
