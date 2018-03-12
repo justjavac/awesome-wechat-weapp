@@ -185,6 +185,7 @@
 - [微信小程序 - 纪念碑谷(yaoshanliang/weapp-monument-valley)](https://github.com/yaoshanliang/weapp-monument-valley)
 - [微信小程序 - 使用Scala.js开发(kaiwu/weui-scalajs)](https://github.com/kaiwu/weui-scalajs)
 - [微信小程序 - Hacker News 热点 (tinajs/tina-hackernews)](https://github.com/tinajs/tina-hackernews)
+- [微信小程序 - We川大 (mohuishou/scuplus-wechat)](https://github.com/mohuishou/scuplus-wechat)
 
 ## 轮子
 
