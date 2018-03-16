@@ -204,4 +204,4 @@
 - [wx-promise-request 微信小程序请求队列管理库](https://github.com/JoeZheng2015/wx-promise-request)
 - [wxDraw 全面的小程序 Canvas 动画库 支持创建各种图形，动画以及主要手势交互事件](https://github.com/bobiscool/wxDraw)
 - [小程序使用外部字体](https://github.com/Hongye567/weapp-mark/blob/master/doc/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BD%BF%E7%94%A8%E5%A4%96%E9%83%A8%E5%AD%97%E4%BD%93.md)
-- [xing-weapp-component小程序组件扩展，包括可下拉刷新的scroll-view等](https://github.com/ianho/xing-weapp-component)
+- [xing-weapp-component 小程序基础组件扩展](https://github.com/ianho/xing-weapp-component)
