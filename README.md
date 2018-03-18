@@ -48,6 +48,7 @@
 - [weact 用 JSX 快速开发小程序](https://github.com/haojy/weact)
 - [Tina.js - 一款轻巧的渐进式微信小程序框架](https://github.com/tinajs/tina)
 - [Mpvue - 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系](https://github.com/Meituan-Dianping/mpvue)
+- [socket.io-mp-client - 小程序socket.io客户端](https://github.com/cytle/socket.io-mp-client)
 
 ## 插件
 
