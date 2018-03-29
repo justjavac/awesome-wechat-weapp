@@ -35,6 +35,7 @@
 - [WePY 一个支持组件化的小程序开发框架](https://github.com/Tencent/wepy)
 - [微信小程序配置及目录在线生成工具](https://weapptool.com)
 - [Egret Wing 3.2.x 支持微信小程序实时预览的 IDE)](http://developer.egret.com/cn/github/egret-docs/Wing/update/update320/index.html)
+- [基于EgretEngine的游戏小程序开发框架](https://github.com/twem007/p1)
 - [Labrador 支持 ES6/7 的微信小程序组件化开发框架](https://github.com/maichong/labrador)
 - [WEPT 一个微信小程序实时运行环境](https://github.com/chemzqm/wept)
 - [wxml-parser JavaScript WXML parser](https://github.com/seanlong/wxml-parser) 以及[在线页面demo](https://seanlong.github.io/wxapp-page-editor)
