@@ -127,7 +127,7 @@
 - [WordPress 网站开发“微信小程序“实战(三)](https://devework.com/wordpress-weapp-3.html)
 - [解决微信小程序<web-view>组件所在页面无返回按钮的问题](https://segmentfault.com/a/1190000013448739)
 - [2018年3月13日 微信又出重拳：小程序插件功能重磅上线，共享开发迎来春天！](https://zhuanlan.zhihu.com/p/34530895)
-- [知乎-微信小程序-精华](https://www.zhihu.com/topic/20061410/top-answers)
+- [知乎 - 微信小程序 - 精华](https://www.zhihu.com/topic/20061410/top-answers)
 
 ## 代码
 
