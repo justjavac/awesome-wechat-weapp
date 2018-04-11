@@ -126,10 +126,12 @@
 - [WordPress 网站开发“微信小程序“实战(二)](https://devework.com/wordpress-weapp-2.html)
 - [WordPress 网站开发“微信小程序“实战(三)](https://devework.com/wordpress-weapp-3.html)
 - [解决微信小程序<web-view>组件所在页面无返回按钮的问题](https://segmentfault.com/a/1190000013448739)
+- [微信小程序开发教程第一课：认识 MINA 框架](https://zhuanlan.zhihu.com/p/22618160)
 - [2018年3月13日 微信又出重拳：小程序插件功能重磅上线，共享开发迎来春天！](https://zhuanlan.zhihu.com/p/34530895)
 - [知乎 - 微信小程序 - 精华](https://www.zhihu.com/topic/20061410/top-answers)
-- [知乎 - 微信小程序 - 精华 - 如何入门微信小程序开发，有哪些学习资料？](https://www.zhihu.com/question/50907897/answer/128494332)
-- [知乎 - 微信小游戏 - 精华 —— 微信「小游戏」是微信「小程序」的一个类目](https://www.zhihu.com/topic/20141336/top-answers) （[跳一跳](https://www.zhihu.com/topic/20141612)， [头脑王者](https://www.zhihu.com/topic/20143281/top-answers) ， ……）
+- [知乎 - 微信小程序 - 精华 | 如何入门微信小程序开发，有哪些学习资料？](https://www.zhihu.com/question/50907897/answer/128494332)
+- [知乎 - 微信小游戏 - 精华 | 微信「小游戏」是微信「小程序」的一个类目](https://www.zhihu.com/topic/20141336/top-answers) （[跳一跳](https://www.zhihu.com/topic/20141612)， [头脑王者](https://www.zhihu.com/topic/20143281/top-answers) ， ……）
+- [知乎 - 微信小程序 | 68，开发小游戏，你可以这样获得收入](https://zhuanlan.zhihu.com/p/35057055)
 
 ## 代码
 
