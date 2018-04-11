@@ -101,6 +101,7 @@
 - [微信小程序集成 mobx](https://www.v2ex.com/t/352472)
 - [微信小程序集成 Redux(Segmentfault)](https://segmentfault.com/a/1190000007107646)
 - [在微信小程序里实现图片预加载组件(凹凸实验室)](https://aotu.io/notes/2017/01/06/wxapp-img-loader/)
+- [微信小程序开发实战类优秀教程汇总贴（保持更新）(wxappclub)](http://www.wxappclub.com/topic/4)
 
 ## 视频教程
 
@@ -125,6 +126,14 @@
 - [WordPress 网站开发“微信小程序“实战(二)](https://devework.com/wordpress-weapp-2.html)
 - [WordPress 网站开发“微信小程序“实战(三)](https://devework.com/wordpress-weapp-3.html)
 - [解决微信小程序<web-view>组件所在页面无返回按钮的问题](https://segmentfault.com/a/1190000013448739)
+- [知乎 - 微信小程序之家 | 老司机程序员用到的各种优秀资料、神器及框架整理](https://zhuanlan.zhihu.com/p/25233978) 优秀的判断力来自经验，但经验来自于错误的判断...
+- [知乎 - 微信小程序之家 | 微信小程序框架集合汇总（2017.2.17更新）](https://zhuanlan.zhihu.com/p/25244324) 
+- [微信小程序开发教程第一课：认识 MINA 框架](https://zhuanlan.zhihu.com/p/22618160)
+- [2018年3月13日 微信又出重拳：小程序插件功能重磅上线，共享开发迎来春天！](https://zhuanlan.zhihu.com/p/34530895)
+- [知乎 - 微信小程序 - 精华](https://www.zhihu.com/topic/20061410/top-answers)
+- [知乎 - 微信小程序 - 精华 | 如何入门微信小程序开发，有哪些学习资料？](https://www.zhihu.com/question/50907897/answer/128494332)
+- [知乎 - 微信小游戏 - 精华 | 微信「小游戏」是微信「小程序」的一个类目](https://www.zhihu.com/topic/20141336/top-answers) （[跳一跳](https://www.zhihu.com/topic/20141612)， [头脑王者](https://www.zhihu.com/topic/20143281/top-answers) ， ……）
+- [知乎 - 微信小程序 | 68，开发小游戏，你可以这样获得收入](https://zhuanlan.zhihu.com/p/35057055)
 
 ## 代码
 
@@ -189,6 +198,9 @@
 - [微信小程序 - 使用Scala.js开发(kaiwu/weui-scalajs)](https://github.com/kaiwu/weui-scalajs)
 - [微信小程序 - Hacker News 热点 (tinajs/tina-hackernews)](https://github.com/tinajs/tina-hackernews)
 - [微信小程序 - We川大 (mohuishou/scuplus-wechat)](https://github.com/mohuishou/scuplus-wechat)
+- [微信小程序 - 微信小程序商城，微信小程序微店 (EastWorld/wechat-app-mall)](https://github.com/EastWorld/wechat-app-mall)
+- [微信小程序 - wxappclub收集的一些开源项目](http://www.wxappclub.com/topic/list?cat=9)
+- [微信小程序 - 微信小程序实验室收集的一百多个微信小程序源码下载](https://zhuanlan.zhihu.com/p/24900271)
 
 ## 轮子
 
@@ -209,3 +221,4 @@
 - [小程序使用外部字体](https://github.com/Hongye567/weapp-mark/blob/master/doc/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BD%BF%E7%94%A8%E5%A4%96%E9%83%A8%E5%AD%97%E4%BD%93.md)
 - [xing-weapp-component 小程序基础组件扩展](https://github.com/ianho/xing-weapp-component)
 - [wx-statuslayout 小程序页面状态切换组件](https://github.com/ZzjBeatYou/wx-statuslayout)
+- [wxapp-union 收集的插件/工具](http://www.wxapp-union.com/forum.php?mod=forumdisplay&fid=37&filter=typeid&typeid=10)
