@@ -101,6 +101,7 @@
 - [微信小程序集成 mobx](https://www.v2ex.com/t/352472)
 - [微信小程序集成 Redux(Segmentfault)](https://segmentfault.com/a/1190000007107646)
 - [在微信小程序里实现图片预加载组件(凹凸实验室)](https://aotu.io/notes/2017/01/06/wxapp-img-loader/)
+- [微信小程序开发实战类优秀教程汇总贴（保持更新）(wxappclub)](http://www.wxappclub.com/topic/4)
 
 ## 视频教程
 
