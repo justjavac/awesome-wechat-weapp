@@ -129,7 +129,7 @@
 - [2018年3月13日 微信又出重拳：小程序插件功能重磅上线，共享开发迎来春天！](https://zhuanlan.zhihu.com/p/34530895)
 - [知乎 - 微信小程序 - 精华](https://www.zhihu.com/topic/20061410/top-answers)
 - [知乎 - 微信小程序 - 精华 - 如何入门微信小程序开发，有哪些学习资料？](https://www.zhihu.com/question/50907897/answer/128494332)
-- [知乎 - 微信小游戏 - 精华 —— 微信「小游戏」是微信「小程序」的一个类目](https://www.zhihu.com/topic/20141336/top-answers) [头脑王者](https://www.zhihu.com/topic/20143281/top-answers)
+- [知乎 - 微信小游戏 - 精华 —— 微信「小游戏」是微信「小程序」的一个类目](https://www.zhihu.com/topic/20141336/top-answers) [跳一跳](https://www.zhihu.com/topic/20141612), [头脑王者](https://www.zhihu.com/topic/20143281/top-answers)
 
 ## 代码
 
