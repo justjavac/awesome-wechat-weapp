@@ -196,6 +196,7 @@
 - [微信小程序 - We川大 (mohuishou/scuplus-wechat)](https://github.com/mohuishou/scuplus-wechat)
 - [微信小程序 - 微信小程序商城，微信小程序微店 (EastWorld/wechat-app-mall)](https://github.com/EastWorld/wechat-app-mall)
 - [微信小程序 - wxappclub收集的一些开源项目](http://www.wxappclub.com/topic/list?cat=9)
+- [微信小程序 - 微信小程序实验室收集的一百多个微信小程序源码下载](https://zhuanlan.zhihu.com/p/24900271)
 
 ## 轮子
 
