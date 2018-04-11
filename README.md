@@ -190,6 +190,7 @@
 - [微信小程序 - Hacker News 热点 (tinajs/tina-hackernews)](https://github.com/tinajs/tina-hackernews)
 - [微信小程序 - We川大 (mohuishou/scuplus-wechat)](https://github.com/mohuishou/scuplus-wechat)
 - [微信小程序 - 微信小程序商城，微信小程序微店 (EastWorld/wechat-app-mall)](https://github.com/EastWorld/wechat-app-mall)
+- [微信小程序 - wxappclub收集的一些开源项目](http://www.wxappclub.com/topic/list?cat=9)
 
 ## 轮子
 
