@@ -33,6 +33,7 @@
 ## 工具
 
 - [WePY 一个支持组件化的小程序开发框架](https://github.com/Tencent/wepy)
+- [wepyx: 基于 WePY & redux 的数据层管理框架](https://github.com/tolerance-go/wepyx)
 - [微信小程序配置及目录在线生成工具](https://weapptool.com)
 - [Egret Wing 3.2.x 支持微信小程序实时预览的 IDE)](http://developer.egret.com/cn/github/egret-docs/Wing/update/update320/index.html)
 - [基于EgretEngine的游戏小程序开发框架](https://github.com/twem007/p1)
