@@ -212,3 +212,5 @@
 - [小程序使用外部字体](https://github.com/Hongye567/weapp-mark/blob/master/doc/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BD%BF%E7%94%A8%E5%A4%96%E9%83%A8%E5%AD%97%E4%BD%93.md)
 - [xing-weapp-component 小程序基础组件扩展](https://github.com/ianho/xing-weapp-component)
 - [wx-statuslayout 小程序页面状态切换组件](https://github.com/ZzjBeatYou/wx-statuslayout)
+- [minapp-api-promise 将所有微信小程序异步API promise化，支持then/catch、async/await的方式调用小程序API;支持请求队列管理，支持对原生API进行拦截](https://github.com/bigmeow/minapp-api-promise)
+- [minapp-slider-left 高性能的小程序左滑删除组件](https://github.com/bigmeow/minapp-slider-left)
