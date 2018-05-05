@@ -49,7 +49,8 @@
 - [wxa](https://github.com/Genuifx/wxa) - 方便的小程序开发框架
 - [px2rpx](https://github.com/allanguys/px2rpx) - Px 转 Rpx 在线工具
 - [wxml-parser](https://github.com/seanlong/wxml-parser) -  JavaScript WXML parser
-- [wepyx](https://github.com/tolerance-go/wepyx) - 基于 WePY & redux 的数据层管理框架
+- [weappx](https://github.com/tolerance-go/weappx) - 基于 redux 的数据层管理框架
+- [weapp-start](https://github.com/tolerance-go/weapp-start) - 一个命令行工具，改善原生小程序开发体验
 - [Egret Wing](http://developer.egret.com/cn/github/egret-docs/Wing/update/update320/index.html) - 支持微信小程序实时预览的 IDE
 
 ## 插件
