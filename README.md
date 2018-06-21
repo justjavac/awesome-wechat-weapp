@@ -177,6 +177,7 @@
 - [eyasliu/wechat-app-music ★200+](https://github.com/eyasliu/wechat-app-music) - 音乐播放器
 - [ahonn/weapp-one ★200+](https://github.com/ahonn/weapp-one) - 仿 ONE
 - [giscafer/wechat-weapp-mapdemo ★200+](https://github.com/giscafer/wechat-weapp-mapdemo) - 地图导航、marker标注 （不再维护）
+- [yaoshanliang/weapp-ssha ★100+](https://github.com/yaoshanliang/weapp-ssha) - 企业宣传小程序
 - [hilongjw/weapp-gold ★100+](https://github.com/hilongjw/weapp-gold) - 掘金主页信息流
 - [zce/weapp-douban ★100+](https://github.com/zce/weapp-douban) - 豆瓣电影
 - [hingsir/weapp-douban-film ★100+](https://github.com/hingsir/weapp-douban-film) - 豆瓣电影
@@ -207,7 +208,6 @@
 - [zhijieeeeee/wechat-app-joke](https://github.com/zhijieeeeee/wechat-app-joke) - 开心一刻
 - [uniquexiaobai/wechat-app-githubfeed](https://github.com/uniquexiaobai/wechat-app-githubfeed) - GitHubFeed
 - [zce/weapp-todos](https://github.com/zce/weapp-todos) - TODOS 任务清单
-- [yaoshanliang/weapp-ssha](https://github.com/yaoshanliang/weapp-ssha) - 企业宣传小程序
 - [bruintong/wechat-webapp-douban-movie](https://github.com/bruintong/wechat-webapp-douban-movie) - 豆瓣电影
 - [bruintong/wechat-webapp-douban-location](https://github.com/bruintong/wechat-webapp-douban-location) - 豆瓣同城
 - [arkilis/weapp-jandan](https://github.com/arkilis/weapp-jandan) - 煎蛋
@@ -216,7 +216,7 @@
 - [yaoshanliang/weapp-jump](https://github.com/yaoshanliang/weapp-jump) - 跳一跳
 - [nanwangjkl/sliding_puzzle](https://github.com/nanwangjkl/sliding_puzzle) - 滑块拼图
 - [yaoshanliang/weapp-monument-valley](https://github.com/yaoshanliang/weapp-monument-valley) - 纪念碑谷
-- kaiwu/weui-scalajs](https://github.com/kaiwu/weui-scalajs) - 使用Scala.js开发
+- [kaiwu/weui-scalajs](https://github.com/kaiwu/weui-scalajs) - 使用Scala.js开发
 - [tinajs/tina-hackernews](https://github.com/tinajs/tina-hackernews) - Hacker News 热点
 - [mohuishou/scuplus-wechat](https://github.com/mohuishou/scuplus-wechat) - We 川大
 - [hankzhuo/wx-v2ex](https://github.com/hankzhuo/wx-v2ex) - v2ex
