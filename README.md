@@ -92,6 +92,8 @@
 - [我所理解的小程序 - 小程序真机调试(seahub)](https://seahub.github.io/2016/10/09/%E6%88%91%E6%89%80%E7%90%86%E8%A7%A3%E7%9A%84%E5%B0%8F%E7%A8%8B%E5%BA%8F/)
 - [微信小程序集成 Redux(Segmentfault)](https://segmentfault.com/a/1190000007107646)
 - [在微信小程序里实现图片预加载组件(凹凸实验室)](https://aotu.io/notes/2017/01/06/wxapp-img-loader/)
+- [基于 Airtest 的微信小程序自动化测试 (Android & iOS)](https://testerhome.com/topics/14736)
+
 
 ## 视频教程
 
@@ -129,7 +131,7 @@
 - [we-cropper ★400+](https://github.com/we-plugin/we-cropper) -  微信小程序图片裁剪工具
 - [WeZRender ★300+](https://github.com/guyoung/WeZRender) - 微信小程序 Canvas 开发
 - [wx_calendar ★300+](https://github.com/treadpit/wx_calendar) - 小程序日历
-- [wxapp ★300+](https://github.com/youzouzou/wxapp) - 微信小程序组件 
+- [wxapp ★300+](https://github.com/youzouzou/wxapp) - 微信小程序组件
 - [Wa-UI ★200+](https://github.com/liujians/Wa-UI) - 针对微信小程序整合的一套 UI 库
 - [wxSearch ★200+](https://github.com/icindy/wxSearch) - 微信小程序优雅的搜索框
 - [wx-scrollable-tab-view ★200+](https://github.com/zhongjie-chen/wx-scrollable-tab-view) - 小程序可滑动得 tab-view
@@ -137,14 +139,14 @@
 - [wx-alphabetical-listview ★100+](https://github.com/zhongjie-chen/wx-alphabetical-listview) - 微信小程序带字母滑动的 listview
 - [wx-drawer ★100+](https://github.com/zhongjie-chen/wx-drawer) - 小程序模仿 QQ6.0 侧滑菜单
 - [wxapp-charts ★100+](https://github.com/hawx1993/wxapp-charts) - 微信小程序图表 charts 组件
-- [chartjs-wechat-mini-app ★100+](https://github.com/xiabingwu/chartjs-wechat-mini-app) - chartjs 微信小程序适配 
+- [chartjs-wechat-mini-app ★100+](https://github.com/xiabingwu/chartjs-wechat-mini-app) - chartjs 微信小程序适配
 - [wx-promise-request ★100+](https://github.com/JoeZheng2015/wx-promise-request) -  微信小程序请求队列管理库
 - [we-swiper ★100+](https://github.com/we-plugin/we-swiper) - 微信小程序触摸内容滑动解决方案
 - [wxDraw ★100+](https://github.com/bobiscool/wxDraw) - 微信小程序 2D 动画库
-- [citySelect ★100+](https://github.com/chenjinxinlove/citySelect) ★42 - 微信小程序城市选择器 
-- [WeiXinProject](https://github.com/lidong1665/WeiXinProject) - 微信小程序列表上拉刷新和上拉加载 
+- [citySelect ★100+](https://github.com/chenjinxinlove/citySelect) ★42 - 微信小程序城市选择器
+- [WeiXinProject](https://github.com/lidong1665/WeiXinProject) - 微信小程序列表上拉刷新和上拉加载
 - [wepy-com-charts](https://github.com/CalvinHong/wepy-com-charts) - 微信小程序 wepy 图表控件
-- [wxapp-lock](https://github.com/demi520/wxapp-lock) - 微信小程序手势解锁 
+- [wxapp-lock](https://github.com/demi520/wxapp-lock) - 微信小程序手势解锁
 - [weapp.socket.io](https://github.com/weapp-socketio/weapp.socket.io) - socket.io 风格的 websocket 类库
 - weapp-polyfill](https://github.com/leancloud/weapp-polyfill) - [w3c 标准 API polyfill
 - [wxPromise](https://github.com/youngjuning/wxPromise) - 微信小程序 Promise 库
@@ -165,7 +167,7 @@
 - [charleyw/wechat-weapp-redux ★300+](https://github.com/charleyw/wechat-weapp-redux) - Redux 绑定库
 - [jectychen/wechat-v2ex ★300+)](https://github.com/jectychen/wechat-v2ex) - V2EX
 - [18380435477/WeApp ★300+](https://github.com/18380435477/WeApp) - 仿微信
-- [zce/weapp-boilerplate ★300+](https://github.com/zce/weapp-boilerplate) - 微信小程序快速开发骨架 
+- [zce/weapp-boilerplate ★300+](https://github.com/zce/weapp-boilerplate) - 微信小程序快速开发骨架
 - [bayetech/wechat_mall_applet ★300+](https://github.com/bayetech/wechat_mall_applet) - 电商平台
 - [lanshan-studio/wecqupt ★300+](https://github.com/lanshan-studio/wecqupt) - We 重邮
 - [myronliu347/wechat-app-zhihudaily ★200+](https://github.com/myronliu347/wechat-app-zhihudaily) - 知乎日报
