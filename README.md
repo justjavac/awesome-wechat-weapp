@@ -94,7 +94,6 @@
 - [在微信小程序里实现图片预加载组件(凹凸实验室)](https://aotu.io/notes/2017/01/06/wxapp-img-loader/)
 - [基于 Airtest 的微信小程序自动化测试 (Android & iOS)](https://testerhome.com/topics/14736)
 
-
 ## 视频教程
 
 - [微信小程序开发视频教程](https://www.youtube.com/playlist?list=PLXbU-2B80FvA5bNILAS8-zY3_KkE-PVn0) (youtube)
