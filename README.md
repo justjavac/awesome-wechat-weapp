@@ -58,6 +58,7 @@
 
 ## 插件
 
+- [WePY Plugin For IntelliJ Platform](http://wepy.iniself.com) - 让PhpStorm/WebStorm全面支持WePY的开发，包括API(原生/WePY)和组件(官方/自定义)的自动完成/错误检查/高亮/不依赖Vue/...
 - [wxapp.vim](https://github.com/chemzqm/wxapp.vim) - 提供微信小程序开发全方位支持的 vim 插件
 - [weapp-snippet-for-sublime-text-2-3](https://github.com/Abbotton/weapp-snippet-for-sublime-text-2-3) - 为 sublime text 2&3 准备的微信小程序 snippet(停更)
 - [Matchmaker](https://github.com/lypeer/Matchmaker) - IntelliJ IDEA 插件，注入方法
