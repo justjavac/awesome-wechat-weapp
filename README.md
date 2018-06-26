@@ -64,6 +64,7 @@
 - [wechatCode-complete](https://github.com/qbright/wechatCode-complete) - webstorm 插件（代码提示）
 - [wxapp](https://github.com/FloydaGithub/wxapp) - sublime plugin
 - [vscode 插件(代码提示)](https://segmentfault.com/a/1190000007132719)
+- [WePY Plugin For IntelliJ Platform](http://wepy.iniself.com) - 让PhpStorm/WebStorm全面支持WePY的开发，包括API(原生/WePY)和组件(官方/自定义)的自动完成/错误检查/高亮/不依赖Vue/...
 
 ## 教程
 
