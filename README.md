@@ -21,8 +21,6 @@
 
 - [WePY：组件化的小程序开发框架](https://github.com/Tencent/wepy) :100:
 - [WePY 开发资源汇总](https://github.com/aben1188/awesome-wepy) :100:
-- [ZanUI-WeApp: 高颜值、好用、易扩展的微信小程序 UI 库，Powered by 有赞](https://github.com/youzan/zanui-weapp) :100:
-- [Taro: 用 React 的方式开发小程序](https://github.com/NervJS/taro) :100:
 
 ## 官方文档
 
