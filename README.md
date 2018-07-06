@@ -17,6 +17,10 @@
 - [组件](#组件)
 - [Demo](#Demo)
 
+## 推荐
+
+- [摩拜前端小程序团队 - 复杂小程序架构设计与案例实战](https://juejin.im/book/5b30c3b351882574957a788f) :100:
+
 ## 置顶
 
 - [WePY：组件化的小程序开发框架](https://github.com/Tencent/wepy) :100:
