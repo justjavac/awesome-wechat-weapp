@@ -225,3 +225,4 @@
 - [hankzhuo/wx-v2ex](https://github.com/hankzhuo/wx-v2ex) - v2ex
 - [Hongye567/weapp-mark](https://github.com/Hongye567/weapp-mark) - 仿 Mark 影单的微信小程序
 - [w1109790800/We-Todo](https://github.com/w1109790800/We-Todo) - 基于LeanCloud的Todo-List
+- [jae-jae/weapp-github-trending](https://github.com/jae-jae/weapp-github-trending) - Github今日榜单
