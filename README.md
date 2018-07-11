@@ -44,6 +44,7 @@
 - [wept ★1.8k](https://github.com/chemzqm/wept) - 微信小程序实时运行环境
 - [wafer ★1.6k](https://github.com/tencentyun/wafer) - 快速构建具备弹性能力的微信小程序
 - [wechat_web_devtools ★600+](https://github.com/cytle/wechat_web_devtools) -  Linux 下微信开发者工具
+- [minapp ★400+](https://github.com/qiu8310/minapp) - TypeScript 版小程序开发框架（兼容原生小程序代码）
 - [tina ★300+](https://github.com/tinajs/tina) - 轻巧的渐进式微信小程序框架
 - [xpmjs ★100+](https://github.com/xpmjs/xpmjs) - 微信小程序云端增强 SDK
 - [WeApp-Workflow ★100+](https://github.com/Jeff2Ma/WeApp-Workflow) -  基于 Gulp 的微信小程序前端开发工作流
@@ -65,6 +66,7 @@
 - [Matchmaker](https://github.com/lypeer/Matchmaker) - IntelliJ IDEA 插件，注入方法
 - [wechatCode-complete](https://github.com/qbright/wechatCode-complete) - webstorm 插件（代码提示）
 - [wxapp](https://github.com/FloydaGithub/wxapp) - sublime plugin
+- [minapp](https://github.com/qiu8310/minapp/blob/master/packages/minapp-vscode/README.md) - vscode 插件（支持 原生/mpvue/wepy 框架）
 - [vscode 插件(代码提示)](https://segmentfault.com/a/1190000007132719)
 - [WePY Plugin For IntelliJ Platform](http://wepy.iniself.com) - 让PhpStorm/WebStorm全面支持WePY的开发，包括API(原生/WePY)和组件(官方/自定义)的自动完成/错误检查/高亮/不依赖Vue/...
 
