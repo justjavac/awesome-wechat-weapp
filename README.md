@@ -222,7 +222,7 @@
 - [yaoshanliang/weapp-jump](https://github.com/yaoshanliang/weapp-jump) - 跳一跳
 - [nanwangjkl/sliding_puzzle](https://github.com/nanwangjkl/sliding_puzzle) - 滑块拼图
 - [yaoshanliang/weapp-monument-valley](https://github.com/yaoshanliang/weapp-monument-valley) - 纪念碑谷
-- kaiwu/weui-scalajs](https://github.com/kaiwu/weui-scalajs) - 使用Scala.js开发
+- [kaiwu/weui-scalajs](https://github.com/kaiwu/weui-scalajs) - 使用Scala.js开发
 - [tinajs/tina-hackernews](https://github.com/tinajs/tina-hackernews) - Hacker News 热点
 - [mohuishou/scuplus-wechat](https://github.com/mohuishou/scuplus-wechat) - We 川大
 - [hankzhuo/wx-v2ex](https://github.com/hankzhuo/wx-v2ex) - v2ex
