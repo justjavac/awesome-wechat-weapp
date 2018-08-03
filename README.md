@@ -58,6 +58,7 @@
 - [weapp-start](https://github.com/tolerance-go/weapp-start) - 基于插件机制的开发脚手架，改善原生小程序开发体验
 - [Egret Wing](http://developer.egret.com/cn/github/egret-docs/Wing/update/update320/index.html) - 支持微信小程序实时预览的 IDE
 - [wxapp-graphql](https://github.com/Authing/wxapp-graphql) - 小程序GraphQL客户端
+- [gulp-wxapp-boilerplate](https://github.com/ksky521/gulp-wxapp-boilerplate) - 小程序+小程序云 Gulp 开发脚手架，支持云函数 mock
 
 ## 插件
 
