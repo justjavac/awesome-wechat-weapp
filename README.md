@@ -158,6 +158,7 @@
 - [minapp-api-promise](https://github.com/bigmeow/minapp-api-promise) - 微信小程序所有 API promise 化
 - [minapp-slider-left](https://github.com/bigmeow/minapp-slider-left) - 微信小程序左划删除组件
 - [mp_canvas_drawer](https://github.com/kuckboy1994/mp_canvas_drawer) - canvas绘制图片助手，一个json就制作分享朋友圈图片
+- [xing-weapp-editor](https://github.com/ianho/xing-weapp-editor) - 小程序图文编辑组件
 
 ## Demo
 
