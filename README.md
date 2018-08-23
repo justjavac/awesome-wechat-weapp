@@ -66,6 +66,7 @@
 - [minapp](https://github.com/qiu8310/minapp/blob/master/packages/minapp-vscode/README.md) - vscode 插件（支持 原生/mpvue/wepy 框架）
 - [vscode 插件(代码提示)](https://segmentfault.com/a/1190000007132719)
 - [WePY Plugin For IntelliJ Platform](http://wepy.iniself.com) - 让PhpStorm/WebStorm全面支持WePY的开发，包括API(原生/WePY)和组件(官方/自定义)的自动完成/错误检查/高亮/不依赖Vue/...
+- [wxapp](https://github.com/ysnows/wxapp) - 微信小程序intellji插件,支持PHPSTORM,WEBSTORM
 
 ## 教程
 
@@ -230,3 +231,5 @@
 - [jae-jae/weapp-github-trending](https://github.com/jae-jae/weapp-github-trending) - Github今日榜单
 - [steedos/mini-vip](https://github.com/steedos/mini-vip) - 华炎微站、微商城
 - [alex1504/wx-guita_tab](https://github.com/alex1504/wx-guita_tab) - 口袋吉他
+
+
