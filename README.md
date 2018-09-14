@@ -230,3 +230,4 @@
 - [jae-jae/weapp-github-trending](https://github.com/jae-jae/weapp-github-trending) - Github今日榜单
 - [steedos/mini-vip](https://github.com/steedos/mini-vip) - 华炎微站、微商城
 - [alex1504/wx-guita_tab](https://github.com/alex1504/wx-guita_tab) - 口袋吉他
+- [lonnng/etym](https://github.com/lonnng/etym) - 芒果词源助手
