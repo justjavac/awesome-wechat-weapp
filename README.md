@@ -231,3 +231,4 @@
 - [steedos/mini-vip](https://github.com/steedos/mini-vip) - 华炎微站、微商城
 - [alex1504/wx-guita_tab](https://github.com/alex1504/wx-guita_tab) - 口袋吉他
 - [lonnng/etym](https://github.com/lonnng/etym) - 芒果词源助手
+- [wuhou123/wxxcx](https://github.com/wuhou123/wxxcx) - 武侯的猫，基于wepy构建,整合了n多查询工具（快递，天气，记账，搞笑视频等）
