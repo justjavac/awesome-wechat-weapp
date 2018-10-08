@@ -130,6 +130,7 @@
 - [wemark ★400+](https://github.com/TooBug/wemark) - 微信小程序 Markdown 渲染库
 - [wxapp-img-loader ★400+](https://github.com/o2team/wxapp-img-loader) - 微信小程序图片预加载组件
 - [we-cropper ★400+](https://github.com/we-plugin/we-cropper) -  微信小程序图片裁剪工具
+- [wxa-plugin-canvas ★300+](https://github.com/jasondu/wxa-plugin-canvas) - 微信小程序朋友圈海报生成组件
 - [WeZRender ★300+](https://github.com/guyoung/WeZRender) - 微信小程序 Canvas 开发
 - [wx_calendar ★300+](https://github.com/treadpit/wx_calendar) - 小程序日历
 - [wxapp ★300+](https://github.com/youzouzou/wxapp) - 微信小程序组件
