@@ -160,6 +160,7 @@
 - [mp_canvas_drawer](https://github.com/kuckboy1994/mp_canvas_drawer) - canvas绘制图片助手，一个json就制作分享朋友圈图片
 - [xing-weapp-editor](https://github.com/ianho/xing-weapp-editor) - 小程序图文编辑组件
 - [cue](https://github.com/WARJY/cue) - A WX Compontent Tools 
+- [wuss-weapp](https://github.com/phonycode/wuss-weapp) - 一款高质量，组件齐全，高自定义的微信小程序UI组件库
 
 ## Demo
 
