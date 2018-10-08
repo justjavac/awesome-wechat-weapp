@@ -202,6 +202,7 @@
 - [romoo/weapp-demo-breadtrip ★100+](https://github.com/romoo/weapp-demo-breadtrip) - 面包旅行
 - [zhuweiyou/fetop100 ★100+](https://github.com/zhuweiyou/fetop100) - 前端TOP100
 - [vace/wechatapp-news-reader ★100+](https://github.com/vace/wechatapp-news-reader) - 新闻阅读器
+- [yaoshanliang/weapp-ssha ★100+](https://github.com/yaoshanliang/weapp-ssha) - 企业宣传小程序
 - [Symous/WechatApp-BaisiSister](https://github.com/Symous/WechatApp-BaisiSister) - 百思不得姐
 - [DengKe1994/weapp-calculator](https://github.com/DengKe1994/weapp-calculator) - IOS 计算器
 - [monkindey/wx-github](https://github.com/monkindey/wx-github) - GitHub 简历
@@ -214,7 +215,6 @@
 - [zhijieeeeee/wechat-app-joke](https://github.com/zhijieeeeee/wechat-app-joke) - 开心一刻
 - [uniquexiaobai/wechat-app-githubfeed](https://github.com/uniquexiaobai/wechat-app-githubfeed) - GitHubFeed
 - [zce/weapp-todos](https://github.com/zce/weapp-todos) - TODOS 任务清单
-- [yaoshanliang/weapp-ssha](https://github.com/yaoshanliang/weapp-ssha) - 企业宣传小程序
 - [bruintong/wechat-webapp-douban-movie](https://github.com/bruintong/wechat-webapp-douban-movie) - 豆瓣电影
 - [bruintong/wechat-webapp-douban-location](https://github.com/bruintong/wechat-webapp-douban-location) - 豆瓣同城
 - [arkilis/weapp-jandan](https://github.com/arkilis/weapp-jandan) - 煎蛋
