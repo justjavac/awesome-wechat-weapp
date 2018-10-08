@@ -234,3 +234,4 @@
 - [lonnng/etym](https://github.com/lonnng/etym) - 芒果词源助手
 - [wuhou123/wxxcx](https://github.com/wuhou123/wxxcx) - 武侯的猫，基于wepy构建,整合了n多查询工具（快递，天气，记账，搞笑视频等）
 - [upupming/HITMers](https://github.com/upupming/HITMers) - 博物馆小助手（统计值班表、签到、值班日历及备忘录、国际化、Streamable.com 视频上传等）
+- [imageslr/weapp-library](https://github.com/imageslr/weapp-library) - 在线借书平台（WeUI设计规范、前后端开源、RESTful API文档）
