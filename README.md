@@ -55,6 +55,7 @@
 - [Egret Wing](http://developer.egret.com/cn/github/egret-docs/Wing/update/update320/index.html) - 支持微信小程序实时预览的 IDE
 - [wxapp-graphql](https://github.com/Authing/wxapp-graphql) - 小程序GraphQL客户端
 - [gulp-wxapp-boilerplate](https://github.com/ksky521/gulp-wxapp-boilerplate) - 小程序+小程序云 Gulp 开发脚手架，支持云函数 mock
+- [wenaox](https://github.com/cnyballk/wenaox) - 小程序数据层管理 ，轻量性能好，支持中间件
 
 ## 插件
 
@@ -66,6 +67,7 @@
 - [minapp](https://github.com/qiu8310/minapp/blob/master/packages/minapp-vscode/README.md) - vscode 插件（支持 原生/mpvue/wepy 框架）
 - [vscode 插件(代码提示)](https://segmentfault.com/a/1190000007132719)
 - [WePY Plugin For IntelliJ Platform](http://wepy.iniself.com) - 让PhpStorm/WebStorm全面支持WePY的开发，包括API(原生/WePY)和组件(官方/自定义)的自动完成/错误检查/高亮/不依赖Vue/...
+- [wxml](https://github.com/cnyballk/wxml-vscode) - vscode插件--微信小程序格式化以及高亮组件(高度自定义)
 
 ## 教程
 
