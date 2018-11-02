@@ -53,9 +53,10 @@
 - [weappx](https://github.com/tolerance-go/weappx) - 基于 redux 的数据层管理框架
 - [weapp-start](https://github.com/tolerance-go/weapp-start) - 基于插件机制的开发脚手架，改善原生小程序开发体验
 - [Egret Wing](http://developer.egret.com/cn/github/egret-docs/Wing/update/update320/index.html) - 支持微信小程序实时预览的 IDE
-- [wxapp-graphql](https://github.com/Authing/wxapp-graphql) - 小程序GraphQL客户端
+- [wxapp-graphql](https://github.com/Authing/wxapp-graphql) - 小程序 GraphQL 客户端
 - [gulp-wxapp-boilerplate](https://github.com/ksky521/gulp-wxapp-boilerplate) - 小程序+小程序云 Gulp 开发脚手架，支持云函数 mock
 - [wenaox](https://github.com/cnyballk/wenaox) - 小程序数据层管理 ，轻量性能好，支持中间件
+- [authing-wxapp-sdk](https://github.com/Authing/authing-wxapp-sdk) - 身份认证 for 微信小程序
 
 ## 插件
 
