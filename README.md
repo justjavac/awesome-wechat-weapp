@@ -31,6 +31,8 @@
 - [小程序 API](https://developers.weixin.qq.com/miniprogram/dev/api/)
 - [小程序开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
 
+**[:arrow_up: 返回目录](#目录)**
+
 ## 工具
 
 - [WePY ★14k+](https://github.com/Tencent/wepy) -  支持组件化的小程序开发框架
@@ -58,6 +60,8 @@
 - [wenaox](https://github.com/cnyballk/wenaox) - 小程序数据层管理 ，轻量性能好，支持中间件
 - [authing-wxapp-sdk](https://github.com/Authing/authing-wxapp-sdk) - 身份认证 for 微信小程序
 
+**[:arrow_up: 返回目录](#目录)**
+
 ## 插件
 
 - [wxapp.vim](https://github.com/chemzqm/wxapp.vim) - 提供微信小程序开发全方位支持的 vim 插件
@@ -70,6 +74,8 @@
 - [WePY Plugin For IntelliJ Platform](http://wepy.iniself.com) - 让PhpStorm/WebStorm全面支持WePY的开发，包括API(原生/WePY)和组件(官方/自定义)的自动完成/错误检查/高亮/不依赖Vue/...
 - [wxml](https://github.com/cnyballk/wxml-vscode) - vscode插件--微信小程序格式化以及高亮组件(高度自定义)
 - [vim-vue-plugin](https://github.com/leafOfTree/vim-vue-plugin) - vim 插件，.vue 和 .wpy 文件的语法高亮和缩进
+
+**[:arrow_up: 返回目录](#目录)**
 
 ## 教程
 
@@ -100,9 +106,13 @@
 - [在微信小程序里实现图片预加载组件(凹凸实验室)](https://aotu.io/notes/2017/01/06/wxapp-img-loader/)
 - [基于 Airtest 的微信小程序自动化测试 (Android & iOS)](https://testerhome.com/topics/14736)
 
+**[:arrow_up: 返回目录](#目录)**
+
 ## 视频教程
 
 - [微信小程序开发视频教程](https://www.youtube.com/playlist?list=PLXbU-2B80FvA5bNILAS8-zY3_KkE-PVn0) (youtube)
+
+**[:arrow_up: 返回目录](#目录)**
 
 ## 文章
 
@@ -123,6 +133,8 @@
 - [WordPress 网站开发“微信小程序“实战(二)](https://devework.com/wordpress-weapp-2.html)
 - [WordPress 网站开发“微信小程序“实战(三)](https://devework.com/wordpress-weapp-3.html)
 - [解决微信小程序<web-view>组件所在页面无返回按钮的问题](https://segmentfault.com/a/1190000013448739)
+  
+**[:arrow_up: 返回目录](#目录)**
 
 ## 组件
 
@@ -167,6 +179,8 @@
 - [cue](https://github.com/WARJY/cue) - A WX Compontent Tools 
 - [wuss-weapp](https://github.com/phonycode/wuss-weapp) - 一款高质量，组件齐全，高自定义的微信小程序UI组件库
 - [miniprogram-datepicker](https://github.com/pithyone/miniprogram-datepicker) - 小程序日期选择器（支持农历）
+
+**[:arrow_up: 返回目录](#目录)**
 
 ## Demo
 
@@ -241,3 +255,5 @@
 - [wuhou123/wxxcx](https://github.com/wuhou123/wxxcx) - 武侯的猫，基于wepy构建,整合了n多查询工具（快递，天气，记账，搞笑视频等）
 - [upupming/HITMers](https://github.com/upupming/HITMers) - 博物馆小助手（统计值班表、签到、值班日历及备忘录、国际化、Streamable.com 视频上传等）
 - [imageslr/weapp-library](https://github.com/imageslr/weapp-library) - 在线借书平台（WeUI设计规范、前后端开源、RESTful API文档）
+
+**[:arrow_up: 返回目录](#目录)**
