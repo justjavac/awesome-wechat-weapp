@@ -183,6 +183,7 @@
 - [cue](https://github.com/WARJY/cue) - A WX Compontent Tools 
 - [wuss-weapp](https://github.com/phonycode/wuss-weapp) - 一款高质量，组件齐全，高自定义的微信小程序UI组件库
 - [miniprogram-datepicker](https://github.com/pithyone/miniprogram-datepicker) - 小程序日期选择器（支持农历）
+- [wx-api-promisify](https://github.com/vv13/wx-api-promisify) - 优雅地将微信小程序API Promise化
 
 **[:arrow_up: 返回目录](#目录)**
 
