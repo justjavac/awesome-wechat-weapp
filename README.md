@@ -63,6 +63,7 @@
 - [gulp-wxapp-boilerplate](https://github.com/ksky521/gulp-wxapp-boilerplate) - 小程序+小程序云 Gulp 开发脚手架，支持云函数 mock
 - [wenaox](https://github.com/cnyballk/wenaox) - 小程序数据层管理 ，轻量性能好，支持中间件
 - [authing-wxapp-sdk](https://github.com/Authing/authing-wxapp-sdk) - 身份认证 for 微信小程序
+- [weapp-eslint-boilerplate](https://github.com/CoolRice/weapp-eslint-boilerplate) - 微信小程序 Eslint 通用模板文件，节省自己配置的时间
 
 **[:arrow_up: 返回目录](#目录)**
 
@@ -137,7 +138,7 @@
 - [WordPress 网站开发“微信小程序“实战(二)](https://devework.com/wordpress-weapp-2.html)
 - [WordPress 网站开发“微信小程序“实战(三)](https://devework.com/wordpress-weapp-3.html)
 - [解决微信小程序<web-view>组件所在页面无返回按钮的问题](https://segmentfault.com/a/1190000013448739)
-  
+
 **[:arrow_up: 返回目录](#目录)**
 
 ## 组件
@@ -180,7 +181,7 @@
 - [minapp-slider-left](https://github.com/bigmeow/minapp-slider-left) - 微信小程序左划删除组件
 - [mp_canvas_drawer](https://github.com/kuckboy1994/mp_canvas_drawer) - canvas绘制图片助手，一个json就制作分享朋友圈图片
 - [xing-weapp-editor](https://github.com/ianho/xing-weapp-editor) - 小程序图文编辑组件
-- [cue](https://github.com/WARJY/cue) - A WX Compontent Tools 
+- [cue](https://github.com/WARJY/cue) - A WX Compontent Tools
 - [wuss-weapp](https://github.com/phonycode/wuss-weapp) - 一款高质量，组件齐全，高自定义的微信小程序UI组件库
 - [miniprogram-datepicker](https://github.com/pithyone/miniprogram-datepicker) - 小程序日期选择器（支持农历）
 - [wx-api-promisify](https://github.com/vv13/wx-api-promisify) - 优雅地将微信小程序API Promise化
