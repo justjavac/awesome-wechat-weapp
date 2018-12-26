@@ -39,10 +39,10 @@
 
 ## 工具
 
-- [WePY ★14k+](https://github.com/Tencent/wepy) -  支持组件化的小程序开发框架
-- [mpvue ★13k+](https://github.com/Meituan-Dianping/mpvue) - 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系
-- [Taro ★10k+](https://github.com/NervJS/taro) - 使用 React 的方式开发小程序的框架，同时支持生成多端应用
-- [Labrador ★1.5k](https://github.com/maichong/labrador) - 支持 ES6/7 的微信小程序组件化开发框架
+- [WePY ★16k+](https://github.com/Tencent/wepy) -  支持组件化的小程序开发框架
+- [mpvue ★15k+](https://github.com/Meituan-Dianping/mpvue) - 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系
+- [Taro ★13k+](https://github.com/NervJS/taro) - 使用 React 的方式开发小程序的框架，同时支持生成多端应用
+- [Labrador ★1.6k](https://github.com/maichong/labrador) - 支持 ES6/7 的微信小程序组件化开发框架
 - [wept ★1.8k](https://github.com/chemzqm/wept) - 微信小程序实时运行环境
 - [wafer ★1.6k](https://github.com/tencentyun/wafer) - 快速构建具备弹性能力的微信小程序
 - [wechat_web_devtools ★600+](https://github.com/cytle/wechat_web_devtools) -  Linux 下微信开发者工具
@@ -143,10 +143,10 @@
 
 ## 组件
 
-- [weui-wxss ★5000+](https://github.com/Tencent/weui-wxss) - 同微信原生视觉体验一致的基础样式库
-- [vant-weapp ★7000+](https://github.com/youzan/vant-weapp) - 高颜值、好用、易扩展的微信小程序 UI 库
-- [wxParse ★3000+](https://github.com/icindy/wxParse) - 微信小程序富文本解析自定义组件，支持 HTML 及 markdown 解析
-- [wx-charts ★1000+](https://github.com/xiaolin3303/wx-charts) - 微信小程序图表 charts 组件
+- [weui-wxss ★8K+](https://github.com/Tencent/weui-wxss) - 同微信原生视觉体验一致的基础样式库
+- [vant-weapp ★7k+](https://github.com/youzan/vant-weapp) - 高颜值、好用、易扩展的微信小程序 UI 库
+- [wxParse ★5.1K+](https://github.com/icindy/wxParse) - 微信小程序富文本解析自定义组件，支持 HTML 及 markdown 解析
+- [wx-charts ★2.9k+](https://github.com/xiaolin3303/wx-charts) - 微信小程序图表 charts 组件
 - [wux ★1000+](https://github.com/skyvow/wux) - 微信小程序自定义组件
 - [wemark ★400+](https://github.com/TooBug/wemark) - 微信小程序 Markdown 渲染库
 - [wxapp-img-loader ★400+](https://github.com/o2team/wxapp-img-loader) - 微信小程序图片预加载组件
