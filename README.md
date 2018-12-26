@@ -32,7 +32,7 @@
 - [小程序 API](https://developers.weixin.qq.com/miniprogram/dev/api/)
 - [小程序开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
 
-**[:arrow_up: 返回目录](#目录)**
+**[↑ 返回目录 ↑](#目录)**
 
 ## 工具
 
@@ -62,7 +62,7 @@
 - [authing-wxapp-sdk](https://github.com/Authing/authing-wxapp-sdk) - 身份认证 for 微信小程序
 - [weapp-eslint-boilerplate](https://github.com/CoolRice/weapp-eslint-boilerplate) - 微信小程序 Eslint 通用模板文件，节省自己配置的时间
 
-**[:arrow_up: 返回目录](#目录)**
+**[↑ 返回目录 ↑](#目录)**
 
 ## 插件
 
@@ -77,7 +77,7 @@
 - [wxml](https://github.com/cnyballk/wxml-vscode) - vscode插件--微信小程序格式化以及高亮组件(高度自定义)
 - [vim-vue-plugin](https://github.com/leafOfTree/vim-vue-plugin) - vim 插件，.vue 和 .wpy 文件的语法高亮和缩进
 
-**[:arrow_up: 返回目录](#目录)**
+**[↑ 返回目录 ↑](#目录)**
 
 ## 组件
 
@@ -124,7 +124,7 @@
 - [miniprogram-datepicker](https://github.com/pithyone/miniprogram-datepicker) - 小程序日期选择器（支持农历）
 - [wx-api-promisify](https://github.com/vv13/wx-api-promisify) - 优雅地将微信小程序API Promise化
 
-**[:arrow_up: 返回目录](#目录)**
+**[↑ 返回目录 ↑](#目录)**
 
 ## Demo
 
@@ -200,4 +200,4 @@
 - [upupming/HITMers](https://github.com/upupming/HITMers) - 博物馆小助手（统计值班表、签到、值班日历及备忘录、国际化、Streamable.com 视频上传等）
 - [imageslr/weapp-library](https://github.com/imageslr/weapp-library) - 在线借书平台（WeUI设计规范、前后端开源、RESTful API文档）
 
-**[:arrow_up: 返回目录](#目录)**
+**[↑ 返回目录 ↑](#目录)**
