@@ -45,6 +45,7 @@
 - [wechat_web_devtools ★600+](https://github.com/cytle/wechat_web_devtools) -  Linux 下微信开发者工具
 - [minapp ★400+](https://github.com/qiu8310/minapp) - TypeScript 版小程序开发框架（兼容原生小程序代码）
 - [tina ★300+](https://github.com/tinajs/tina) - 轻巧的渐进式微信小程序框架
+- [Okam ★200+](https://github.com/ecomfe/okam) - 使用类 Vue 方式开发小程序的渐进增强框架，支持生成微信/百度等主流平台的小程序
 - [xpmjs ★100+](https://github.com/xpmjs/xpmjs) - 微信小程序云端增强 SDK
 - [WeApp-Workflow ★100+](https://github.com/Jeff2Ma/WeApp-Workflow) -  基于 Gulp 的微信小程序前端开发工作流
 - [gulp-wxa-copy-npm](https://github.com/mdsb100/gulp-wxa-copy-npm) - 微信小程序 gulp 插件，解决 npm 包管理和 babel-runtime
@@ -61,6 +62,7 @@
 - [wenaox](https://github.com/cnyballk/wenaox) - 小程序数据层管理 ，轻量性能好，支持中间件
 - [authing-wxapp-sdk](https://github.com/Authing/authing-wxapp-sdk) - 身份认证 for 微信小程序
 - [weapp-eslint-boilerplate](https://github.com/CoolRice/weapp-eslint-boilerplate) - 微信小程序 Eslint 通用模板文件，节省自己配置的时间
+- [Anka](https://iexception.github.io/anka-doc/book/index.html) - 渐进式小程序开发工具集，提供通用的开发函数库及组件
 
 [↑ 返回目录 ↑](#目录)
 
@@ -105,6 +107,7 @@
 - [we-swiper ★100+](https://github.com/we-plugin/we-swiper) - 微信小程序触摸内容滑动解决方案
 - [wxDraw ★100+](https://github.com/bobiscool/wxDraw) - 微信小程序 2D 动画库
 - [citySelect ★100+](https://github.com/chenjinxinlove/citySelect) ★42 - 微信小程序城市选择器
+- [weapp-cookie ★100+](https://github.com/charleslo1/weapp-cookie) - 一行代码让微信小程序支持 cookie 🍪🚀
 - [WeiXinProject](https://github.com/lidong1665/WeiXinProject) - 微信小程序列表上拉刷新和上拉加载
 - [wepy-com-charts](https://github.com/CalvinHong/wepy-com-charts) - 微信小程序 wepy 图表控件
 - [wxapp-lock](https://github.com/demi520/wxapp-lock) - 微信小程序手势解锁
@@ -123,7 +126,8 @@
 - [wuss-weapp](https://github.com/phonycode/wuss-weapp) - 一款高质量，组件齐全，高自定义的微信小程序UI组件库
 - [miniprogram-datepicker](https://github.com/pithyone/miniprogram-datepicker) - 小程序日期选择器（支持农历）
 - [wx-api-promisify](https://github.com/vv13/wx-api-promisify) - 优雅地将微信小程序API Promise化
-
+- [anka-brush](https://github.com/iException/anka-brush) - 一款为简化小程序里canvas画图操作而创建的工具库
+- [anka-tracker](https://github.com/iException/anka-tracker) - 小程序打点库，用于统计用户行为数据
 [↑ 返回目录 ↑](#目录)
 
 ## Demo
@@ -200,5 +204,7 @@
 - [upupming/HITMers](https://github.com/upupming/HITMers) - 博物馆小助手（统计值班表、签到、值班日历及备忘录、国际化、Streamable.com 视频上传等）
 - [imageslr/weapp-library](https://github.com/imageslr/weapp-library) - 在线借书平台（WeUI设计规范、前后端开源、RESTful API文档）
 - [LDouble/WeOUC](https://github.com/LDouble/WeOUC) - WeOUC(教务小程序)
+- [tclyjy/handwriting-weapp](https://github.com/tclyjy/handwriting-weapp) - 微信小程序Canvas手写板（可用于采集用户签名，自定义字体颜色，笔画真实）
+- [aquanlerou/WeHalo ★200+](https://github.com/aquanlerou/WeHalo) - 爱敲代码的猫（WeHalo 简约风 的微信小程序版博客✨）
 
 [↑ 返回目录 ↑](#目录)
