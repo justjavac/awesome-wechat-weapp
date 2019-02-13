@@ -62,6 +62,7 @@
 - [wenaox](https://github.com/cnyballk/wenaox) - 小程序数据层管理 ，轻量性能好，支持中间件
 - [authing-wxapp-sdk](https://github.com/Authing/authing-wxapp-sdk) - 身份认证 for 微信小程序
 - [weapp-eslint-boilerplate](https://github.com/CoolRice/weapp-eslint-boilerplate) - 微信小程序 Eslint 通用模板文件，节省自己配置的时间
+- [Anka](https://iexception.github.io/anka-doc/book/index.html) - 渐进式小程序开发工具集，提供通用的开发函数库及组件
 
 [↑ 返回目录 ↑](#目录)
 
@@ -124,7 +125,8 @@
 - [wuss-weapp](https://github.com/phonycode/wuss-weapp) - 一款高质量，组件齐全，高自定义的微信小程序UI组件库
 - [miniprogram-datepicker](https://github.com/pithyone/miniprogram-datepicker) - 小程序日期选择器（支持农历）
 - [wx-api-promisify](https://github.com/vv13/wx-api-promisify) - 优雅地将微信小程序API Promise化
-
+- [anka-brush](https://github.com/iException/anka-brush) - 一款为简化小程序里canvas画图操作而创建的工具库
+- [anka-tracker](https://github.com/iException/anka-tracker) - 小程序打点库，用于统计用户行为数据
 [↑ 返回目录 ↑](#目录)
 
 ## Demo
