@@ -107,6 +107,7 @@
 - [we-swiper ★100+](https://github.com/we-plugin/we-swiper) - 微信小程序触摸内容滑动解决方案
 - [wxDraw ★100+](https://github.com/bobiscool/wxDraw) - 微信小程序 2D 动画库
 - [citySelect ★100+](https://github.com/chenjinxinlove/citySelect) ★42 - 微信小程序城市选择器
+- [weapp-cookie ★100+](https://github.com/charleslo1/weapp-cookie) - 一行代码让微信小程序支持 cookie 🍪🚀
 - [WeiXinProject](https://github.com/lidong1665/WeiXinProject) - 微信小程序列表上拉刷新和上拉加载
 - [wepy-com-charts](https://github.com/CalvinHong/wepy-com-charts) - 微信小程序 wepy 图表控件
 - [wxapp-lock](https://github.com/demi520/wxapp-lock) - 微信小程序手势解锁
