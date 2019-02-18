@@ -128,6 +128,7 @@
 - [wx-api-promisify](https://github.com/vv13/wx-api-promisify) - 优雅地将微信小程序API Promise化
 - [anka-brush](https://github.com/iException/anka-brush) - 一款为简化小程序里canvas画图操作而创建的工具库
 - [anka-tracker](https://github.com/iException/anka-tracker) - 小程序打点库，用于统计用户行为数据
+- [mpvue-calendar](https://github.com/Hzy0913/mpvue-calendar) - 微信小程序/浏览器端的日历组件mpvue-calendar；基于mpvue平台 支持农历、按周切换、可自定义。
 [↑ 返回目录 ↑](#目录)
 
 ## Demo
