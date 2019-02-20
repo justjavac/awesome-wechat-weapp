@@ -111,6 +111,7 @@
 - [WeiXinProject](https://github.com/lidong1665/WeiXinProject) - 微信小程序列表上拉刷新和上拉加载
 - [wepy-com-charts](https://github.com/CalvinHong/wepy-com-charts) - 微信小程序 wepy 图表控件
 - [wxapp-lock](https://github.com/demi520/wxapp-lock) - 微信小程序手势解锁
+- [mini-gesture-lock](https://github.com/geminate/mini-gesture-lock) - 微信小程序手势解锁(无Android Canvas卡顿问题)
 - [weapp.socket.io](https://github.com/weapp-socketio/weapp.socket.io) - socket.io 风格的 websocket 类库
 - [weapp-polyfill](https://github.com/leancloud/weapp-polyfill) - [w3c 标准 API polyfill
 - [wxPromise](https://github.com/youngjuning/wxPromise) - 微信小程序 Promise 库
