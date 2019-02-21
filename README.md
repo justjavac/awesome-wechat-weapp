@@ -39,6 +39,7 @@
 - [WePY ★16k+](https://github.com/Tencent/wepy) -  支持组件化的小程序开发框架
 - [mpvue ★15k+](https://github.com/Meituan-Dianping/mpvue) - 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系
 - [Taro ★13k+](https://github.com/NervJS/taro) - 使用 React 的方式开发小程序的框架，同时支持生成多端应用
+- [chameleon ★2.6k+](https://github.com/didi/chameleon) - 一套代码运行多端，一端所见即多端所见
 - [Labrador ★1.6k](https://github.com/maichong/labrador) - 支持 ES6/7 的微信小程序组件化开发框架
 - [wept ★1.8k](https://github.com/chemzqm/wept) - 微信小程序实时运行环境
 - [wafer ★1.6k](https://github.com/tencentyun/wafer) - 快速构建具备弹性能力的微信小程序
@@ -111,6 +112,7 @@
 - [WeiXinProject](https://github.com/lidong1665/WeiXinProject) - 微信小程序列表上拉刷新和上拉加载
 - [wepy-com-charts](https://github.com/CalvinHong/wepy-com-charts) - 微信小程序 wepy 图表控件
 - [wxapp-lock](https://github.com/demi520/wxapp-lock) - 微信小程序手势解锁
+- [mini-gesture-lock](https://github.com/geminate/mini-gesture-lock) - 微信小程序手势解锁(无Android Canvas卡顿问题)
 - [weapp.socket.io](https://github.com/weapp-socketio/weapp.socket.io) - socket.io 风格的 websocket 类库
 - [weapp-polyfill](https://github.com/leancloud/weapp-polyfill) - [w3c 标准 API polyfill
 - [wxPromise](https://github.com/youngjuning/wxPromise) - 微信小程序 Promise 库
@@ -128,6 +130,7 @@
 - [wx-api-promisify](https://github.com/vv13/wx-api-promisify) - 优雅地将微信小程序API Promise化
 - [anka-brush](https://github.com/iException/anka-brush) - 一款为简化小程序里canvas画图操作而创建的工具库
 - [anka-tracker](https://github.com/iException/anka-tracker) - 小程序打点库，用于统计用户行为数据
+- [mpvue-calendar](https://github.com/Hzy0913/mpvue-calendar) - 微信小程序/浏览器端的日历组件mpvue-calendar；基于mpvue平台 支持农历、按周切换、可自定义。
 [↑ 返回目录 ↑](#目录)
 
 ## Demo
@@ -135,6 +138,7 @@
 - [EastWorld/wechat-app-mall ★3000+](https://github.com/EastWorld/wechat-app-mall) - 微信小程序商城
 - [tumobi/nideshop-mini-program ★2000+](https://github.com/tumobi/nideshop-mini-program) - 基于 Node.js + MySQL 开发的开源微信小程序商城
 - [RebeccaHanjw/weapp-wechat-zhihu ★800+](https://github.com/RebeccaHanjw/weapp-wechat-zhihu) - 仿知乎
+- [huangjianke/Gitter ★700+](https://github.com/huangjianke/Gitter) - Gitter for GitHub - 可能是目前颜值最高的GitHub小程序客户端
 - [lypeer/wechat-weapp-gank ★600+)](https://github.com/lypeer/wechat-weapp-gank) - Gank 客户端
 - [wangmingjob/weapp-weipiao ★300+](https://github.com/wangmingjob/weapp-weipiao) - 微票
 - [charleyw/wechat-weapp-redux ★300+](https://github.com/charleyw/wechat-weapp-redux) - Redux 绑定库
@@ -207,5 +211,6 @@
 - [tclyjy/handwriting-weapp](https://github.com/tclyjy/handwriting-weapp) - 微信小程序Canvas手写板（可用于采集用户签名，自定义字体颜色，笔画真实）
 - [aquanlerou/WeHalo ★200+](https://github.com/aquanlerou/WeHalo) - 爱敲代码的猫（WeHalo 简约风 的微信小程序版博客✨）
 - [WarpPrism/SubwayRoutineMP](https://github.com/WarpPrism/SubwayRoutineMP) - 【东京首尔曼谷新加坡巴黎地铁线路图🚄】
+- [GoKu-gaga/today](https://github.com/GoKu-gaga/today) - 口袋工具（一个小工具的集合）
 
 [↑ 返回目录 ↑](#目录)
