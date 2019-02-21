@@ -210,6 +210,7 @@
 - [LDouble/WeOUC](https://github.com/LDouble/WeOUC) - WeOUC(教务小程序)
 - [tclyjy/handwriting-weapp](https://github.com/tclyjy/handwriting-weapp) - 微信小程序Canvas手写板（可用于采集用户签名，自定义字体颜色，笔画真实）
 - [aquanlerou/WeHalo ★200+](https://github.com/aquanlerou/WeHalo) - 爱敲代码的猫（WeHalo 简约风 的微信小程序版博客✨）
+- [WarpPrism/SubwayRoutineMP](https://github.com/WarpPrism/SubwayRoutineMP) - 【东京首尔曼谷新加坡巴黎地铁线路图🚄】
 - [GoKu-gaga/today](https://github.com/GoKu-gaga/today) - 口袋工具（一个小工具的集合）
 
 [↑ 返回目录 ↑](#目录)
