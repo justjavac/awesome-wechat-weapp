@@ -39,6 +39,7 @@
 - [WePY ★16k+](https://github.com/Tencent/wepy) -  支持组件化的小程序开发框架
 - [mpvue ★15k+](https://github.com/Meituan-Dianping/mpvue) - 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系
 - [Taro ★13k+](https://github.com/NervJS/taro) - 使用 React 的方式开发小程序的框架，同时支持生成多端应用
+- [chameleon ★2.6k+](https://github.com/didi/chameleon) - 一套代码运行多端，一端所见即多端所见
 - [Labrador ★1.6k](https://github.com/maichong/labrador) - 支持 ES6/7 的微信小程序组件化开发框架
 - [wept ★1.8k](https://github.com/chemzqm/wept) - 微信小程序实时运行环境
 - [wafer ★1.6k](https://github.com/tencentyun/wafer) - 快速构建具备弹性能力的微信小程序
