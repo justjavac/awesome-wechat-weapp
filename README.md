@@ -132,6 +132,7 @@
 - [anka-brush](https://github.com/iException/anka-brush) - 一款为简化小程序里canvas画图操作而创建的工具库
 - [anka-tracker](https://github.com/iException/anka-tracker) - 小程序打点库，用于统计用户行为数据
 - [mpvue-calendar](https://github.com/Hzy0913/mpvue-calendar) - 微信小程序/浏览器端的日历组件mpvue-calendar；基于mpvue平台 支持农历、按周切换、可自定义。
+- [mp-swipe-card](https://github.com/qizf7/mp-swipe-card) - 小程序卡片滑动组件,类似探探的效果，貌似现在只支持左右滑动
 [↑ 返回目录 ↑](#目录)
 
 ## Demo
