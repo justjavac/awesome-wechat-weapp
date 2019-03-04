@@ -156,6 +156,7 @@
 - [eyasliu/wechat-app-music ★200+](https://github.com/eyasliu/wechat-app-music) - 音乐播放器
 - [ahonn/weapp-one ★200+](https://github.com/ahonn/weapp-one) - 仿 ONE
 - [giscafer/wechat-weapp-mapdemo ★200+](https://github.com/giscafer/wechat-weapp-mapdemo) - 地图导航、marker标注 （不再维护）
+- [imageslr/weapp-library ★100+](https://github.com/imageslr/weapp-library) - 在线借书平台（WeUI设计规范、前后端开源、RESTful API文档）
 - [hilongjw/weapp-gold ★100+](https://github.com/hilongjw/weapp-gold) - 掘金主页信息流
 - [zce/weapp-douban ★100+](https://github.com/zce/weapp-douban) - 豆瓣电影
 - [hingsir/weapp-douban-film ★100+](https://github.com/hingsir/weapp-douban-film) - 豆瓣电影
@@ -207,7 +208,6 @@
 - [lonnng/etym](https://github.com/lonnng/etym) - 芒果词源助手
 - [wuhou123/wxxcx](https://github.com/wuhou123/wxxcx) - 武侯的猫，基于wepy构建,整合了n多查询工具（快递，天气，记账，搞笑视频等）
 - [upupming/HITMers](https://github.com/upupming/HITMers) - 博物馆小助手（统计值班表、签到、值班日历及备忘录、国际化、Streamable.com 视频上传等）
-- [imageslr/weapp-library](https://github.com/imageslr/weapp-library) - 在线借书平台（WeUI设计规范、前后端开源、RESTful API文档）
 - [LDouble/WeOUC](https://github.com/LDouble/WeOUC) - WeOUC(教务小程序)
 - [tclyjy/handwriting-weapp](https://github.com/tclyjy/handwriting-weapp) - 微信小程序Canvas手写板（可用于采集用户签名，自定义字体颜色，笔画真实）
 - [aquanlerou/WeHalo ★200+](https://github.com/aquanlerou/WeHalo) - 爱敲代码的猫（WeHalo 简约风 的微信小程序版博客✨）
