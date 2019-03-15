@@ -217,5 +217,6 @@
 - [aquanlerou/WeHalo ★200+](https://github.com/aquanlerou/WeHalo) - 爱敲代码的猫（WeHalo 简约风 的微信小程序版博客✨）
 - [WarpPrism/SubwayRoutineMP](https://github.com/WarpPrism/SubwayRoutineMP) - 【东京首尔曼谷新加坡巴黎地铁线路图🚄】
 - [GoKu-gaga/today](https://github.com/GoKu-gaga/today) - 口袋工具（一个小工具的集合）
+- [cy920820/weapp-motor-movies](https://github.com/cy920820/weapp-motor-movies) - 马达电影助手（一个院线电影小助手）
 
 [↑ 返回目录 ↑](#目录)
