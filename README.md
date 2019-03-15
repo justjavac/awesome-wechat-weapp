@@ -151,6 +151,7 @@
 - [zce/weapp-boilerplate ★300+](https://github.com/zce/weapp-boilerplate) - 微信小程序快速开发骨架
 - [bayetech/wechat_mall_applet ★300+](https://github.com/bayetech/wechat_mall_applet) - 电商平台
 - [lanshan-studio/wecqupt ★300+](https://github.com/lanshan-studio/wecqupt) - We 重邮
+- [imageslr/weapp-library ★200+](https://github.com/imageslr/weapp-library) - 在线借书平台（WeUI设计规范、前后端开源、RESTful API文档）
 - [myronliu347/wechat-app-zhihudaily ★200+](https://github.com/myronliu347/wechat-app-zhihudaily) - 知乎日报
 - [harveyqing/BearDiary ★200+](https://github.com/harveyqing/BearDiary) - 小熊の日记
 - [leancloud/leantodo-weapp ★200+](https://github.com/leancloud/leantodo-weapp) - 集成 LeanCloud 实现的 Todo list
@@ -159,7 +160,6 @@
 - [eyasliu/wechat-app-music ★200+](https://github.com/eyasliu/wechat-app-music) - 音乐播放器
 - [ahonn/weapp-one ★200+](https://github.com/ahonn/weapp-one) - 仿 ONE
 - [giscafer/wechat-weapp-mapdemo ★200+](https://github.com/giscafer/wechat-weapp-mapdemo) - 地图导航、marker标注 （不再维护）
-- [imageslr/weapp-library ★100+](https://github.com/imageslr/weapp-library) - 在线借书平台（WeUI设计规范、前后端开源、RESTful API文档）
 - [hilongjw/weapp-gold ★100+](https://github.com/hilongjw/weapp-gold) - 掘金主页信息流
 - [zce/weapp-douban ★100+](https://github.com/zce/weapp-douban) - 豆瓣电影
 - [hingsir/weapp-douban-film ★100+](https://github.com/hingsir/weapp-douban-film) - 豆瓣电影
