@@ -219,5 +219,6 @@
 - [GoKu-gaga/today](https://github.com/GoKu-gaga/today) - 口袋工具（一个小工具的集合）
 - [cy920820/weapp-motor-movies](https://github.com/cy920820/weapp-motor-movies) - 马达电影助手（一个院线电影小助手）
 - [Gwokhov/chronus](https://github.com/Gwokhov/chronus) - Chronus 目标日记（一款能帮助你管理生活目标的云开发微信小程序）
+- [imliubo/Wechat_MQTT_ESP8266_BaiduIoT](https://github.com/imliubo/Wechat_MQTT_ESP8266_BaiduIoT) - 微信智能小管家 (使用微信小程序控制你的硬件设备)
 
 [↑ 返回目录 ↑](#目录)
