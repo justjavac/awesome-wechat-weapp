@@ -65,6 +65,7 @@
 - [authing-wxapp-sdk](https://github.com/Authing/authing-wxapp-sdk) - 身份认证 for 微信小程序
 - [weapp-eslint-boilerplate](https://github.com/CoolRice/weapp-eslint-boilerplate) - 微信小程序 Eslint 通用模板文件，节省自己配置的时间
 - [Anka](https://iexception.github.io/anka-doc/book/index.html) - 渐进式小程序开发工具集，提供通用的开发函数库及组件
+- [WeAppBunXin](https://github.com/BakerJQ/WeAppBunXin) - 微信小程序开发之影分身术，一套代码生成多个小程序
 
 [↑ 返回目录 ↑](#目录)
 
