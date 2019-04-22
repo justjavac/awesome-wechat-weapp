@@ -1,4 +1,4 @@
-<h1 align="center">微信小程序开发资源汇总</h1>
+﻿<h1 align="center">微信小程序开发资源汇总</h1>
 
 本文收集了微信小程序开发过程中会使用到的资料、问题以及第三方组件库。本文不是一遍关于如何学习微信小程序的入门指南，也非参考手册，只是一些资料的整理。
 
@@ -222,5 +222,6 @@
 - [Gwokhov/chronus](https://github.com/Gwokhov/chronus) - Chronus 目标日记（一款能帮助你管理生活目标的云开发微信小程序）
 - [imliubo/Wechat_MQTT_ESP8266_BaiduIoT](https://github.com/imliubo/Wechat_MQTT_ESP8266_BaiduIoT) - 微信智能小管家 (使用微信小程序控制你的硬件设备)
 - [yuzexia/iw3cplus](https://github.com/yuzexia/iw3cplus) - 前端社区[www.w3cplus.com](https://www.w3cplus.com)的微信小程序 
+- [RAOE/show-videos](https://github.com/RAOE/show-videos) - 秀视频（微信小程序短视频社交软件，视频上传，音视频合成，评论，点赞，转发，分享等） 
 
 [↑ 返回目录 ↑](#目录)
