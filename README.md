@@ -66,6 +66,7 @@
 - [weapp-eslint-boilerplate](https://github.com/CoolRice/weapp-eslint-boilerplate) - 微信小程序 Eslint 通用模板文件，节省自己配置的时间
 - [Anka](https://iexception.github.io/anka-doc/book/index.html) - 渐进式小程序开发工具集，提供通用的开发函数库及组件
 - [WeAppBunXin](https://github.com/BakerJQ/WeAppBunXin) - 微信小程序开发之影分身术，一套代码生成多个小程序
+- [miniprogram-build](https://github.com/NewFuture/miniprogram-build) - 小程序命令行编译工具(支持typescript,原生npm,资源文件压缩...)
 
 [↑ 返回目录 ↑](#目录)
 
@@ -223,5 +224,6 @@
 - [imliubo/Wechat_MQTT_ESP8266_BaiduIoT](https://github.com/imliubo/Wechat_MQTT_ESP8266_BaiduIoT) - 微信智能小管家 (使用微信小程序控制你的硬件设备)
 - [yuzexia/iw3cplus](https://github.com/yuzexia/iw3cplus) - 前端社区[www.w3cplus.com](https://www.w3cplus.com)的微信小程序 
 - [RAOE/show-videos](https://github.com/RAOE/show-videos) - 秀视频（微信小程序短视频社交软件，视频上传，音视频合成，评论，点赞，转发，分享等） 
+- [NewFuture/miniprogram-template](https://github.com/NewFuture/miniprogram-template) - 原生API纯TypeScript开发小程序(VSCode as IDE)与完整开发流程
 
 [↑ 返回目录 ↑](#目录)
