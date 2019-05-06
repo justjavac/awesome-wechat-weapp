@@ -44,6 +44,7 @@
 - [Labrador ★1.6k](https://github.com/maichong/labrador) - 支持 ES6/7 的微信小程序组件化开发框架
 - [wept ★1.8k](https://github.com/chemzqm/wept) - 微信小程序实时运行环境
 - [wafer ★1.6k](https://github.com/tencentyun/wafer) - 快速构建具备弹性能力的微信小程序
+- [licia ★900+](https://github.com/liriliri/licia) - 支持小程序的 JS 工具库
 - [wechat_web_devtools ★600+](https://github.com/cytle/wechat_web_devtools) -  Linux 下微信开发者工具
 - [minapp ★400+](https://github.com/qiu8310/minapp) - TypeScript 版小程序开发框架（兼容原生小程序代码）
 - [tina ★300+](https://github.com/tinajs/tina) - 轻巧的渐进式微信小程序框架
