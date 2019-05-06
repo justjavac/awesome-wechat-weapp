@@ -225,5 +225,6 @@
 - [yuzexia/iw3cplus](https://github.com/yuzexia/iw3cplus) - 前端社区[www.w3cplus.com](https://www.w3cplus.com)的微信小程序 
 - [RAOE/show-videos](https://github.com/RAOE/show-videos) - 秀视频（微信小程序短视频社交软件，视频上传，音视频合成，评论，点赞，转发，分享等） 
 - [NewFuture/miniprogram-template](https://github.com/NewFuture/miniprogram-template) - 原生API纯TypeScript开发小程序(VSCode as IDE)与完整开发流程
+- [ZhuPeng/mp-githubtrending](https://github.com/ZhuPeng/mp-githubtrending) - 以 Feed 流形式查看 GitHub Trending 仓库集合的工具
 
 [↑ 返回目录 ↑](#目录)
