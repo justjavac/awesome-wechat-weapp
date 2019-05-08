@@ -227,5 +227,6 @@
 - [RAOE/show-videos](https://github.com/RAOE/show-videos) - 秀视频（微信小程序短视频社交软件，视频上传，音视频合成，评论，点赞，转发，分享等） 
 - [NewFuture/miniprogram-template](https://github.com/NewFuture/miniprogram-template) - 原生API纯TypeScript开发小程序(VSCode as IDE)与完整开发流程
 - [ZhuPeng/mp-githubtrending](https://github.com/ZhuPeng/mp-githubtrending) - 以 Feed 流形式查看 GitHub Trending 仓库集合的工具
+- [yociduo/scrum-planning-poker](https://github.com/yociduo/scrum-planning-poker) - Scrum敏捷估算,基于wepy构建
 
 [↑ 返回目录 ↑](#目录)
