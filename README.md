@@ -69,6 +69,7 @@
 - [WeAppBunXin](https://github.com/BakerJQ/WeAppBunXin) - 微信小程序开发之影分身术，一套代码生成多个小程序
 - [miniprogram-build](https://github.com/NewFuture/miniprogram-build) - 小程序命令行编译工具(支持typescript,原生npm,资源文件压缩...)
 - [wefetch](https://github.com/jonnyshao/wefetch) - 小程序请求API扩展，支持微信、支付宝、百度小程序，基于Promise
+
 [↑ 返回目录 ↑](#目录)
 
 ## 插件
