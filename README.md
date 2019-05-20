@@ -138,6 +138,7 @@
 - [mp-swipe-card](https://github.com/qizf7/mp-swipe-card) - 小程序卡片滑动组件,类似探探的效果，貌似现在只支持左右滑动
 - [weapp.request](https://github.com/afishhhhh/weapp.request) - 为微信小程序提供的网络请求组件，是 wx.request 的扩展，基于 Promise API，添加缓存控制。
 - [miniprogram-network](https://github.com/NewFuture/miniprogram-network) - Redefine the Network API of MiniProgram(小程序网络请求库)
+- [we-validator](https://github.com/ChanceYu/we-validator) - 简单灵活的表单验证插件，支持小程序、浏览器以及Nodejs端使用。
 
 [↑ 返回目录 ↑](#目录)
 
