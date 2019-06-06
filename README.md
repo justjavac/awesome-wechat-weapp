@@ -41,6 +41,7 @@
 - [Taro ★13k+](https://github.com/NervJS/taro) - 使用 React 的方式开发小程序的框架，同时支持生成多端应用
 - [chameleon ★2.6k+](https://github.com/didi/chameleon) - 一套代码运行多端，一端所见即多端所见
 - [megalo ★1.1k](https://github.com/kaola-fed/megalo) - 基于 Vue 的小程序开发框架
+- [MPX ★1k+](https://github.com/didi/mpx) - 增强型小程序框架，深度性能优化，支持跨小程序平台开发，完全兼容原生小程序组件
 - [Labrador ★1.6k](https://github.com/maichong/labrador) - 支持 ES6/7 的微信小程序组件化开发框架
 - [wept ★1.8k](https://github.com/chemzqm/wept) - 微信小程序实时运行环境
 - [wafer ★1.6k](https://github.com/tencentyun/wafer) - 快速构建具备弹性能力的微信小程序
