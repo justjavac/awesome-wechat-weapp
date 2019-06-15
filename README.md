@@ -140,6 +140,7 @@
 - [weapp.request](https://github.com/afishhhhh/weapp.request) - 为微信小程序提供的网络请求组件，是 wx.request 的扩展，基于 Promise API，添加缓存控制。
 - [miniprogram-network](https://github.com/NewFuture/miniprogram-network) - Redefine the Network API of MiniProgram(小程序网络请求库)
 - [we-validator](https://github.com/ChanceYu/we-validator) - 简单灵活的表单验证插件，支持小程序、浏览器以及Nodejs端使用。
+- [wx-pulltorefresh-view](https://github.com/zhongxuqi/wx-pulltorefresh-view) - 简单灵活的下拉上拉刷新组件，支持微信小程序
 
 [↑ 返回目录 ↑](#目录)
 
