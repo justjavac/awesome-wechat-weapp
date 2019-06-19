@@ -26,7 +26,7 @@
 ## 官方文档
 
 - [小程序设计指南](https://developers.weixin.qq.com/miniprogram/design/index.html)
-- [小程序开发教程](https://developers.weixin.qq.com/miniprogram/dev/)
+- [小程序开发教程](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 - [小程序框架](https://developers.weixin.qq.com/miniprogram/dev/framework/MINA.html)
 - [小程序组件](https://developers.weixin.qq.com/miniprogram/dev/component/)
 - [小程序 API](https://developers.weixin.qq.com/miniprogram/dev/api/)
