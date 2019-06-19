@@ -36,16 +36,16 @@
 
 ## 工具
 
-- [WePY ★16k+](https://github.com/Tencent/wepy) -  支持组件化的小程序开发框架
-- [mpvue ★15k+](https://github.com/Meituan-Dianping/mpvue) - 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系
-- [Taro ★13k+](https://github.com/NervJS/taro) - 使用 React 的方式开发小程序的框架，同时支持生成多端应用
-- [chameleon ★2.6k+](https://github.com/didi/chameleon) - 一套代码运行多端，一端所见即多端所见
-- [megalo ★1.1k](https://github.com/kaola-fed/megalo) - 基于 Vue 的小程序开发框架
+- [WePY ★18k+](https://github.com/Tencent/wepy) -  支持组件化的小程序开发框架
+- [mpvue ★17k+](https://github.com/Meituan-Dianping/mpvue) - 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系
+- [Taro ★19k+](https://github.com/NervJS/taro) - 使用 React 的方式开发小程序的框架，同时支持生成多端应用
+- [chameleon ★5k+](https://github.com/didi/chameleon) - 一套代码运行多端，一端所见即多端所见
+- [megalo ★1.3k](https://github.com/kaola-fed/megalo) - 基于 Vue 的小程序开发框架
 - [MPX ★1k+](https://github.com/didi/mpx) - 增强型小程序框架，深度性能优化，支持跨小程序平台开发，完全兼容原生小程序组件
 - [Labrador ★1.6k](https://github.com/maichong/labrador) - 支持 ES6/7 的微信小程序组件化开发框架
-- [wept ★1.8k](https://github.com/chemzqm/wept) - 微信小程序实时运行环境
-- [wafer ★1.6k](https://github.com/tencentyun/wafer) - 快速构建具备弹性能力的微信小程序
-- [licia ★900+](https://github.com/liriliri/licia) - 支持小程序的 JS 工具库
+- [wept ★2.1k](https://github.com/chemzqm/wept) - 微信小程序实时运行环境
+- [wafer ★2k](https://github.com/tencentyun/wafer) - 快速构建具备弹性能力的微信小程序
+- [licia ★1.1k](https://github.com/liriliri/licia) - 支持小程序的 JS 工具库
 - [wechat_web_devtools ★600+](https://github.com/cytle/wechat_web_devtools) -  Linux 下微信开发者工具
 - [minapp ★400+](https://github.com/qiu8310/minapp) - TypeScript 版小程序开发框架（兼容原生小程序代码）
 - [tina ★300+](https://github.com/tinajs/tina) - 轻巧的渐进式微信小程序框架
