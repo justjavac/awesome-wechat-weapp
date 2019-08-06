@@ -187,6 +187,7 @@
 - [vace/wechatapp-news-reader ★100+](https://github.com/vace/wechatapp-news-reader) - 新闻阅读器
 - [yaoshanliang/weapp-ssha ★100+](https://github.com/yaoshanliang/weapp-ssha) - 企业宣传小程序
 - [yaoshanliang/weapp-jump ★100+](https://github.com/yaoshanliang/weapp-jump) - 跳一跳
+- [yaoshanliang/weapp-monument-valley ★100+](https://github.com/yaoshanliang/weapp-monument-valley) - 纪念碑谷
 - [Symous/WechatApp-BaisiSister](https://github.com/Symous/WechatApp-BaisiSister) - 百思不得姐
 - [githinkcn/Giteer](https://github.com/githinkcn/Giteer) - Giteer For 码云，基于Taro + Taro UI + Dva的小程序。
 - [DengKe1994/weapp-calculator](https://github.com/DengKe1994/weapp-calculator) - IOS 计算器
@@ -206,7 +207,6 @@
 - [bodekjan/wechat-weather](https://github.com/bodekjan/wechat-weather) - 微信天气
 - [jasscia/ChristmasHat](https://github.com/jasscia/ChristmasHat) - 我要圣诞帽
 - [nanwangjkl/sliding_puzzle](https://github.com/nanwangjkl/sliding_puzzle) - 滑块拼图
-- [yaoshanliang/weapp-monument-valley](https://github.com/yaoshanliang/weapp-monument-valley) - 纪念碑谷
 - [kaiwu/weui-scalajs](https://github.com/kaiwu/weui-scalajs) - 使用Scala.js开发
 - [tinajs/tina-hackernews](https://github.com/tinajs/tina-hackernews) - Hacker News 热点
 - [mohuishou/scuplus-wechat](https://github.com/mohuishou/scuplus-wechat) - We 川大
