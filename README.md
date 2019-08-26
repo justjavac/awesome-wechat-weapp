@@ -222,7 +222,7 @@
 - [wuhou123/wxxcx](https://github.com/wuhou123/wxxcx) - 武侯的猫，基于wepy构建,整合了n多查询工具（快递，天气，记账，搞笑视频等）
 - [upupming/HITMers](https://github.com/upupming/HITMers) - 博物馆小助手（统计值班表、签到、值班日历及备忘录、国际化、Streamable.com 视频上传等）
 - [LDouble/WeOUC](https://github.com/LDouble/WeOUC) - WeOUC(教务小程序)
-- [tclyjy/handwriting-weapp](https://github.com/tclyjy/handwriting-weapp) - 微信小程序Canvas手写板（可用于采集用户签名，自定义字体颜色，笔画真实）
+- [Airmole/ShellBox](https://github.com/Airmole/ShellBox) - 贝壳小盒子（校园教务信息查询类工具，获2019高校小程序开发大赛华北区二等奖）
 - [aquanlerou/WeHalo ★200+](https://github.com/aquanlerou/WeHalo) - 爱敲代码的猫（WeHalo 简约风 的微信小程序版博客✨）
 - [WarpPrism/SubwayRoutineMP](https://github.com/WarpPrism/SubwayRoutineMP) - 【东京首尔曼谷新加坡巴黎地铁线路图🚄】
 - [GoKu-gaga/today](https://github.com/GoKu-gaga/today) - 口袋工具（一个小工具的集合）
