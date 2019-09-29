@@ -46,6 +46,7 @@
 - [wept ★2.1k](https://github.com/chemzqm/wept) - 微信小程序实时运行环境
 - [wafer ★2k](https://github.com/tencentyun/wafer) - 快速构建具备弹性能力的微信小程序
 - [licia ★1.1k](https://github.com/liriliri/licia) - 支持小程序的 JS 工具库
+- [Remax ★1k+](https://github.com/remaxjs/remax) -  使用真正的 React 构建小程序
 - [wechat_web_devtools ★600+](https://github.com/cytle/wechat_web_devtools) -  Linux 下微信开发者工具
 - [minapp ★400+](https://github.com/qiu8310/minapp) - TypeScript 版小程序开发框架（兼容原生小程序代码）
 - [tina ★300+](https://github.com/tinajs/tina) - 轻巧的渐进式微信小程序框架
