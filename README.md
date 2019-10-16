@@ -72,6 +72,7 @@
 - [miniprogram-build](https://github.com/NewFuture/miniprogram-build) - 小程序命令行编译工具(支持typescript,原生npm,资源文件压缩...)
 - [wcc.js](https://github.com/caijw/wcc.js) - wcc.js 是wxml文件和wxs文件编译器的nodejs实现
 - [wcsc.js](https://github.com/caijw/wcsc.js) - wcsc.js 是wxss文件编译器的nodejs实现
+- [weapp-gulp](https://github.com/sunnie1992/weapp-gulp) - Gulp高效构建微信小程序，让开发变得更简单
 
 [↑ 返回目录 ↑](#目录)
 
@@ -144,7 +145,7 @@
 - [miniprogram-network](https://github.com/NewFuture/miniprogram-network) - Redefine the Network API of MiniProgram(小程序网络请求库)
 - [we-validator](https://github.com/ChanceYu/we-validator) - 简单灵活的表单验证插件，支持小程序、浏览器以及Nodejs端使用。
 - [wx-pulltorefresh-view](https://github.com/zhongxuqi/wx-pulltorefresh-view) - 简单灵活的下拉上拉刷新组件，支持微信小程序
-- [sol-weapp](https://github.com/sunnie1992/sol-weapp/) -微信小程序营销组件:红包雨、大转盘等营销组件
+- [sol-weapp ★100+](https://github.com/sunnie1992/sol-weapp/) -微信小程序营销组件:红包雨、大转盘等营销组件
 
 [↑ 返回目录 ↑](#目录)
 
