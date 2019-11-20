@@ -90,6 +90,9 @@
 - [WePY Plugin For IntelliJ Platform](http://wepy.iniself.com) - 让PhpStorm/WebStorm全面支持WePY的开发，包括API(原生/WePY)和组件(官方/自定义)的自动完成/错误检查/高亮/不依赖Vue/...
 - [wxml](https://github.com/cnyballk/wxml-vscode) - vscode插件--微信小程序格式化以及高亮组件(高度自定义)
 - [vim-vue-plugin](https://github.com/leafOfTree/vim-vue-plugin) - vim 插件，.vue 和 .wpy 文件的语法高亮和缩进
+- [wux-weapp-snippets](https://github.com/wux-weapp/wux-weapp-snippets) - Wux Weapp Snippets for VS Code.
+- [wux-weapp-atom-snippets](https://github.com/wux-weapp/wux-weapp-atom-snippets) - Wux Weapp Snippets for Atom.
+- [wux-weapp-sublime-snippets](https://github.com/wux-weapp/wux-weapp-sublime-snippets) - Wux Weapp Snippets Plugin for Sublime Text 2/3.
 
 [↑ 返回目录 ↑](#目录)
 
@@ -98,8 +101,8 @@
 - [weui-wxss ★8K+](https://github.com/Tencent/weui-wxss) - 同微信原生视觉体验一致的基础样式库
 - [vant-weapp ★7k+](https://github.com/youzan/vant-weapp) - 高颜值、好用、易扩展的微信小程序 UI 库
 - [wxParse ★5.1K+](https://github.com/icindy/wxParse) - 微信小程序富文本解析自定义组件，支持 HTML 及 markdown 解析
+- [wux-weapp ★4k+](https://github.com/wux-weapp/wux-weapp) - 一套组件化、可复用、易扩展的微信小程序 UI 组件库
 - [wx-charts ★2.9k+](https://github.com/xiaolin3303/wx-charts) - 微信小程序图表 charts 组件
-- [wux ★1000+](https://github.com/skyvow/wux) - 微信小程序自定义组件
 - [wemark ★400+](https://github.com/TooBug/wemark) - 微信小程序 Markdown 渲染库
 - [wxapp-img-loader ★400+](https://github.com/o2team/wxapp-img-loader) - 微信小程序图片预加载组件
 - [we-cropper ★400+](https://github.com/we-plugin/we-cropper) -  微信小程序图片裁剪工具
