@@ -244,4 +244,5 @@
 - [ZhuPeng/mp-githubtrending](https://github.com/ZhuPeng/mp-githubtrending) - 以 Feed 流形式查看 GitHub Trending 仓库集合的工具
 - [yociduo/scrum-planning-poker](https://github.com/yociduo/scrum-planning-poker) - Scrum敏捷估算,基于wepy构建
 - [lsqy/taro-music](https://github.com/lsqy/taro-music) - 🎉基于taro + taro-ui + redux + typescript 开发的网易云音乐小程序
+- [仿喜马拉雅lite](https://github.com/Notobey/Himalayan-lite) - 微信小程序原生开发的仿喜马拉雅小程序（极度适合新手入门）
 [↑ 返回目录 ↑](#目录)
