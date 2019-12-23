@@ -178,6 +178,7 @@
 - [eyasliu/wechat-app-music ★200+](https://github.com/eyasliu/wechat-app-music) - 音乐播放器
 - [ahonn/weapp-one ★200+](https://github.com/ahonn/weapp-one) - 仿 ONE
 - [giscafer/wechat-weapp-mapdemo ★200+](https://github.com/giscafer/wechat-weapp-mapdemo) - 地图导航、marker标注 （不再维护）
+- [yaoshanliang/weapp-ssha ★200+](https://github.com/yaoshanliang/weapp-ssha) - 企业宣传小程序
 - [hilongjw/weapp-gold ★100+](https://github.com/hilongjw/weapp-gold) - 掘金主页信息流
 - [zce/weapp-douban ★100+](https://github.com/zce/weapp-douban) - 豆瓣电影
 - [hingsir/weapp-douban-film ★100+](https://github.com/hingsir/weapp-douban-film) - 豆瓣电影
@@ -196,7 +197,6 @@
 - [romoo/weapp-demo-breadtrip ★100+](https://github.com/romoo/weapp-demo-breadtrip) - 面包旅行
 - [zhuweiyou/fetop100 ★100+](https://github.com/zhuweiyou/fetop100) - 前端TOP100
 - [vace/wechatapp-news-reader ★100+](https://github.com/vace/wechatapp-news-reader) - 新闻阅读器
-- [yaoshanliang/weapp-ssha ★100+](https://github.com/yaoshanliang/weapp-ssha) - 企业宣传小程序
 - [yaoshanliang/weapp-jump ★100+](https://github.com/yaoshanliang/weapp-jump) - 跳一跳
 - [yaoshanliang/weapp-monument-valley ★100+](https://github.com/yaoshanliang/weapp-monument-valley) - 纪念碑谷
 - [Symous/WechatApp-BaisiSister](https://github.com/Symous/WechatApp-BaisiSister) - 百思不得姐
