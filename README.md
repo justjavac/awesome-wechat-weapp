@@ -152,6 +152,7 @@
 - [we-validator](https://github.com/ChanceYu/we-validator) - 简单灵活的表单验证插件，支持小程序、浏览器以及Nodejs端使用。
 - [wx-pulltorefresh-view](https://github.com/zhongxuqi/wx-pulltorefresh-view) - 简单灵活的下拉上拉刷新组件，支持微信小程序
 - [sol-weapp ★100+](https://github.com/sunnie1992/sol-weapp/) -微信小程序营销组件:红包雨、大转盘等营销组件
+- [weapp-input-frame](https://github.com/xjh22222228/weapp-input-frame) - 微信小程序验证码输入框组件
 
 [↑ 返回目录 ↑](#目录)
 
