@@ -86,7 +86,8 @@
 - [wechatCode-complete](https://github.com/qbright/wechatCode-complete) - webstorm 插件（代码提示）
 - [wxapp](https://github.com/FloydaGithub/wxapp) - sublime plugin
 - [minapp](https://github.com/qiu8310/minapp/blob/master/packages/minapp-vscode/README.md) - vscode 插件（支持 原生/mpvue/wepy 框架）
-- [vscode 插件(代码提示)](https://segmentfault.com/a/1190000007132719)
+- [vscode 插件(代码提示)](https://segmentfault.com/a/1190000007132719)\
+- [vscode-live-sass-compiler](https://github.com/ritwickdey/vscode-live-sass-compiler) - vscode插件根据.scss文件自动生成wxss文件
 - [WePY Plugin For IntelliJ Platform](http://wepy.iniself.com) - 让PhpStorm/WebStorm全面支持WePY的开发，包括API(原生/WePY)和组件(官方/自定义)的自动完成/错误检查/高亮/不依赖Vue/...
 - [wxml](https://github.com/cnyballk/wxml-vscode) - vscode插件--微信小程序格式化以及高亮组件(高度自定义)
 - [vim-vue-plugin](https://github.com/leafOfTree/vim-vue-plugin) - vim 插件，.vue 和 .wpy 文件的语法高亮和缩进
