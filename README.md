@@ -58,7 +58,8 @@
 - [gulp-wxa-copy-npm](https://github.com/mdsb100/gulp-wxa-copy-npm) - 微信小程序 gulp 插件，解决 npm 包管理和 babel-runtime
 - [weact](https://github.com/haojy/weact) - 用 JSX 快速开发小程序
 - [socket.io-mp-client](https://github.com/cytle/socket.io-mp-client) - 微信小程序 socket.io 客户端
-- [wxa](https://github.com/Genuifx/wxa) - 方便的小程序开发框架
+- [@wxa](https://wxajs.github.io/wxa/) - AOP小程序开发框架
+- [postcss-pxtorpx-pro](https://github.com/Genuifx/postcss-pxtorpx-pro) - postcss px 转 rpx 插件
 - [px2rpx](https://github.com/allanguys/px2rpx) - Px 转 Rpx 在线工具
 - [wxml-parser](https://github.com/seanlong/wxml-parser) -  JavaScript WXML parser
 - [weappx](https://github.com/tolerance-go/weappx) - 基于 redux 的数据层管理框架
