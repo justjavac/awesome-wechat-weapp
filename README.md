@@ -110,6 +110,7 @@
 - [iview-weapp ★5.5k+](https://github.com/TalkingData/iview-weapp) - 一套高质量的微信小程序 UI 组件库
 - [wux-weapp ★4.2k+](https://github.com/wux-weapp/wux-weapp) - 一套组件化、可复用、易扩展的微信小程序 UI 组件库
 - [wx-charts ★4.1k+](https://github.com/xiaolin3303/wx-charts) - 微信小程序图表 charts 组件
+- [Lin UI ★1.5k+](https://github.com/TaleLin/lin-ui) - 一套设计优良、基于原生微信小程序语法的 UI 组件库
 - [wemark ★1.100+](https://github.com/TooBug/wemark) - 微信小程序 Markdown 渲染库
 - [wxapp-img-loader ★400+](https://github.com/o2team/wxapp-img-loader) - 微信小程序图片预加载组件
 - [we-cropper ★400+](https://github.com/we-plugin/we-cropper) -  微信小程序图片裁剪工具
