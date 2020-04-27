@@ -161,6 +161,7 @@
 - [sol-weapp ★300+](https://github.com/sunniejs/sol-weapp/) -微信小程序营销组件:红包雨、大转盘等营销组件
 - [weapp-input-frame](https://github.com/xjh22222228/weapp-input-frame) - 微信小程序验证码输入框组件
 - [we-debug](https://github.com/dlhandsome/we-debug) - 一款灵活、易于拓展的微信小程序调试工具
+- [weapp-qrcode](https://github.com/tomfriwel/weapp-qrcode) - 微信小程序生成二维码工具
 
 [↑ 返回目录 ↑](#目录)
 
