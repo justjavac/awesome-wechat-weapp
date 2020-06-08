@@ -80,6 +80,7 @@
 - [wcc.js](https://github.com/caijw/wcc.js) - wcc.js 是wxml文件和wxs文件编译器的nodejs实现
 - [wcsc.js](https://github.com/caijw/wcsc.js) - wcsc.js 是wxss文件编译器的nodejs实现
 - [weapp-gulp](https://github.com/sunnie1992/weapp-gulp) - Gulp高效构建微信小程序，让开发变得更简单
+- [cheers-mp](https://github.com/bigmeow/cheers-mp) - Almost零配置微信原生小程序脚手架，vue-cli般的体验~(ts、less、原生npm、云OSS、CI自动发布体验版)
 
 [↑ 返回目录 ↑](#目录)
 
@@ -162,6 +163,7 @@
 - [weapp-input-frame](https://github.com/xjh22222228/weapp-input-frame) - 微信小程序验证码输入框组件
 - [we-debug](https://github.com/dlhandsome/we-debug) - 一款灵活、易于拓展的微信小程序调试工具
 - [weapp-qrcode](https://github.com/tomfriwel/weapp-qrcode) - 微信小程序生成二维码工具
+- [cheers-mp-router](https://github.com/bigmeow/cheers-mp-router) - 🚦精巧强大的小程序原生路由
 
 [↑ 返回目录 ↑](#目录)
 
