@@ -1,4 +1,4 @@
-﻿<h1 align="center">微信小程序开发资源汇总</h1>
+<h1 align="center">微信小程序开发资源汇总</h1>
 
 本文收集了微信小程序开发过程中会使用到的资料、问题以及第三方组件库。本文不是一遍关于如何学习微信小程序的入门指南，也非参考手册，只是一些资料的整理。
 
@@ -148,7 +148,7 @@
 [↑ 返回目录 ↑](#目录)
 
 ## Demo
-
+- [kilakila-heart/fuliba-front](https://github.com/kilakila-heart/fuliba-front) - 信息流福利吧小程序
 - [EastWorld/wechat-app-mall ★3000+](https://github.com/EastWorld/wechat-app-mall) - 微信小程序商城
 - [tumobi/nideshop-mini-program ★2000+](https://github.com/tumobi/nideshop-mini-program) - 基于 Node.js + MySQL 开发的开源微信小程序商城
 - [RebeccaHanjw/weapp-wechat-zhihu ★800+](https://github.com/RebeccaHanjw/weapp-wechat-zhihu) - 仿知乎
