@@ -1,4 +1,4 @@
-﻿<h1 align="center">微信小程序开发资源汇总</h1>
+<h1 align="center">微信小程序开发资源汇总</h1>
 
 本文收集了微信小程序开发过程中会使用到的资料、问题以及第三方组件库。本文不是一遍关于如何学习微信小程序的入门指南，也非参考手册，只是一些资料的整理。
 
@@ -168,7 +168,6 @@
 [↑ 返回目录 ↑](#目录)
 
 ## Demo
-
 - [EastWorld/wechat-app-mall ★3000+](https://github.com/EastWorld/wechat-app-mall) - 微信小程序商城
 - [tumobi/nideshop-mini-program ★2000+](https://github.com/tumobi/nideshop-mini-program) - 基于 Node.js + MySQL 开发的开源微信小程序商城
 - [RebeccaHanjw/weapp-wechat-zhihu ★800+](https://github.com/RebeccaHanjw/weapp-wechat-zhihu) - 仿知乎
@@ -255,6 +254,7 @@
 - [NewFuture/miniprogram-template](https://github.com/NewFuture/miniprogram-template) - 原生API纯TypeScript开发小程序(VSCode as IDE)与完整开发流程
 - [ZhuPeng/mp-githubtrending](https://github.com/ZhuPeng/mp-githubtrending) - 以 Feed 流形式查看 GitHub Trending 仓库集合的工具
 - [yociduo/scrum-planning-poker](https://github.com/yociduo/scrum-planning-poker) - Scrum敏捷估算,基于wepy构建
+- [kilakila-heart/fuliba-front](https://github.com/kilakila-heart/fuliba-front) - 信息流福利吧小程序
 - [lsqy/taro-music](https://github.com/lsqy/taro-music) - 🎉基于taro + taro-ui + redux + typescript 开发的网易云音乐小程序
 - [仿喜马拉雅lite](https://github.com/Notobey/Himalayan-lite) - 微信小程序原生开发的仿喜马拉雅小程序（极度适合新手入门）
 - [branliang/game-stop-app](https://github.com/BranLiang/game-stop-app) - PSN降价了（一个可以订阅PS4游戏价格的工具）
