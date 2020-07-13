@@ -148,7 +148,6 @@
 [↑ 返回目录 ↑](#目录)
 
 ## Demo
-- [kilakila-heart/fuliba-front](https://github.com/kilakila-heart/fuliba-front) - 信息流福利吧小程序
 - [EastWorld/wechat-app-mall ★3000+](https://github.com/EastWorld/wechat-app-mall) - 微信小程序商城
 - [tumobi/nideshop-mini-program ★2000+](https://github.com/tumobi/nideshop-mini-program) - 基于 Node.js + MySQL 开发的开源微信小程序商城
 - [RebeccaHanjw/weapp-wechat-zhihu ★800+](https://github.com/RebeccaHanjw/weapp-wechat-zhihu) - 仿知乎
@@ -235,5 +234,6 @@
 - [NewFuture/miniprogram-template](https://github.com/NewFuture/miniprogram-template) - 原生API纯TypeScript开发小程序(VSCode as IDE)与完整开发流程
 - [ZhuPeng/mp-githubtrending](https://github.com/ZhuPeng/mp-githubtrending) - 以 Feed 流形式查看 GitHub Trending 仓库集合的工具
 - [yociduo/scrum-planning-poker](https://github.com/yociduo/scrum-planning-poker) - Scrum敏捷估算,基于wepy构建
+- [kilakila-heart/fuliba-front](https://github.com/kilakila-heart/fuliba-front) - 信息流福利吧小程序
 
 [↑ 返回目录 ↑](#目录)
