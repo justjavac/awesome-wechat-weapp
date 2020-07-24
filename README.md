@@ -164,6 +164,7 @@
 - [we-debug](https://github.com/dlhandsome/we-debug) - 一款灵活、易于拓展的微信小程序调试工具
 - [weapp-qrcode](https://github.com/tomfriwel/weapp-qrcode) - 微信小程序生成二维码工具
 - [cheers-mp-router](https://github.com/bigmeow/cheers-mp-router) - 🚦精巧强大的小程序原生路由
+- [wx-updata](https://github.com/SHERlocked93/wx-updata) - 微信小程序官方 setData 替代品，只修改 data 中你希望修改的部分 ✈️
 
 [↑ 返回目录 ↑](#目录)
 
