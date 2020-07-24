@@ -138,7 +138,7 @@
 - [mini-gesture-lock](https://github.com/geminate/mini-gesture-lock) - 微信小程序手势解锁(无Android Canvas卡顿问题)
 - [weapp.socket.io](https://github.com/weapp-socketio/weapp.socket.io) - socket.io 风格的 websocket 类库
 - [weapp-polyfill](https://github.com/leancloud/weapp-polyfill) - [w3c 标准 API polyfill
-- [wxPromise](https://github.com/youngjuning/wxPromise) - 微信小程序 Promise 库
+- [wx-promise-pro ★666+](https://github.com/youngjuning/wx-promise-pro) - 微信小程序 Promise 库
 - [wxMD5](https://github.com/youngjuning/wxMD5) - 微信小程序 MD5 库
 - [wxBase64](https://github.com/youngjuning/wxBase64) -  微信小程序base64 库
 - [xing-weapp-component](https://github.com/ianho/xing-weapp-component) - 微信小程序基础组件扩展
