@@ -260,6 +260,6 @@
 - [仿喜马拉雅lite](https://github.com/Notobey/Himalayan-lite) - 微信小程序原生开发的仿喜马拉雅小程序（极度适合新手入门）
 - [branliang/game-stop-app](https://github.com/BranLiang/game-stop-app) - PSN降价了（一个可以订阅PS4游戏价格的工具）
 - [wk989898/wxchat-mail](https://github.com/wk989898/wxchat-mail) - 仿Gmail邮箱的微信小程序
-- [YYJeffrey/juyl_client](https://github.com/YYJeffrey/july_client) - 七月（一个SaaS社交小程序的客户端，集分享动态、点赞评论、互动聊天等功能）
+- [YYJeffrey/july_client](https://github.com/YYJeffrey/july_client) - 七月（一个SaaS社交小程序的客户端，集分享动态、点赞评论、互动聊天等功能）
 
 [↑ 返回目录 ↑](#目录)
