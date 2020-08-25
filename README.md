@@ -261,5 +261,6 @@
 - [branliang/game-stop-app](https://github.com/BranLiang/game-stop-app) - PSN降价了（一个可以订阅PS4游戏价格的工具）
 - [wk989898/wxchat-mail](https://github.com/wk989898/wxchat-mail) - 仿Gmail邮箱的微信小程序
 - [YYJeffrey/july_client](https://github.com/YYJeffrey/july_client) - 七月（一个SaaS社交小程序的客户端，集分享动态、点赞评论、互动聊天等功能）
+- [AnsonZnl/bookshelf](https://github.com/AnsonZnl/bookshelf) -  🎉基于云开发的书架小程序（附教程）🎉
 
 [↑ 返回目录 ↑](#目录)
