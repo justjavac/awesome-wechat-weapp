@@ -262,5 +262,6 @@
 - [wk989898/wxchat-mail](https://github.com/wk989898/wxchat-mail) - 仿Gmail邮箱的微信小程序
 - [YYJeffrey/july_client](https://github.com/YYJeffrey/july_client) - 七月（一个SaaS社交小程序的客户端，集分享动态、点赞评论、互动聊天等功能）
 - [AnsonZnl/bookshelf](https://github.com/AnsonZnl/bookshelf) -  🎉基于云开发的书架小程序（附教程）🎉
+- [arleyGuoLei/wx-words-pk ★100+](https://github.com/arleyGuoLei/wx-words-pk) - 🔥2020 云开发实现单词对战小程序（随机匹配、人机对战、好友对战），专业UI
 
 [↑ 返回目录 ↑](#目录)
