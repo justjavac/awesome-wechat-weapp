@@ -263,5 +263,6 @@
 - [YYJeffrey/july_client](https://github.com/YYJeffrey/july_client) - 七月（一个SaaS社交小程序的客户端，集分享动态、点赞评论、互动聊天等功能）
 - [AnsonZnl/bookshelf](https://github.com/AnsonZnl/bookshelf) -  🎉基于云开发的书架小程序（附教程）🎉
 - [arleyGuoLei/wx-words-pk ★100+](https://github.com/arleyGuoLei/wx-words-pk) - 🔥2020 云开发实现单词对战小程序（随机匹配、人机对战、好友对战），专业UI
+- [arleyGuoLei/wechat-1password](https://github.com/arleyGuoLei/wechat-1password) - 🐂🍺有本密码，云开发实现的AES加密密码本，支持指纹、人脸，UI简约大方
 
 [↑ 返回目录 ↑](#目录)
