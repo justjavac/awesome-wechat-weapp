@@ -212,6 +212,7 @@
 - [yaoshanliang/weapp-jump ★100+](https://github.com/yaoshanliang/weapp-jump) - 跳一跳
 - [yaoshanliang/weapp-monument-valley ★100+](https://github.com/yaoshanliang/weapp-monument-valley) - 纪念碑谷
 - [Symous/WechatApp-BaisiSister](https://github.com/Symous/WechatApp-BaisiSister) - 百思不得姐
+- [wilhantian/periodic-table](https://github.com/wilhantian/periodic-table) - 精致的元素周期表小程序
 - [githinkcn/Giteer](https://github.com/githinkcn/Giteer) - Giteer For 码云，基于Taro + Taro UI + Dva的小程序。
 - [DengKe1994/weapp-calculator](https://github.com/DengKe1994/weapp-calculator) - IOS 计算器
 - [monkindey/wx-github](https://github.com/monkindey/wx-github) - GitHub 简历
