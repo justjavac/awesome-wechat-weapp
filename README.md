@@ -108,6 +108,7 @@
 - [weui-wxss ★12.4K+](https://github.com/Tencent/weui-wxss) - 同微信原生视觉体验一致的基础样式库
 - [vant-weapp ★12.3k+](https://github.com/youzan/vant-weapp) - 高颜值、好用、易扩展的微信小程序 UI 库
 - [wxParse ★7.2K+](https://github.com/icindy/wxParse) - 微信小程序富文本解析自定义组件，支持 HTML 及 markdown 解析
+- [mp-html ★1.4K+](https://github.com/jin-yufeng/mp-html) - 小程序富文本组件，支持渲染和编辑 html，支持在微信、QQ、百度、支付宝、头条和 uni-app 平台使用
 - [iview-weapp ★5.5k+](https://github.com/TalkingData/iview-weapp) - 一套高质量的微信小程序 UI 组件库
 - [wux-weapp ★4.2k+](https://github.com/wux-weapp/wux-weapp) - 一套组件化、可复用、易扩展的微信小程序 UI 组件库
 - [wx-charts ★4.1k+](https://github.com/xiaolin3303/wx-charts) - 微信小程序图表 charts 组件
