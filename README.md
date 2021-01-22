@@ -271,5 +271,6 @@
 - [arleyGuoLei/wx-words-pk ★100+](https://github.com/arleyGuoLei/wx-words-pk) - 🔥2020 云开发实现单词对战小程序（随机匹配、人机对战、好友对战），专业UI
 - [arleyGuoLei/wechat-1password](https://github.com/arleyGuoLei/wechat-1password) - 🐂🍺有本密码，云开发实现的AES加密密码本，支持指纹、人脸，UI简约大方
 - [wilhantian/periodic-table](https://github.com/wilhantian/periodic-table) - 💎精致的元素周期表小程序
+- [zhijieeeeee/wechat_ocr](https://github.com/zhijieeeeee/wechat_ocr) - 🔥图片扫描提取文字(OCR)微信小程序，采用免费的百度OCR和翻译API，还有微信云函数
 
 [↑ 返回目录 ↑](#目录)
