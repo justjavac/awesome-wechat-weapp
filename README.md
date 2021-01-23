@@ -54,6 +54,7 @@
 - [Labrador ★1.7k](https://github.com/maichong/labrador) - 支持 ES6/7 的微信小程序组件化开发框架
 - [licia ★1.7k](https://github.com/liriliri/licia) - 支持小程序的 JS 工具库
 - [megalo ★1.6k](https://github.com/kaola-fed/megalo) - 基于 Vue 的小程序开发框架
+- [CloudBase Framework ★1.1k](https://github.com/Tencent/cloudbase-framework) - 腾讯云开发开源一键部署工具，支持部署小程序及云开发应用
 - [tina ★1k+](https://github.com/tinajs/tina) - 轻巧的渐进式微信小程序框架
 - [minapp ★800+](https://github.com/qiu8310/minapp) - TypeScript 版小程序开发框架（兼容原生小程序代码）
 - [Okam ★300+](https://github.com/ecomfe/okam) - 使用类 Vue 方式开发小程序的渐进增强框架，支持生成微信/百度等主流平台的小程序
