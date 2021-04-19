@@ -54,6 +54,7 @@
 - [Labrador ★1.7k](https://github.com/maichong/labrador) - 支持 ES6/7 的微信小程序组件化开发框架
 - [licia ★1.7k](https://github.com/liriliri/licia) - 支持小程序的 JS 工具库
 - [megalo ★1.6k](https://github.com/kaola-fed/megalo) - 基于 Vue 的小程序开发框架
+- [CloudBase Framework ★1.1k](https://github.com/Tencent/cloudbase-framework) - 腾讯云开发开源一键部署工具，支持部署小程序及云开发应用
 - [tina ★1k+](https://github.com/tinajs/tina) - 轻巧的渐进式微信小程序框架
 - [minapp ★800+](https://github.com/qiu8310/minapp) - TypeScript 版小程序开发框架（兼容原生小程序代码）
 - [Okam ★300+](https://github.com/ecomfe/okam) - 使用类 Vue 方式开发小程序的渐进增强框架，支持生成微信/百度等主流平台的小程序
@@ -174,6 +175,7 @@
 ### 可以直接运行成功
 
 - [RebeccaHanjw/weapp-wechat-zhihu ★800+](https://github.com/RebeccaHanjw/weapp-wechat-zhihu) - 仿知乎
+- [wyq2214368/remove-water-mark-mp](https://github.com/wyq2214368/remove-water-mark-mp) - 🔥短视频去水印小程序（含[服务端](https://github.com/wyq2214368/remove-water-mark-server)）
 
 ### 数据接口有问题
 - [EastWorld/wechat-app-mall ★3000+](https://github.com/EastWorld/wechat-app-mall) - 微信小程序商城
@@ -272,5 +274,6 @@
 - [arleyGuoLei/wechat-1password](https://github.com/arleyGuoLei/wechat-1password) - 🐂🍺有本密码，云开发实现的AES加密密码本，支持指纹、人脸，UI简约大方
 - [wilhantian/periodic-table](https://github.com/wilhantian/periodic-table) - 💎精致的元素周期表小程序
 - [zhijieeeeee/wechat_ocr](https://github.com/zhijieeeeee/wechat_ocr) - 🔥图片扫描提取文字(OCR)微信小程序，采用免费的百度OCR和翻译API，还有微信云函数
+- [terryso/super9](https://github.com/terryso/super9) - 🔥抖音一键去水印小程序 (Vue版): Taro + 微信云开发
 
 [↑ 返回目录 ↑](#目录)
