@@ -175,7 +175,7 @@
 ### 可以直接运行成功
 
 - [RebeccaHanjw/weapp-wechat-zhihu ★800+](https://github.com/RebeccaHanjw/weapp-wechat-zhihu) - 仿知乎
-- [imageslr/weapp-library ★550+](https://github.com/imageslr/weapp-library) - 在线借书平台（30+页面/组件化/Mock Server/云开发）
+- [imageslr/weapp-library ★500+](https://github.com/imageslr/weapp-library) - 在线借书平台（30+页面/组件化/Mock Server/云开发）
 - [imageslr/taro-library ★150+](https://github.com/imageslr/taro-library) - Taro + Redux + 本地 Mock Server 小程序示例项目
 - [wyq2214368/remove-water-mark-mp](https://github.com/wyq2214368/remove-water-mark-mp) - 🔥短视频去水印小程序（含[服务端](https://github.com/wyq2214368/remove-water-mark-server)）
 
