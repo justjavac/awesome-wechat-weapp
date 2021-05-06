@@ -277,5 +277,6 @@
 - [zhijieeeeee/wechat_ocr](https://github.com/zhijieeeeee/wechat_ocr) - 🔥图片扫描提取文字(OCR)微信小程序，采用免费的百度OCR和翻译API，还有微信云函数
 - [terryso/super9](https://github.com/terryso/super9) - 🔥抖音一键去水印小程序 (Vue版): Taro + 微信云开发
 - [zhijieeeeee/wechat_cunzhao](https://github.com/zhijieeeeee/wechat_cunzhao) - 🔥证件照制作微信小程序，全部使用原生控件，使用api制作，先展示带水印证件照，下载后无水印。
+- [zhijieeeeee/wechat_demark](https://github.com/zhijieeeeee/wechat_demark) - 🔥短视频去水印微信小程序，全部使用原生代码，同时还有视频裁剪，视频压缩和视频MD5修改功能。
 
 [↑ 返回目录 ↑](#目录)
