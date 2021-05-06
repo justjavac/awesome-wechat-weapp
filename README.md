@@ -175,6 +175,8 @@
 ### 可以直接运行成功
 
 - [RebeccaHanjw/weapp-wechat-zhihu ★800+](https://github.com/RebeccaHanjw/weapp-wechat-zhihu) - 仿知乎
+- [imageslr/weapp-library ★500+](https://github.com/imageslr/weapp-library) - 在线借书平台（30+页面/组件化/Mock Server/云开发）
+- [imageslr/taro-library ★150+](https://github.com/imageslr/taro-library) - Taro + Redux + 本地 Mock Server 小程序示例项目
 - [wyq2214368/remove-water-mark-mp](https://github.com/wyq2214368/remove-water-mark-mp) - 🔥短视频去水印小程序（含[服务端](https://github.com/wyq2214368/remove-water-mark-server)）
 
 ### 数据接口有问题
@@ -189,7 +191,6 @@
 - [zce/weapp-boilerplate ★300+](https://github.com/zce/weapp-boilerplate) - 微信小程序快速开发骨架
 - [bayetech/wechat_mall_applet ★300+](https://github.com/bayetech/wechat_mall_applet) - 电商平台
 - [lanshan-studio/wecqupt ★300+](https://github.com/lanshan-studio/wecqupt) - We 重邮
-- [imageslr/weapp-library ★300+](https://github.com/imageslr/weapp-library) - 在线借书平台（WeUI设计规范、前后端开源、RESTful API文档）
 - [myronliu347/wechat-app-zhihudaily ★200+](https://github.com/myronliu347/wechat-app-zhihudaily) - 知乎日报
 - [harveyqing/BearDiary ★200+](https://github.com/harveyqing/BearDiary) - 小熊の日记
 - [leancloud/leantodo-weapp ★200+](https://github.com/leancloud/leantodo-weapp) - 集成 LeanCloud 实现的 Todo list
@@ -276,5 +277,6 @@
 - [zhijieeeeee/wechat_ocr](https://github.com/zhijieeeeee/wechat_ocr) - 🔥图片扫描提取文字(OCR)微信小程序，采用免费的百度OCR和翻译API，还有微信云函数
 - [terryso/super9](https://github.com/terryso/super9) - 🔥抖音一键去水印小程序 (Vue版): Taro + 微信云开发
 - [zhijieeeeee/wechat_cunzhao](https://github.com/zhijieeeeee/wechat_cunzhao) - 🔥证件照制作微信小程序，全部使用原生控件，使用api制作，先展示带水印证件照，下载后无水印。
+- [zhijieeeeee/wechat_demark](https://github.com/zhijieeeeee/wechat_demark) - 🔥短视频去水印微信小程序，全部使用原生代码，同时还有视频裁剪，视频压缩和视频MD5修改功能。
 
 [↑ 返回目录 ↑](#目录)
