@@ -167,6 +167,7 @@
 - [weapp-qrcode](https://github.com/tomfriwel/weapp-qrcode) - 微信小程序生成二维码工具
 - [cheers-mp-router](https://github.com/bigmeow/cheers-mp-router) - 🚦精巧强大的小程序原生路由
 - [wx-updata](https://github.com/SHERlocked93/wx-updata) - 微信小程序官方 setData 替代品，只修改 data 中你希望修改的部分 ✈️
+- [three-platformize](https://github.com/deepkolos/three-platformize) - 一个让 THREE 平台化的项目，已适配微信、淘宝、头条小程序
 
 [↑ 返回目录 ↑](#目录)
 
@@ -178,6 +179,7 @@
 - [imageslr/weapp-library ★500+](https://github.com/imageslr/weapp-library) - 在线借书平台（30+页面/组件化/Mock Server/云开发）
 - [imageslr/taro-library ★150+](https://github.com/imageslr/taro-library) - Taro + Redux + 本地 Mock Server 小程序示例项目
 - [wyq2214368/remove-water-mark-mp](https://github.com/wyq2214368/remove-water-mark-mp) - 🔥短视频去水印小程序（含[服务端](https://github.com/wyq2214368/remove-water-mark-server)）
+- [deepkolos/three-platformize-demo-wechat](https://github.com/deepkolos/three-platformize-demo-wechat) - 微信小程序 THREE 包含16个loader测试demo
 
 ### 数据接口有问题
 - [EastWorld/wechat-app-mall ★3000+](https://github.com/EastWorld/wechat-app-mall) - 微信小程序商城
