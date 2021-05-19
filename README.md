@@ -180,6 +180,7 @@
 - [imageslr/taro-library ★150+](https://github.com/imageslr/taro-library) - Taro + Redux + 本地 Mock Server 小程序示例项目
 - [wyq2214368/remove-water-mark-mp](https://github.com/wyq2214368/remove-water-mark-mp) - 🔥短视频去水印小程序（含[服务端](https://github.com/wyq2214368/remove-water-mark-server)）
 - [deepkolos/three-platformize-demo-wechat](https://github.com/deepkolos/three-platformize-demo-wechat) - 微信小程序 THREE 包含16个loader测试demo
+- [deepkolos/wxmp-tensorflow](https://github.com/deepkolos/wxmp-tensorflow) - 微信小程序下运行最新TensorFlowJS的解决方案 
 
 ### 数据接口有问题
 - [EastWorld/wechat-app-mall ★3000+](https://github.com/EastWorld/wechat-app-mall) - 微信小程序商城
