@@ -97,7 +97,6 @@
 - [vscode-live-sass-compiler](https://github.com/ritwickdey/vscode-live-sass-compiler) - vscode插件根据.scss文件自动生成wxss文件
 - [WePY Plugin For IntelliJ Platform](http://wepy.iniself.com) - 让PhpStorm/WebStorm全面支持WePY的开发，包括API(原生/WePY)和组件(官方/自定义)的自动完成/错误检查/高亮/不依赖Vue/...
 - [wxml](https://github.com/cnyballk/wxml-vscode) - vscode插件--微信小程序格式化以及高亮组件(高度自定义)
-- [vim-vue-plugin](https://github.com/leafOfTree/vim-vue-plugin) - vim 插件，.vue 和 .wpy 文件的语法高亮和缩进
 - [wux-weapp-snippets](https://github.com/wux-weapp/wux-weapp-snippets) - Wux Weapp Snippets for VS Code.
 - [wux-weapp-atom-snippets](https://github.com/wux-weapp/wux-weapp-atom-snippets) - Wux Weapp Snippets for Atom.
 - [wux-weapp-sublime-snippets](https://github.com/wux-weapp/wux-weapp-sublime-snippets) - Wux Weapp Snippets Plugin for Sublime Text 2/3.
