@@ -59,7 +59,6 @@
 - [minapp ★800+](https://github.com/qiu8310/minapp) - TypeScript 版小程序开发框架（兼容原生小程序代码）
 - [Okam ★300+](https://github.com/ecomfe/okam) - 使用类 Vue 方式开发小程序的渐进增强框架，支持生成微信/百度等主流平台的小程序
 - [xpmjs ★100+](https://github.com/xpmjs/xpmjs) - 微信小程序云端增强 SDK
-- [vue-custom-hooks ★100+](https://github.com/1977474741/vue-custom-hooks) - 💯基于vue的自定义钩子（多任务通知解决方案），支持h5、uni-app、wepy、mpvue
 - [WeApp-Workflow ★100+](https://github.com/Jeff2Ma/WeApp-Workflow) -  基于 Gulp 的微信小程序前端开发工作流
 - [gulp-wxa-copy-npm](https://github.com/mdsb100/gulp-wxa-copy-npm) - 微信小程序 gulp 插件，解决 npm 包管理和 babel-runtime
 - [weact](https://github.com/haojy/weact) - 用 JSX 快速开发小程序
