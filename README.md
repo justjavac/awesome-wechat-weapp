@@ -114,6 +114,7 @@
 - [wx-charts ★4.1k+](https://github.com/xiaolin3303/wx-charts) - 微信小程序图表 charts 组件
 - [Lin UI ★2k+](https://github.com/TaleLin/lin-ui) - 一套设计优良、基于原生微信小程序语法的 UI 组件库
 - [wemark ★1.100+](https://github.com/TooBug/wemark) - 微信小程序 Markdown 渲染库
+- [image-cropper ★900+](https://github.com/1977474741/image-cropper) -  💯微信小程序图片裁剪组件
 - [wxapp-img-loader ★400+](https://github.com/o2team/wxapp-img-loader) - 微信小程序图片预加载组件
 - [we-cropper ★400+](https://github.com/we-plugin/we-cropper) -  微信小程序图片裁剪工具
 - [wxa-plugin-canvas ★300+](https://github.com/jasondu/wxa-plugin-canvas) - 微信小程序朋友圈海报生成组件
