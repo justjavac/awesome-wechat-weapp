@@ -40,7 +40,7 @@
 
 ## 工具
 
-- [Taro ★26k+](https://github.com/NervJS/taro) - 使用 React 的方式开发小程序的框架，同时支持生成多端应用
+- [Taro ★29.2k+](https://github.com/NervJS/taro) - 使用 React 的方式开发小程序的框架，同时支持生成多端应用
 - [uni-app ★32.4k+](https://github.com/dcloudio/uni-app) - 使用 Vue 语法开发小程序、H5、App的统一框架
 - [WePY ★20k+](https://github.com/Tencent/wepy) -  支持组件化的小程序开发框架
 - [mpvue ★19k+](https://github.com/Meituan-Dianping/mpvue) - 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系
