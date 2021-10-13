@@ -39,7 +39,7 @@
 - [WePY ★18k+](https://github.com/Tencent/wepy) -  支持组件化的小程序开发框架
 - [mpvue ★17k+](https://github.com/Meituan-Dianping/mpvue) - 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系
 - [Taro ★19k+](https://github.com/NervJS/taro) - 使用 React 的方式开发小程序的框架，同时支持生成多端应用
-- [uni-app ★18k+](https://github.com/dcloudio/uni-app) - 使用 Vue 语法开发小程序、H5、App的统一框架
+- [uni-app ★33k+](https://github.com/dcloudio/uni-app) - 使用 Vue 语法开发小程序、H5、App的统一框架
 - [chameleon ★5k+](https://github.com/didi/chameleon) - 一套代码运行多端，一端所见即多端所见
 - [megalo ★1.3k](https://github.com/kaola-fed/megalo) - 基于 Vue 的小程序开发框架
 - [MPX ★1k+](https://github.com/didi/mpx) - 增强型小程序框架，深度性能优化，支持跨小程序平台开发，完全兼容原生小程序组件
