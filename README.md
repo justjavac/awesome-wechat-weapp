@@ -285,5 +285,6 @@
 - [zhijieeeeee/wechat_cunzhao](https://github.com/zhijieeeeee/wechat_cunzhao) - 🔥证件照制作微信小程序，全部使用原生控件，使用api制作，先展示带水印证件照，下载后无水印。
 - [zhijieeeeee/wechat_demark](https://github.com/zhijieeeeee/wechat_demark) - 🔥短视频去水印微信小程序，全部使用原生代码，同时还有视频裁剪，视频压缩和视频MD5修改功能。
 - [redhat123456/upPhysicalExercise](https://github.com/redhat123456/upPhysicalExercise) - 🚀up体能训练小程序(健身训练、观看视频、制定计划于一身的综合小程序)
+- [redhat123456/Tanger_query](https://github.com/redhat123456/Tanger_query) - 🌈查询小程序(查询各种各样的信息的小程序)
 
 [↑ 返回目录 ↑](#目录)
