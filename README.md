@@ -237,7 +237,6 @@
 - [zhengxiaowai/weapp-github](https://github.com/zhengxiaowai/weapp-github) - github
 - [Seahub/PigRaising](https://github.com/SeaHub/PigRaising) - PigRaising
 - [brucevanfdm/WeChatMeiZhi](https://github.com/brucevanfdm/WeChatMeiZhi) - 妹子图
-- [zhijieeeeee/wechat-app-joke](https://github.com/zhijieeeeee/wechat-app-joke) - 开心一刻
 - [uniquexiaobai/wechat-app-githubfeed](https://github.com/uniquexiaobai/wechat-app-githubfeed) - GitHubFeed
 - [zce/weapp-todos](https://github.com/zce/weapp-todos) - TODOS 任务清单
 - [bruintong/wechat-webapp-douban-movie](https://github.com/bruintong/wechat-webapp-douban-movie) - 豆瓣电影
@@ -280,10 +279,7 @@
 - [arleyGuoLei/wx-words-pk ★100+](https://github.com/arleyGuoLei/wx-words-pk) - 🔥2020 云开发实现单词对战小程序（随机匹配、人机对战、好友对战），专业UI
 - [arleyGuoLei/wechat-1password](https://github.com/arleyGuoLei/wechat-1password) - 🐂🍺有本密码，云开发实现的AES加密密码本，支持指纹、人脸，UI简约大方
 - [wilhantian/periodic-table](https://github.com/wilhantian/periodic-table) - 💎精致的元素周期表小程序
-- [zhijieeeeee/wechat_ocr](https://github.com/zhijieeeeee/wechat_ocr) - 🔥图片扫描提取文字(OCR)微信小程序，采用免费的百度OCR和翻译API，还有微信云函数
 - [terryso/super9](https://github.com/terryso/super9) - 🔥抖音一键去水印小程序: Taro + 微信云开发
-- [zhijieeeeee/wechat_cunzhao](https://github.com/zhijieeeeee/wechat_cunzhao) - 🔥证件照制作微信小程序，全部使用原生控件，使用api制作，先展示带水印证件照，下载后无水印。
-- [zhijieeeeee/wechat_demark](https://github.com/zhijieeeeee/wechat_demark) - 🔥短视频去水印微信小程序，全部使用原生代码，同时还有视频裁剪，视频压缩和视频MD5修改功能。
 - [redhat123456/upPhysicalExercise](https://github.com/redhat123456/upPhysicalExercise) - 🚀up体能训练小程序(健身训练、观看视频、制定计划于一身的综合小程序)
 - [redhat123456/Tanger_query](https://github.com/redhat123456/Tanger_query) - 🌈查询小程序(查询各种各样的信息的小程序)
 
