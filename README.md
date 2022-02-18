@@ -84,6 +84,7 @@
 - [cheers-mp](https://github.com/bigmeow/cheers-mp) - Almost零配置微信原生小程序脚手架，vue-cli般的体验~(ts、less、原生npm、云OSS、CI自动发布体验版)
 - [we-mobx](https://github.com/cicec/we-mobx) - 在微信小程序中使用 MobX
 - [weconsole](https://github.com/weimobGroup/WeConsole) - 功能全面、界面与体验对标 Chrome devtools 的可定制化的小程序开发调试面板
+- [wechat-web-devtools-linux](https://github.com/msojocs/wechat-web-devtools-linux) - Linux 下微信开发者工具
 
 [↑ 返回目录 ↑](#目录)
 
