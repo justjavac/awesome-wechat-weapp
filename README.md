@@ -46,7 +46,7 @@
 - [mpvue ★20.4k+](https://github.com/Meituan-Dianping/mpvue) - 基于 Vue.js 的小程序开发框架，从底层支持 Vue.js 语法和构建工具体系
 - [chameleon ★7k+](https://github.com/didi/chameleon) - 一套代码运行多端，一端所见即多端所见
 - [kbone ★4.2k+](https://github.com/wechat-miniprogram/kbone) - Web 与小程序同构解决方案
-- [Remax ★2.4k+](https://github.com/remaxjs/remax) -  使用真正的 React 构建小程序
+- [Remax ★4.2k+](https://github.com/remaxjs/remax) -  使用真正的 React 构建小程序
 - [wept ★2.3k](https://github.com/chemzqm/wept) - 微信小程序实时运行环境
 - [wechat_web_devtools ★2.3k+](https://github.com/cytle/wechat_web_devtools) -  Linux 下微信开发者工具
 - [wafer ★2.1k](https://github.com/tencentyun/wafer) - 快速构建具备弹性能力的微信小程序
