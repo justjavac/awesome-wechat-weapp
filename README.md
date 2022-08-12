@@ -142,7 +142,7 @@
 - [wepy-com-charts](https://github.com/CalvinHong/wepy-com-charts) - 微信小程序 wepy 图表控件
 - [wxapp-lock](https://github.com/demi520/wxapp-lock) - 微信小程序手势解锁
 - [mini-gesture-lock](https://github.com/geminate/mini-gesture-lock) - 微信小程序手势解锁(无Android Canvas卡顿问题)
-- [weapp.socket.io](https://github.com/weapp-socketio/weapp.socket.io) - socket.io 风格的 websocket 类库
+- [weapp.socket.io ★500+](https://github.com/weapp-socketio/weapp.socket.io) - socket.io 风格的 websocket 类库
 - [weapp-polyfill](https://github.com/leancloud/weapp-polyfill) - [w3c 标准 API polyfill
 - [wx-promise-pro ★666+](https://github.com/youngjuning/wx-promise-pro) - 微信小程序 Promise 库
 - [wxMD5](https://github.com/youngjuning/wxMD5) - 微信小程序 MD5 库
