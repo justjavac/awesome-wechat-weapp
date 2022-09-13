@@ -186,6 +186,7 @@
 - [deepkolos/three-platformize-demo-wechat](https://github.com/deepkolos/three-platformize-demo-wechat) - 微信小程序 THREE 包含16个loader测试demo
 - [deepkolos/wxmp-tensorflow](https://github.com/deepkolos/wxmp-tensorflow) - 微信小程序下运行最新TensorFlowJS的解决方案 
 - [xtanyu/parsing-mini](https://github.com/xtanyu/parsing-mini) - 短视频去水印小程序（[含Java版本服务端](https://github.com/xtanyu/ToolApi)）
+- [realyao/Focus-clock ★100+](https://github.com/realyao/WXminiprogram-Focus-clock) - ✅时间管理小程序：专注时钟（集成时间管理、目标计划、Todo待办、白噪声。易部署 适合新手学习入门）
 
 ### 数据接口有问题
 
@@ -285,6 +286,5 @@
 - [terryso/super9](https://github.com/terryso/super9) - 🔥抖音一键去水印小程序: Taro + 微信云开发
 - [redhat123456/upPhysicalExercise](https://github.com/redhat123456/upPhysicalExercise) - 🚀up体能训练小程序(健身训练、观看视频、制定计划于一身的综合小程序)
 - [redhat123456/Tanger_query](https://github.com/redhat123456/Tanger_query) - 🌈查询小程序(查询各种各样的信息的小程序)
-- [realyao/Focus-clock](https://github.com/realyao/WXminiprogram-Focus-clock) - ✅时间管理小程序：专注时钟（集成时间管理、目标计划、Todo待办、白噪声。易部署 适合新手学习入门）
 - [mark420524/question](https://github.com/mark420524/question) - 学习答题小程序，诗词歌赋小工具-早晚答小程序
 [↑ 返回目录 ↑](#目录)
