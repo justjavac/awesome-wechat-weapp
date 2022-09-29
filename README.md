@@ -86,6 +86,7 @@
 - [we-mobx](https://github.com/cicec/we-mobx) - 在微信小程序中使用 MobX
 - [weconsole](https://github.com/weimobGroup/WeConsole) - 功能全面、界面与体验对标 Chrome devtools 的可定制化的小程序开发调试面板
 - [wechat-web-devtools-linux](https://github.com/msojocs/wechat-web-devtools-linux) - Linux 下微信开发者工具
+- [rubic](https://github.com/jaskang/rubic) - 基于 Vue3 的小程序开发框架，在小程序中使用 Composition API
 
 [↑ 返回目录 ↑](#目录)
 
