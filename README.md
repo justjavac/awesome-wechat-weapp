@@ -68,6 +68,7 @@
 - [postcss-pxtorpx-pro](https://github.com/Genuifx/postcss-pxtorpx-pro) - postcss px 转 rpx 插件
 - [px2rpx](https://github.com/allanguys/px2rpx) - Px 转 Rpx 在线工具
 - [wxml-parser](https://github.com/seanlong/wxml-parser) -  JavaScript WXML parser
+- [@wxml/parser, @wxml/traverse, @wxml/generator](https://github.com/wxmlfile) - WXML babel like AST interpreter
 - [weappx](https://github.com/tolerance-go/weappx) - 基于 redux 的数据层管理框架
 - [weapp-start](https://github.com/tolerance-go/weapp-start) - 基于插件机制的开发脚手架，改善原生小程序开发体验
 - [Egret Wing](http://developer.egret.com/cn/github/egret-docs/Wing/update/update320/index.html) - 支持微信小程序实时预览的 IDE
