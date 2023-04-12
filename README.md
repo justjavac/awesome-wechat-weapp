@@ -189,6 +189,7 @@
 - [deepkolos/wxmp-tensorflow](https://github.com/deepkolos/wxmp-tensorflow) - 微信小程序下运行最新TensorFlowJS的解决方案 
 - [xtanyu/parsing-mini](https://github.com/xtanyu/parsing-mini) - 短视频去水印小程序（[含Java版本服务端](https://github.com/xtanyu/ToolApi)）
 - [realyao/Focus-clock ★100+](https://github.com/realyao/WXminiprogram-Focus-clock) - ✅时间管理小程序：专注时钟（集成时间管理、目标计划、Todo待办、白噪声。易部署 适合新手学习入门）
+- [mark420524/photo](https://github.com/mark420524/photo) - 证件照小程序
 
 ### 数据接口有问题
 
@@ -290,5 +291,6 @@
 - [redhat123456/Tanger_query](https://github.com/redhat123456/Tanger_query) - 🌈查询小程序(查询各种各样的信息的小程序)
 - [mark420524/question](https://github.com/mark420524/question) - 学习答题小程序，诗词歌赋小工具-早晚答小程序
 - [Chadwuo/li-ji-weapp](https://github.com/Chadwuo/li-ji-weapp) - 🔥记录和管理人情来往，给你方便快捷的人情记账体验！专业又懂你的人情记账软件，共享记账，全家人共享账本
+- [mark420524/guess](https://github.com/mark420524/guess) - 看图猜成语微信小程序
 
 [↑ 返回目录 ↑](#目录)
