@@ -190,6 +190,7 @@
 - [xtanyu/parsing-mini](https://github.com/xtanyu/parsing-mini) - 短视频去水印小程序（[含Java版本服务端](https://github.com/xtanyu/ToolApi)）
 - [realyao/Focus-clock ★100+](https://github.com/realyao/WXminiprogram-Focus-clock) - ✅时间管理小程序：专注时钟（集成时间管理、目标计划、Todo待办、白噪声。易部署 适合新手学习入门）
 - [mark420524/photo](https://github.com/mark420524/photo) - 证件照小程序
+- [xtanyu/bookkeeping](https://github.com/xtanyu/bookkeeping) - 打牌记账
 
 ### 数据接口有问题
 
