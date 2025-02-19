@@ -192,6 +192,7 @@
 - [mark420524/photo](https://github.com/mark420524/photo) - 证件照小程序
 - [xtanyu/bookkeeping](https://github.com/xtanyu/bookkeeping) - 打牌记账
 - [jinganix/guess](https://github.com/jinganix/guess) - 猜我是谁小程序，包含前后端代码
+- [WYQilin/aigallery](https://github.com/WYQilin/aigallery) - 🔥「奇绘图册」AI绘画、摄影作品管理小程序（[含服务端](https://github.com/WYQilin/aigallery-server)，支持一键部署）
 
 ### 数据接口有问题
 
