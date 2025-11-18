@@ -176,6 +176,12 @@
 - [wx-updata](https://github.com/SHERlocked93/wx-updata) - 微信小程序官方 setData 替代品，只修改 data 中你希望修改的部分 ✈️
 - [three-platformize](https://github.com/deepkolos/three-platformize) - 一个让 THREE 平台化的项目，已适配微信、淘宝、头条小程序
 
+
+## 后端SDK组件
+
+- [weixin-popular](https://github.com/liyiorg/weixin-popular.git) - 微信SDK JAVA (公众平台、开放平台、 商户平台、 服务商平台)
+- [WxJava](https://github.com/binarywang/WxJava.git) - 微信开发 Java SDK ，支持包括微信支付，开放平台，小程序，企业微信，视频号，公众号等的后端开发
+
 [↑ 返回目录 ↑](#目录)
 
 ## Demo
