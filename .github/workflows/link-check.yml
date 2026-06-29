@@ -7,7 +7,7 @@ on:
   pull_request:
     paths:
       - "data/resources.json"
-      - "scripts/check-links.mjs"
+      - "scripts/check-links.ts"
       - ".github/workflows/link-check.yml"
 
 jobs:
@@ -20,5 +20,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
       - name: Check links
         run: npm run check:links

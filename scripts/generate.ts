@@ -1,14 +1,23 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname } from "node:path";
-import { API_FILE, DATA_FILE, flattenForApi, readJson, slugForHeading, writeJson } from "./catalog.mjs";
+import {
+  API_FILE,
+  DATA_FILE,
+  type Catalog,
+  type Resource,
+  flattenForApi,
+  readJson,
+  slugForHeading,
+  writeJson
+} from "./catalog.ts";
 
-function renderResource(resource) {
+function renderResource(resource: Resource): string {
   const suffix = resource.description ? ` - ${resource.description}` : "";
   const note = resource.note ? ` ${resource.note}` : "";
   return `- [${resource.title}](${resource.url})${note}${suffix}`;
 }
 
-function renderReadme(catalog) {
+function renderReadme(catalog: Catalog): string {
   const toc = catalog.categories
     .filter((category) => category.id !== "featured")
     .map((category) => `- [${category.name}](#${slugForHeading(category.name)})`)
@@ -27,7 +36,7 @@ function renderReadme(catalog) {
     "",
     "## QQ交流群",
     "",
-    ...catalog.qqGroups.map((group) => `- [${group.name}](${group.url})：${group.note}`),
+    ...(catalog.qqGroups ?? []).map((group) => `- [${group.name}](${group.url})：${group.note}`),
     "",
     "## 目录",
     "",
@@ -69,7 +78,7 @@ function renderReadme(catalog) {
   return `${parts.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`;
 }
 
-async function writeIfChanged(file, content, check) {
+async function writeIfChanged(file: string, content: string, check: boolean): Promise<boolean> {
   let current = null;
   try {
     current = await readFile(file, "utf8");
@@ -88,7 +97,7 @@ async function writeIfChanged(file, content, check) {
 }
 
 const check = process.argv.includes("--check");
-const catalog = await readJson(DATA_FILE);
+const catalog = await readJson<Catalog>(DATA_FILE);
 const readmeChanged = await writeIfChanged("README.md", renderReadme(catalog), check);
 const api = {
   name: catalog.name,

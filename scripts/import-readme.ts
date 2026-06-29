@@ -1,5 +1,15 @@
 import { readFile } from "node:fs/promises";
-import { DATA_FILE, inferMetadata, makeResourceId, slugify, writeJson } from "./catalog.mjs";
+import {
+  DATA_FILE,
+  type Catalog,
+  type Category,
+  type Resource,
+  type Section,
+  inferMetadata,
+  makeResourceId,
+  slugify,
+  writeJson
+} from "./catalog.ts";
 
 const CATEGORY_IDS = new Map([
   ["置顶", "featured"],
@@ -13,7 +23,14 @@ const CATEGORY_IDS = new Map([
 
 const SKIP_HEADINGS = new Set(["QQ交流群", "目录"]);
 
-function parseListItem(line) {
+interface ParsedListItem {
+  title: string;
+  url: string;
+  description: string;
+  note: string;
+}
+
+function parseListItem(line: string): ParsedListItem | null {
   const match = line.match(/^- \[([^\]]+)\]\(([^)]+)\)(.*?)\s*$/);
   if (!match) return null;
 
@@ -40,7 +57,7 @@ function parseListItem(line) {
   };
 }
 
-function ensureCategory(catalog, name) {
+function ensureCategory(catalog: Catalog, name: string): Category {
   const id = CATEGORY_IDS.get(name) ?? slugify(name);
   let category = catalog.categories.find((item) => item.id === id);
   if (!category) {
@@ -50,7 +67,7 @@ function ensureCategory(catalog, name) {
   return category;
 }
 
-function ensureSection(category, name) {
+function ensureSection(category: Category, name: string): Section {
   category.sections ??= [];
   const id = slugify(name) || `section-${category.sections.length + 1}`;
   let section = category.sections.find((item) => item.id === id);
@@ -61,7 +78,7 @@ function ensureSection(category, name) {
   return section;
 }
 
-function uniqueId(resource, usedIds) {
+function uniqueId(resource: Pick<Resource, "title" | "url">, usedIds: Set<string>): string {
   const base = makeResourceId(resource.title, resource.url) || "resource";
   let id = base;
   let suffix = 2;
@@ -74,7 +91,7 @@ function uniqueId(resource, usedIds) {
 }
 
 const readme = await readFile("README.md", "utf8");
-const catalog = {
+const catalog: Catalog = {
   name: "awesome-wechat-weapp",
   title: "微信小程序开发资源汇总",
   description:
@@ -103,9 +120,9 @@ const catalog = {
   categories: []
 };
 
-let currentCategory = null;
-let currentSection = null;
-const usedIds = new Set();
+let currentCategory: Category | null = null;
+let currentSection: Section | null = null;
+const usedIds = new Set<string>();
 
 for (const line of readme.split(/\r?\n/)) {
   const h2 = line.match(/^##\s+(.+?)\s*$/);
