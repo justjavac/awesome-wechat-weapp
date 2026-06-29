@@ -11,8 +11,6 @@ export interface Metadata {
   language: string[];
   difficulty: Difficulty;
   topics: string[];
-  license: string;
-  updatedAt: string;
 }
 
 export interface Resource {
@@ -231,8 +229,6 @@ export function inferMetadata({
   return {
     language: [...languages],
     difficulty,
-    topics: [...topics],
-    license: "unknown",
-    updatedAt: "unknown"
+    topics: [...topics]
   };
 }
