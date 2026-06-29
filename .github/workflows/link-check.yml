@@ -1,0 +1,24 @@
+name: Check dead links
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * 1"
+  pull_request:
+    paths:
+      - "data/resources.json"
+      - "scripts/check-links.mjs"
+      - ".github/workflows/link-check.yml"
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Check links
+        run: npm run check:links

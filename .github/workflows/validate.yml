@@ -1,0 +1,36 @@
+name: Validate resources
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate data and generated files
+        id: validate
+        run: npm run check
+      - name: Comment on failed contribution
+        if: failure() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: [
+                '资源校验没有通过。',
+                '',
+                '请确认 `data/resources.json` 中的链接、分类、metadata 和重复链接符合校验规则，然后运行 `npm run check`。'
+              ].join('\n')
+            })
