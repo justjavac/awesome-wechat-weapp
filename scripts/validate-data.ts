@@ -1,31 +1,36 @@
 import { readFile } from "node:fs/promises";
-import { DATA_FILE, flattenResources, normalizeUrl } from "./catalog.mjs";
+import { DATA_FILE, type Catalog, type FlattenedResource, flattenResources, normalizeUrl } from "./catalog.ts";
 
 const DIFFICULTIES = new Set(["beginner", "intermediate", "advanced", "unknown"]);
 const DATE_OR_UNKNOWN = /^(unknown|\d{4}-\d{2}-\d{2})$/;
 const ID_PATTERN = /^[a-z0-9][a-z0-9-]*$/;
 
 const dataSource = await readFile(DATA_FILE, "utf8");
-const catalog = JSON.parse(dataSource);
-const errors = [];
+const catalog = JSON.parse(dataSource) as Catalog;
+const errors: ValidationError[] = [];
 
-function lineForNeedle(needle) {
+interface ValidationError {
+  message: string;
+  line: number;
+}
+
+function lineForNeedle(needle: string): number {
   const index = dataSource.indexOf(needle);
   if (index < 0) return 1;
   return dataSource.slice(0, index).split(/\r?\n/).length;
 }
 
-function lineForResource(resource) {
+function lineForResource(resource: Partial<FlattenedResource> | undefined): number {
   if (resource?.id) return lineForNeedle(`"id": "${resource.id}"`);
   if (resource?.url) return lineForNeedle(`"url": "${resource.url}"`);
   return 1;
 }
 
-function escapeAnnotation(value) {
+function escapeAnnotation(value: string): string {
   return value.replace(/%/g, "%25").replace(/\r/g, "%0D").replace(/\n/g, "%0A");
 }
 
-function fail(message, line = 1) {
+function fail(message: string, line = 1): void {
   errors.push({ message, line });
 }
 
@@ -68,7 +73,7 @@ for (const category of catalog.categories ?? []) {
 
 const resources = flattenResources(catalog);
 const resourceIds = new Set();
-const urls = new Map();
+const urls = new Map<string, FlattenedResource[]>();
 const allowedDuplicateCategories = new Set(catalog.duplicatePolicy?.allowCategoryIds ?? []);
 
 for (const resource of resources) {

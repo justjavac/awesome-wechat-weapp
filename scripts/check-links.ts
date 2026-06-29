@@ -1,9 +1,14 @@
 import { setTimeout as delay } from "node:timers/promises";
-import { DATA_FILE, flattenResources, normalizeUrl, readJson } from "./catalog.mjs";
+import { DATA_FILE, type Catalog, flattenResources, normalizeUrl, readJson } from "./catalog.ts";
 
-const catalog = await readJson(DATA_FILE);
+interface LinkTarget {
+  url: string;
+  label: string;
+}
+
+const catalog = await readJson<Catalog>(DATA_FILE);
 const resources = flattenResources(catalog);
-const urls = [
+const urls: LinkTarget[] = [
   ...resources.map((resource) => ({ url: resource.url, label: resource.id })),
   ...(catalog.qqGroups ?? []).map((group) => ({ url: group.url, label: group.name }))
 ];
@@ -12,10 +17,10 @@ const unique = [...new Map(urls.map((item) => [normalizeUrl(item.url), item])).v
 const concurrency = Number.parseInt(process.env.LINK_CHECK_CONCURRENCY ?? "8", 10);
 const timeoutMs = Number.parseInt(process.env.LINK_CHECK_TIMEOUT_MS ?? "12000", 10);
 const retries = Number.parseInt(process.env.LINK_CHECK_RETRIES ?? "1", 10);
-const failures = [];
+const failures: string[] = [];
 let cursor = 0;
 
-async function request(url, method, signal) {
+async function request(url: string, method: "HEAD" | "GET", signal: AbortSignal): Promise<Response> {
   return fetch(url, {
     method,
     redirect: "follow",
@@ -26,7 +31,11 @@ async function request(url, method, signal) {
   });
 }
 
-async function checkUrl(item) {
+function errorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : String(error);
+}
+
+async function checkUrl(item: LinkTarget): Promise<void> {
   for (let attempt = 0; attempt <= retries; attempt += 1) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), timeoutMs);
@@ -45,7 +54,7 @@ async function checkUrl(item) {
     } catch (error) {
       clearTimeout(timeout);
       if (attempt === retries) {
-        failures.push(`${item.label}: ${item.url} (${error.message})`);
+        failures.push(`${item.label}: ${item.url} (${errorMessage(error)})`);
         return;
       }
       await delay(500 * (attempt + 1));
@@ -53,7 +62,7 @@ async function checkUrl(item) {
   }
 }
 
-async function worker() {
+async function worker(): Promise<void> {
   while (cursor < unique.length) {
     const item = unique[cursor];
     cursor += 1;

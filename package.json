@@ -4,15 +4,21 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "import:readme": "node scripts/import-readme.mjs",
-    "generate": "node scripts/generate.mjs",
-    "generate:check": "node scripts/generate.mjs --check",
-    "validate": "node scripts/validate-data.mjs",
-    "check": "npm run validate && npm run generate:check",
-    "check:links": "node scripts/check-links.mjs",
-    "site": "node scripts/serve.mjs"
+    "import:readme": "tsx scripts/import-readme.ts",
+    "generate": "tsx scripts/generate.ts",
+    "generate:check": "tsx scripts/generate.ts --check",
+    "typecheck": "tsc --noEmit",
+    "validate": "tsx scripts/validate-data.ts",
+    "check": "npm run typecheck && npm run validate && npm run generate:check",
+    "check:links": "tsx scripts/check-links.ts",
+    "site": "tsx scripts/serve.ts"
   },
   "engines": {
     "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
   }
 }

@@ -16,6 +16,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Typecheck scripts
+        run: npm run typecheck
       - name: Validate resource data
         id: validate
         continue-on-error: true
