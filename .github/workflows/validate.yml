@@ -16,14 +16,68 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Validate data and generated files
+      - name: Validate resource data
         id: validate
-        run: npm run check
+        continue-on-error: true
+        shell: bash
+        run: |
+          set +e
+          npm run validate > validate.log 2>&1
+          status=$?
+          cat validate.log
+          {
+            echo "status=$status"
+            echo "report<<EOF"
+            tail -n 120 validate.log
+            echo
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          exit "$status"
+      - name: Check generated files
+        id: generated
+        continue-on-error: true
+        shell: bash
+        run: |
+          set +e
+          npm run generate:check > generated.log 2>&1
+          status=$?
+          cat generated.log
+          {
+            echo "status=$status"
+            echo "report<<EOF"
+            tail -n 120 generated.log
+            echo
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          exit "$status"
       - name: Comment on failed contribution
-        if: failure() && github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' && (steps.validate.outputs.status != '0' || steps.generated.outputs.status != '0')
         uses: actions/github-script@v7
+        env:
+          VALIDATE_STATUS: ${{ steps.validate.outputs.status }}
+          VALIDATE_REPORT: ${{ steps.validate.outputs.report }}
+          GENERATED_STATUS: ${{ steps.generated.outputs.status }}
+          GENERATED_REPORT: ${{ steps.generated.outputs.report }}
         with:
           script: |
+            const sections = [];
+            if (process.env.VALIDATE_STATUS !== '0') {
+              sections.push([
+                '### 数据校验',
+                '```text',
+                process.env.VALIDATE_REPORT.trim(),
+                '```'
+              ].join('\n'));
+            }
+            if (process.env.GENERATED_STATUS !== '0') {
+              sections.push([
+                '### 生成文件校验',
+                '```text',
+                process.env.GENERATED_REPORT.trim(),
+                '```'
+              ].join('\n'));
+            }
+
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -31,6 +85,11 @@ jobs:
               body: [
                 '资源校验没有通过。',
                 '',
-                '请确认 `data/resources.json` 中的链接、分类、metadata 和重复链接符合校验规则，然后运行 `npm run check`。'
+                '请确认 `data/resources.json` 中的链接、分类、metadata 和重复链接符合校验规则，然后运行 `npm run check`。',
+                '',
+                ...sections
               ].join('\n')
             })
+      - name: Fail on validation errors
+        if: steps.validate.outputs.status != '0' || steps.generated.outputs.status != '0'
+        run: exit 1
