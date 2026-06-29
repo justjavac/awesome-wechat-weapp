@@ -8,7 +8,7 @@ import {
   inferMetadata,
   makeResourceId,
   slugify,
-  writeJson
+  writeData
 } from "./catalog.ts";
 
 const CATEGORY_IDS = new Map([
@@ -96,7 +96,7 @@ const catalog: Catalog = {
   title: "微信小程序开发资源汇总",
   description:
     "本文收集了微信小程序开发过程中会使用到的资料、问题以及第三方组件库。本文不是一篇关于如何学习微信小程序的入门指南，也非参考手册，只是一些资料的整理。",
-  generatedFrom: "data/resources.json",
+  generatedFrom: DATA_FILE,
   duplicatePolicy: {
     allowCategoryIds: ["featured"]
   },
@@ -166,5 +166,5 @@ for (const line of readme.split(/\r?\n/)) {
   }
 }
 
-await writeJson(DATA_FILE, catalog);
+await writeData(DATA_FILE, catalog);
 console.log(`Imported ${usedIds.size} resources into ${DATA_FILE}`);

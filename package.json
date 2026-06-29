@@ -20,5 +20,8 @@
     "@types/node": "^26.0.1",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "yaml": "^2.9.0"
   }
 }

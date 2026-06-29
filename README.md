@@ -4,7 +4,7 @@
 本仓库中的资料整理自网络，也有一些来自网友推荐。在[这里](https://github.com/justjavac/awesome-wechat-weapp/graphs/contributors)可以看到项目贡献者的完整名单。
 如果这个仓库对你有帮助，欢迎 star。如果这个仓库帮你提升了技能找到了工作，可以请我喝杯咖啡：
 
-> 本 README 由 `data/resources.json` 自动生成。请不要手工编辑资源列表。
+> 本 README 由 `data/resources.yaml` 自动生成。请不要手工编辑资源列表。
 
 <p align="center"><img src="https://dl.deno.js.cn/buy-me-a-coffee-wechat.png" width="320" height="320" alt="" /></p>
 
@@ -25,7 +25,7 @@
 
 ## 数据维护
 
-- 资源数据源：[`data/resources.json`](data/resources.json)
+- 资源数据源：[`data/resources.yaml`](data/resources.yaml)
 - 搜索页：[`public/index.html`](public/index.html)
 - API：[`public/api/resources.json`](public/api/resources.json)
 - 本地校验：`npm run check`

@@ -1,12 +1,12 @@
 import { setTimeout as delay } from "node:timers/promises";
-import { DATA_FILE, type Catalog, flattenResources, normalizeUrl, readJson } from "./catalog.ts";
+import { DATA_FILE, type Catalog, flattenResources, normalizeUrl, readData } from "./catalog.ts";
 
 interface LinkTarget {
   url: string;
   label: string;
 }
 
-const catalog = await readJson<Catalog>(DATA_FILE);
+const catalog = await readData<Catalog>(DATA_FILE);
 const resources = flattenResources(catalog);
 const urls: LinkTarget[] = [
   ...resources.map((resource) => ({ url: resource.url, label: resource.id })),

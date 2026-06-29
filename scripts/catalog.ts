@@ -1,7 +1,8 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname } from "node:path";
+import { parse, stringify } from "yaml";
 
-export const DATA_FILE = "data/resources.json";
+export const DATA_FILE = "data/resources.yaml";
 export const API_FILE = "public/api/resources.json";
 
 export type Difficulty = "beginner" | "intermediate" | "advanced" | "unknown";
@@ -71,8 +72,13 @@ export interface ApiResource {
   metadata: Metadata;
 }
 
-export async function readJson<T = unknown>(file: string): Promise<T> {
-  return JSON.parse(await readFile(file, "utf8")) as T;
+export async function readData<T = unknown>(file: string): Promise<T> {
+  return parse(await readFile(file, "utf8")) as T;
+}
+
+export async function writeData(file: string, value: unknown): Promise<void> {
+  await mkdir(dirname(file), { recursive: true });
+  await writeFile(file, stringify(value, { lineWidth: 0 }), "utf8");
 }
 
 export async function writeJson(file: string, value: unknown): Promise<void> {

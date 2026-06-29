@@ -1,4 +1,5 @@
 import { readFile } from "node:fs/promises";
+import { parse } from "yaml";
 import { DATA_FILE, type Catalog, type FlattenedResource, flattenResources, normalizeUrl } from "./catalog.ts";
 
 const DIFFICULTIES = new Set(["beginner", "intermediate", "advanced", "unknown"]);
@@ -6,7 +7,7 @@ const DATE_OR_UNKNOWN = /^(unknown|\d{4}-\d{2}-\d{2})$/;
 const ID_PATTERN = /^[a-z0-9][a-z0-9-]*$/;
 
 const dataSource = await readFile(DATA_FILE, "utf8");
-const catalog = JSON.parse(dataSource) as Catalog;
+const catalog = parse(dataSource) as Catalog;
 const errors: ValidationError[] = [];
 
 interface ValidationError {
@@ -14,15 +15,20 @@ interface ValidationError {
   line: number;
 }
 
-function lineForNeedle(needle: string): number {
-  const index = dataSource.indexOf(needle);
-  if (index < 0) return 1;
-  return dataSource.slice(0, index).split(/\r?\n/).length;
+function lineForYamlField(field: string, value?: string): number {
+  const lines = dataSource.split(/\r?\n/);
+  const escapedValue = value?.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const pattern = escapedValue
+    ? new RegExp(`^\\s*${field}:\\s*['"]?${escapedValue}['"]?\\s*$`)
+    : new RegExp(`^\\s*${field}:`);
+
+  const index = lines.findIndex((line) => pattern.test(line));
+  return index >= 0 ? index + 1 : 1;
 }
 
 function lineForResource(resource: Partial<FlattenedResource> | undefined): number {
-  if (resource?.id) return lineForNeedle(`"id": "${resource.id}"`);
-  if (resource?.url) return lineForNeedle(`"url": "${resource.url}"`);
+  if (resource?.id) return lineForYamlField("id", resource.id);
+  if (resource?.url) return lineForYamlField("url", resource.url);
   return 1;
 }
 
@@ -34,9 +40,9 @@ function fail(message: string, line = 1): void {
   errors.push({ message, line });
 }
 
-if (!catalog.title) fail("catalog.title is required", lineForNeedle('"title"'));
+if (!catalog.title) fail("catalog.title is required", lineForYamlField("title"));
 if (!Array.isArray(catalog.categories) || catalog.categories.length === 0) {
-  fail("catalog.categories must be a non-empty array", lineForNeedle('"categories"'));
+  fail("catalog.categories must be a non-empty array", lineForYamlField("categories"));
 }
 
 const categoryIds = new Set();
@@ -44,29 +50,29 @@ for (const category of catalog.categories ?? []) {
   if (!category.id || !ID_PATTERN.test(category.id)) {
     fail(
       `category "${category.name ?? "<unknown>"}" has invalid id "${category.id}"`,
-      lineForNeedle(`"id": "${category.id}"`)
+      lineForYamlField("id", category.id)
     );
   }
   if (categoryIds.has(category.id)) {
-    fail(`duplicate category id "${category.id}"`, lineForNeedle(`"id": "${category.id}"`));
+    fail(`duplicate category id "${category.id}"`, lineForYamlField("id", category.id));
   }
   categoryIds.add(category.id);
-  if (!category.name) fail(`category "${category.id}" is missing name`, lineForNeedle(`"id": "${category.id}"`));
+  if (!category.name) fail(`category "${category.id}" is missing name`, lineForYamlField("id", category.id));
 
   const sectionIds = new Set();
   for (const section of category.sections ?? []) {
     if (!section.id || !ID_PATTERN.test(section.id)) {
       fail(
         `section "${section.name ?? "<unknown>"}" has invalid id "${section.id}"`,
-        lineForNeedle(`"id": "${section.id}"`)
+        lineForYamlField("id", section.id)
       );
     }
     if (sectionIds.has(section.id)) {
-      fail(`duplicate section id "${category.id}/${section.id}"`, lineForNeedle(`"id": "${section.id}"`));
+      fail(`duplicate section id "${category.id}/${section.id}"`, lineForYamlField("id", section.id));
     }
     sectionIds.add(section.id);
     if (!section.name) {
-      fail(`section "${category.id}/${section.id}" is missing name`, lineForNeedle(`"id": "${section.id}"`));
+      fail(`section "${category.id}/${section.id}" is missing name`, lineForYamlField("id", section.id));
     }
   }
 }
