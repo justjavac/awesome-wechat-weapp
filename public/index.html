@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>微信小程序资源搜索</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f8fa;
+        --panel: #ffffff;
+        --text: #20242a;
+        --muted: #667085;
+        --line: #d9dee7;
+        --accent: #16775b;
+        --accent-soft: #e2f3ed;
+        --warning: #965b00;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      header {
+        border-bottom: 1px solid var(--line);
+        background: var(--panel);
+      }
+
+      .wrap {
+        width: min(1120px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      .topbar {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 28px 0 22px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(24px, 4vw, 38px);
+        line-height: 1.15;
+        letter-spacing: 0;
+      }
+
+      .summary {
+        margin: 6px 0 0;
+        color: var(--muted);
+      }
+
+      .controls {
+        display: grid;
+        grid-template-columns: minmax(180px, 1fr) 180px 180px;
+        gap: 10px;
+      }
+
+      input,
+      select {
+        min-height: 42px;
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fff;
+        color: var(--text);
+        padding: 0 12px;
+        font: inherit;
+      }
+
+      main {
+        padding: 22px 0 40px;
+      }
+
+      .stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 14px;
+      }
+
+      .pill {
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        padding: 4px 10px;
+        font-size: 13px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 12px;
+      }
+
+      .card {
+        min-height: 176px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        padding: 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .card h2 {
+        margin: 0;
+        font-size: 17px;
+        line-height: 1.3;
+        letter-spacing: 0;
+        overflow-wrap: anywhere;
+      }
+
+      .card a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .card a:hover {
+        text-decoration: underline;
+      }
+
+      .description {
+        margin: 0;
+        color: #394150;
+        flex: 1;
+      }
+
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .tag {
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 2px 8px;
+        background: #fbfcfd;
+      }
+
+      .empty {
+        border: 1px dashed var(--line);
+        border-radius: 8px;
+        padding: 28px;
+        color: var(--muted);
+        background: var(--panel);
+        text-align: center;
+      }
+
+      @media (max-width: 760px) {
+        .controls {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap topbar">
+        <div>
+          <h1>微信小程序资源搜索</h1>
+          <p class="summary">按标题、描述、分类、语言和主题筛选资源。</p>
+        </div>
+        <div class="controls">
+          <input id="query" type="search" placeholder="搜索资源、主题或描述" autocomplete="off" />
+          <select id="category" aria-label="分类"></select>
+          <select id="difficulty" aria-label="难度">
+            <option value="">全部难度</option>
+            <option value="beginner">入门</option>
+            <option value="intermediate">进阶</option>
+            <option value="advanced">高级</option>
+            <option value="unknown">未知</option>
+          </select>
+        </div>
+      </div>
+    </header>
+    <main class="wrap">
+      <div class="stats" id="stats"></div>
+      <section class="grid" id="results"></section>
+    </main>
+    <script>
+      const state = {
+        query: "",
+        category: "",
+        difficulty: "",
+        resources: []
+      };
+
+      const labels = {
+        beginner: "入门",
+        intermediate: "进阶",
+        advanced: "高级",
+        unknown: "未知"
+      };
+
+      const queryInput = document.querySelector("#query");
+      const categorySelect = document.querySelector("#category");
+      const difficultySelect = document.querySelector("#difficulty");
+      const results = document.querySelector("#results");
+      const stats = document.querySelector("#stats");
+
+      function textFor(resource) {
+        return [
+          resource.title,
+          resource.description,
+          resource.category,
+          resource.section,
+          resource.metadata.language.join(" "),
+          resource.metadata.topics.join(" ")
+        ]
+          .filter(Boolean)
+          .join(" ")
+          .toLowerCase();
+      }
+
+      function renderOptions() {
+        const categories = [...new Set(state.resources.map((item) => item.category))];
+        categorySelect.innerHTML = [
+          '<option value="">全部分类</option>',
+          ...categories.map((category) => `<option value="${category}">${category}</option>`)
+        ].join("");
+      }
+
+      function filtered() {
+        const query = state.query.trim().toLowerCase();
+        return state.resources.filter((resource) => {
+          if (state.category && resource.category !== state.category) return false;
+          if (state.difficulty && resource.metadata.difficulty !== state.difficulty) return false;
+          if (query && !textFor(resource).includes(query)) return false;
+          return true;
+        });
+      }
+
+      function render() {
+        const rows = filtered();
+        stats.innerHTML = [
+          `<span class="pill">${rows.length} / ${state.resources.length} 条资源</span>`,
+          state.category ? `<span class="pill">${state.category}</span>` : "",
+          state.difficulty ? `<span class="pill">${labels[state.difficulty]}</span>` : ""
+        ].join("");
+
+        if (rows.length === 0) {
+          results.className = "";
+          results.innerHTML = '<div class="empty">没有匹配的资源</div>';
+          return;
+        }
+
+        results.className = "grid";
+        results.innerHTML = rows
+          .map((resource) => {
+            const metadata = resource.metadata;
+            const tags = [
+              resource.category,
+              resource.section,
+              labels[metadata.difficulty],
+              ...metadata.language,
+              ...metadata.topics.slice(0, 3)
+            ].filter(Boolean);
+
+            return `
+              <article class="card">
+                <h2><a href="${resource.url}" target="_blank" rel="noreferrer">${resource.title}</a></h2>
+                <p class="description">${resource.description || "暂无描述"}</p>
+                <div class="meta">${tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}</div>
+              </article>
+            `;
+          })
+          .join("");
+      }
+
+      queryInput.addEventListener("input", (event) => {
+        state.query = event.target.value;
+        render();
+      });
+      categorySelect.addEventListener("change", (event) => {
+        state.category = event.target.value;
+        render();
+      });
+      difficultySelect.addEventListener("change", (event) => {
+        state.difficulty = event.target.value;
+        render();
+      });
+
+      fetch("./api/resources.json")
+        .then((response) => response.json())
+        .then((payload) => {
+          state.resources = payload.resources;
+          renderOptions();
+          render();
+        })
+        .catch((error) => {
+          results.className = "";
+          results.innerHTML = `<div class="empty">资源数据加载失败：${error.message}</div>`;
+        });
+    </script>
+  </body>
+</html>
