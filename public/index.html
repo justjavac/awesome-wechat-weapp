@@ -3,18 +3,50 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="data:," />
     <title>微信小程序资源搜索</title>
+    <script>
+      (() => {
+        try {
+          const saved = localStorage.getItem("theme");
+          const system = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          document.documentElement.dataset.theme = saved || system;
+        } catch {
+          document.documentElement.dataset.theme = "light";
+        }
+      })();
+    </script>
     <style>
       :root {
         color-scheme: light;
         --bg: #f7f8fa;
         --panel: #ffffff;
+        --field: #ffffff;
         --text: #20242a;
+        --description: #394150;
         --muted: #667085;
         --line: #d9dee7;
         --accent: #16775b;
         --accent-soft: #e2f3ed;
+        --tag-bg: #fbfcfd;
         --warning: #965b00;
+        --focus: #2d9c7a;
+      }
+
+      :root[data-theme="dark"] {
+        color-scheme: dark;
+        --bg: #101418;
+        --panel: #171d23;
+        --field: #11171d;
+        --text: #edf2f7;
+        --description: #c7d0da;
+        --muted: #98a6b5;
+        --line: #2c3844;
+        --accent: #5bd0a9;
+        --accent-soft: #17352c;
+        --tag-bg: #121920;
+        --warning: #f0b45f;
+        --focus: #74dfbc;
       }
 
       * {
@@ -45,6 +77,13 @@
         padding: 28px 0 22px;
       }
 
+      .hero-row {
+        align-items: start;
+        display: flex;
+        gap: 16px;
+        justify-content: space-between;
+      }
+
       h1 {
         margin: 0;
         font-size: clamp(24px, 4vw, 38px);
@@ -69,10 +108,43 @@
         width: 100%;
         border: 1px solid var(--line);
         border-radius: 6px;
-        background: #fff;
+        background: var(--field);
         color: var(--text);
         padding: 0 12px;
         font: inherit;
+      }
+
+      input:focus-visible,
+      select:focus-visible,
+      button:focus-visible {
+        outline: 2px solid var(--focus);
+        outline-offset: 2px;
+      }
+
+      .theme-toggle {
+        align-items: center;
+        background: var(--field);
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--text);
+        cursor: pointer;
+        display: inline-flex;
+        flex: 0 0 auto;
+        font: inherit;
+        gap: 8px;
+        min-height: 38px;
+        padding: 0 12px;
+        white-space: nowrap;
+      }
+
+      .theme-toggle:hover {
+        border-color: var(--accent);
+      }
+
+      .theme-icon {
+        color: var(--accent);
+        font-size: 16px;
+        line-height: 1;
       }
 
       main {
@@ -130,7 +202,7 @@
 
       .description {
         margin: 0;
-        color: #394150;
+        color: var(--description);
         flex: 1;
       }
 
@@ -146,7 +218,7 @@
         border: 1px solid var(--line);
         border-radius: 999px;
         padding: 2px 8px;
-        background: #fbfcfd;
+        background: var(--tag-bg);
       }
 
       .empty {
@@ -159,6 +231,16 @@
       }
 
       @media (max-width: 760px) {
+        .hero-row {
+          align-items: stretch;
+          flex-direction: column;
+        }
+
+        .theme-toggle {
+          justify-content: center;
+          width: fit-content;
+        }
+
         .controls {
           grid-template-columns: 1fr;
         }
@@ -168,9 +250,15 @@
   <body>
     <header>
       <div class="wrap topbar">
-        <div>
-          <h1>微信小程序资源搜索</h1>
-          <p class="summary">按标题、描述、分类、语言和主题筛选资源。</p>
+        <div class="hero-row">
+          <div>
+            <h1>微信小程序资源搜索</h1>
+            <p class="summary">按标题、描述、分类、语言和主题筛选资源。</p>
+          </div>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换深色模式" aria-pressed="false">
+            <span class="theme-icon" id="themeIcon" aria-hidden="true">◐</span>
+            <span id="themeLabel">暗色</span>
+          </button>
         </div>
         <div class="controls">
           <input id="query" type="search" placeholder="搜索资源、主题或描述" autocomplete="off" />
@@ -209,6 +297,28 @@
       const difficultySelect = document.querySelector("#difficulty");
       const results = document.querySelector("#results");
       const stats = document.querySelector("#stats");
+      const themeToggle = document.querySelector("#themeToggle");
+      const themeIcon = document.querySelector("#themeIcon");
+      const themeLabel = document.querySelector("#themeLabel");
+
+      function currentTheme() {
+        return document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+      }
+
+      function setTheme(theme) {
+        document.documentElement.dataset.theme = theme;
+        themeToggle.setAttribute("aria-pressed", String(theme === "dark"));
+        themeToggle.setAttribute("aria-label", theme === "dark" ? "切换亮色模式" : "切换深色模式");
+        themeIcon.textContent = theme === "dark" ? "☀" : "◐";
+        themeLabel.textContent = theme === "dark" ? "亮色" : "暗色";
+        try {
+          localStorage.setItem("theme", theme);
+        } catch {
+          // Ignore storage failures; the visual state still changes for this session.
+        }
+      }
+
+      setTheme(currentTheme());
 
       function textFor(resource) {
         return [
@@ -290,6 +400,9 @@
       difficultySelect.addEventListener("change", (event) => {
         state.difficulty = event.target.value;
         render();
+      });
+      themeToggle.addEventListener("click", () => {
+        setTheme(currentTheme() === "dark" ? "light" : "dark");
       });
 
       fetch("./api/resources.json")
