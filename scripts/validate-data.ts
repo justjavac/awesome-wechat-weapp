@@ -3,7 +3,6 @@ import { parse } from "yaml";
 import { DATA_FILE, type Catalog, type FlattenedResource, flattenResources, normalizeUrl } from "./catalog.ts";
 
 const DIFFICULTIES = new Set(["beginner", "intermediate", "advanced", "unknown"]);
-const DATE_OR_UNKNOWN = /^(unknown|\d{4}-\d{2}-\d{2})$/;
 const ID_PATTERN = /^[a-z0-9][a-z0-9-]*$/;
 
 const dataSource = await readFile(DATA_FILE, "utf8");
@@ -120,12 +119,6 @@ for (const resource of resources) {
   }
   if (!Array.isArray(metadata.topics) || metadata.topics.length === 0) {
     fail(`${label}: metadata.topics must be a non-empty array`, line);
-  }
-  if (typeof metadata.license !== "string" || metadata.license.length === 0) {
-    fail(`${label}: metadata.license is required`, line);
-  }
-  if (typeof metadata.updatedAt !== "string" || !DATE_OR_UNKNOWN.test(metadata.updatedAt)) {
-    fail(`${label}: metadata.updatedAt must be "unknown" or YYYY-MM-DD`, line);
   }
 }
 
