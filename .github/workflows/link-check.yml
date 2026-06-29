@@ -6,7 +6,7 @@ on:
     - cron: "17 2 * * 1"
   pull_request:
     paths:
-      - "data/resources.json"
+      - "data/resources.yaml"
       - "scripts/check-links.ts"
       - ".github/workflows/link-check.yml"
 

@@ -90,7 +90,7 @@ jobs:
               body: [
                 '资源校验没有通过。',
                 '',
-                '请确认 `data/resources.json` 中的链接、分类、metadata 和重复链接符合校验规则，然后运行 `npm run check`。',
+                '请确认 `data/resources.yaml` 中的链接、分类、metadata 和重复链接符合校验规则，然后运行 `npm run check`。',
                 '',
                 ...sections
               ].join('\n')
