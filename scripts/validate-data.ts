@@ -124,9 +124,12 @@ for (const resource of resources) {
 
 for (const [url, duplicates] of urls) {
   if (duplicates.length <= 1) continue;
-  const allAllowed = duplicates.some((resource) => allowedDuplicateCategories.has(resource.categoryId));
-  if (!allAllowed) {
-    fail(`duplicate url "${url}" in ${duplicates.map((item) => item.id).join(", ")}`, lineForResource(duplicates[0]));
+  const disallowedDuplicates = duplicates.filter((resource) => !allowedDuplicateCategories.has(resource.categoryId));
+  if (disallowedDuplicates.length > 1) {
+    fail(
+      `duplicate url "${url}" in ${disallowedDuplicates.map((item) => item.id).join(", ")}`,
+      lineForResource(disallowedDuplicates[0])
+    );
   }
 }
 

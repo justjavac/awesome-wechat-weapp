@@ -1,9 +1,9 @@
 import { createServer } from "node:http";
 import { createReadStream } from "node:fs";
 import { stat } from "node:fs/promises";
-import { extname, join, normalize } from "node:path";
+import { extname, isAbsolute, relative, resolve } from "node:path";
 
-const root = "public";
+const root = resolve("public");
 const port = Number.parseInt(process.env.PORT ?? "4173", 10);
 const types = new Map([
   [".html", "text/html; charset=utf-8"],
@@ -14,10 +14,19 @@ const types = new Map([
 
 const server = createServer(async (request, response) => {
   const url = new URL(request.url ?? "/", `http://${request.headers.host}`);
-  const pathname = url.pathname === "/" ? "/index.html" : decodeURIComponent(url.pathname);
-  const file = normalize(join(root, pathname));
+  let pathname = "/index.html";
+  try {
+    pathname = url.pathname === "/" ? "/index.html" : decodeURIComponent(url.pathname);
+  } catch {
+    response.writeHead(400, { "content-type": "text/plain; charset=utf-8" });
+    response.end("Bad request");
+    return;
+  }
 
-  if (!file.startsWith(root)) {
+  const file = resolve(root, `.${pathname}`);
+  const relativePath = relative(root, file);
+
+  if (relativePath.startsWith("..") || isAbsolute(relativePath)) {
     response.writeHead(403);
     response.end("Forbidden");
     return;
