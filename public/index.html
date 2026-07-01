@@ -334,12 +334,33 @@
           .toLowerCase();
       }
 
+      function createOption(value, label) {
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = label;
+        return option;
+      }
+
+      function createPill(text) {
+        const pill = document.createElement("span");
+        pill.className = "pill";
+        pill.textContent = text;
+        return pill;
+      }
+
+      function createEmpty(message) {
+        const empty = document.createElement("div");
+        empty.className = "empty";
+        empty.textContent = message;
+        return empty;
+      }
+
       function renderOptions() {
         const categories = [...new Set(state.resources.map((item) => item.category))];
-        categorySelect.innerHTML = [
-          '<option value="">全部分类</option>',
-          ...categories.map((category) => `<option value="${category}">${category}</option>`)
-        ].join("");
+        categorySelect.replaceChildren(
+          createOption("", "全部分类"),
+          ...categories.map((category) => createOption(category, category))
+        );
       }
 
       function filtered() {
@@ -354,39 +375,57 @@
 
       function render() {
         const rows = filtered();
-        stats.innerHTML = [
-          `<span class="pill">${rows.length} / ${state.resources.length} 条资源</span>`,
-          state.category ? `<span class="pill">${state.category}</span>` : "",
-          state.difficulty ? `<span class="pill">${labels[state.difficulty]}</span>` : ""
-        ].join("");
+        stats.replaceChildren(
+          createPill(`${rows.length} / ${state.resources.length} 条资源`),
+          ...(state.category ? [createPill(state.category)] : []),
+          ...(state.difficulty ? [createPill(labels[state.difficulty])] : [])
+        );
 
         if (rows.length === 0) {
           results.className = "";
-          results.innerHTML = '<div class="empty">没有匹配的资源</div>';
+          results.replaceChildren(createEmpty("没有匹配的资源"));
           return;
         }
 
         results.className = "grid";
-        results.innerHTML = rows
-          .map((resource) => {
-            const metadata = resource.metadata;
-            const tags = [
-              resource.category,
-              resource.section,
-              labels[metadata.difficulty],
-              ...metadata.language,
-              ...metadata.topics.slice(0, 3)
-            ].filter(Boolean);
+        const cards = rows.map((resource) => {
+          const metadata = resource.metadata;
+          const tags = [
+            resource.category,
+            resource.section,
+            labels[metadata.difficulty],
+            ...metadata.language,
+            ...metadata.topics.slice(0, 3)
+          ].filter(Boolean);
 
-            return `
-              <article class="card">
-                <h2><a href="${resource.url}" target="_blank" rel="noreferrer">${resource.title}</a></h2>
-                <p class="description">${resource.description || "暂无描述"}</p>
-                <div class="meta">${tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}</div>
-              </article>
-            `;
-          })
-          .join("");
+          const card = document.createElement("article");
+          card.className = "card";
+
+          const title = document.createElement("h2");
+          const link = document.createElement("a");
+          link.href = resource.url;
+          link.target = "_blank";
+          link.rel = "noreferrer";
+          link.textContent = resource.title;
+          title.append(link);
+
+          const description = document.createElement("p");
+          description.className = "description";
+          description.textContent = resource.description || "暂无描述";
+
+          const meta = document.createElement("div");
+          meta.className = "meta";
+          for (const tag of tags) {
+            const tagElement = document.createElement("span");
+            tagElement.className = "tag";
+            tagElement.textContent = tag;
+            meta.append(tagElement);
+          }
+
+          card.append(title, description, meta);
+          return card;
+        });
+        results.replaceChildren(...cards);
       }
 
       queryInput.addEventListener("input", (event) => {
@@ -414,7 +453,7 @@
         })
         .catch((error) => {
           results.className = "";
-          results.innerHTML = `<div class="empty">资源数据加载失败：${error.message}</div>`;
+          results.replaceChildren(createEmpty(`资源数据加载失败：${error.message}`));
         });
     </script>
   </body>
