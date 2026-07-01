@@ -1,12 +1,12 @@
 import { readFile } from "node:fs/promises";
 import { parse } from "yaml";
-import { DATA_FILE, type Catalog, type FlattenedResource, flattenResources, normalizeUrl } from "./catalog.ts";
+import { DATA_FILE, type Catalog, type FlattenedResource, type Resource, normalizeUrl } from "./catalog.ts";
 
 const DIFFICULTIES = new Set(["beginner", "intermediate", "advanced", "unknown"]);
 const ID_PATTERN = /^[a-z0-9][a-z0-9-]*$/;
 
 const dataSource = await readFile(DATA_FILE, "utf8");
-const catalog = parse(dataSource) as Catalog;
+const catalog = parse(dataSource) as unknown;
 const errors: ValidationError[] = [];
 
 interface ValidationError {
@@ -14,9 +14,24 @@ interface ValidationError {
   line: number;
 }
 
-function lineForYamlField(field: string, value?: string): number {
+type UnknownRecord = Record<string, unknown>;
+
+function isRecord(value: unknown): value is UnknownRecord {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
+}
+
+function isNonEmptyString(value: unknown): value is string {
+  return typeof value === "string" && value.trim().length > 0;
+}
+
+function isStringArray(value: unknown): value is string[] {
+  return Array.isArray(value) && value.every(isNonEmptyString);
+}
+
+function lineForYamlField(field: string, value?: unknown): number {
   const lines = dataSource.split(/\r?\n/);
-  const escapedValue = value?.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const valueText = ["boolean", "number", "string"].includes(typeof value) ? String(value) : undefined;
+  const escapedValue = valueText?.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const pattern = escapedValue
     ? new RegExp(`^\\s*${field}:\\s*['"]?${escapedValue}['"]?\\s*$`)
     : new RegExp(`^\\s*${field}:`);
@@ -39,86 +54,228 @@ function fail(message: string, line = 1): void {
   errors.push({ message, line });
 }
 
-if (!catalog.title) fail("catalog.title is required", lineForYamlField("title"));
-if (!Array.isArray(catalog.categories) || catalog.categories.length === 0) {
-  fail("catalog.categories must be a non-empty array", lineForYamlField("categories"));
-}
-
-const categoryIds = new Set();
-for (const category of catalog.categories ?? []) {
-  if (!category.id || !ID_PATTERN.test(category.id)) {
-    fail(
-      `category "${category.name ?? "<unknown>"}" has invalid id "${category.id}"`,
-      lineForYamlField("id", category.id)
-    );
-  }
-  if (categoryIds.has(category.id)) {
-    fail(`duplicate category id "${category.id}"`, lineForYamlField("id", category.id));
-  }
-  categoryIds.add(category.id);
-  if (!category.name) fail(`category "${category.id}" is missing name`, lineForYamlField("id", category.id));
-
-  const sectionIds = new Set();
-  for (const section of category.sections ?? []) {
-    if (!section.id || !ID_PATTERN.test(section.id)) {
-      fail(
-        `section "${section.name ?? "<unknown>"}" has invalid id "${section.id}"`,
-        lineForYamlField("id", section.id)
-      );
-    }
-    if (sectionIds.has(section.id)) {
-      fail(`duplicate section id "${category.id}/${section.id}"`, lineForYamlField("id", section.id));
-    }
-    sectionIds.add(section.id);
-    if (!section.name) {
-      fail(`section "${category.id}/${section.id}" is missing name`, lineForYamlField("id", section.id));
-    }
-  }
-}
-
-const resources = flattenResources(catalog);
-const resourceIds = new Set();
-const urls = new Map<string, FlattenedResource[]>();
-const allowedDuplicateCategories = new Set(catalog.duplicatePolicy?.allowCategoryIds ?? []);
-
-for (const resource of resources) {
-  const label = resource.id ?? resource.title ?? resource.url ?? "<unknown>";
-  const line = lineForResource(resource);
-
-  if (!resource.id || !ID_PATTERN.test(resource.id)) fail(`${label}: invalid id`, line);
-  if (resourceIds.has(resource.id)) fail(`${label}: duplicate resource id`, line);
-  resourceIds.add(resource.id);
-
-  if (!resource.title) fail(`${label}: title is required`, line);
-  if (!resource.description && resource.categoryId !== "featured") {
-    fail(`${label}: description is required`, line);
+function validateHttpUrl(value: unknown, label: string, line: number): string | null {
+  if (!isNonEmptyString(value)) {
+    fail(`${label}: url is required`, line);
+    return null;
   }
 
   try {
-    const parsed = new URL(resource.url);
-    if (!["http:", "https:"].includes(parsed.protocol)) fail(`${label}: url must be http(s)`, line);
+    const parsed = new URL(value);
+    if (!["http:", "https:"].includes(parsed.protocol)) {
+      fail(`${label}: url must be http(s)`, line);
+      return null;
+    }
   } catch {
-    fail(`${label}: invalid url "${resource.url}"`, line);
+    fail(`${label}: invalid url "${value}"`, line);
+    return null;
   }
 
-  const normalized = normalizeUrl(resource.url);
-  const existing = urls.get(normalized) ?? [];
-  existing.push(resource);
-  urls.set(normalized, existing);
+  return value;
+}
 
-  const metadata = resource.metadata;
-  if (!metadata) {
+function collectResources({
+  resources,
+  categoryId,
+  categoryName,
+  sectionId,
+  sectionName
+}: {
+  resources: unknown[];
+  categoryId: string;
+  categoryName: string;
+  sectionId?: string;
+  sectionName?: string;
+}): FlattenedResource[] {
+  const rows: FlattenedResource[] = [];
+
+  for (const resource of resources) {
+    if (!isRecord(resource)) {
+      fail(`resource in "${sectionId ? `${categoryId}/${sectionId}` : categoryId}" must be an object`);
+      continue;
+    }
+
+    rows.push({
+      ...(resource as unknown as Resource),
+      category: categoryName,
+      categoryId,
+      section: sectionName ?? null,
+      sectionId: sectionId ?? null
+    });
+  }
+
+  return rows;
+}
+
+if (!isRecord(catalog)) {
+  fail("catalog must be a YAML object");
+}
+
+const typedCatalog = (isRecord(catalog) ? catalog : {}) as Partial<Catalog>;
+
+if (!isNonEmptyString(typedCatalog.title)) fail("catalog.title is required", lineForYamlField("title"));
+if (!Array.isArray(typedCatalog.categories) || typedCatalog.categories.length === 0) {
+  fail("catalog.categories must be a non-empty array", lineForYamlField("categories"));
+}
+
+const resources: FlattenedResource[] = [];
+
+const qqGroups = typedCatalog.qqGroups;
+if (qqGroups !== undefined && !Array.isArray(qqGroups)) {
+  fail("catalog.qqGroups must be an array", lineForYamlField("qqGroups"));
+}
+
+for (const group of Array.isArray(qqGroups) ? qqGroups : []) {
+  if (!isRecord(group)) {
+    fail("qq group must be an object", lineForYamlField("qqGroups"));
+    continue;
+  }
+
+  const label = isNonEmptyString(group.name) ? group.name : "<unknown qq group>";
+  const line = lineForYamlField("name", group.name);
+  if (!isNonEmptyString(group.name)) fail(`${label}: name is required`, line);
+  validateHttpUrl(group.url, label, lineForYamlField("url", group.url));
+  if (!isNonEmptyString(group.note)) fail(`${label}: note is required`, lineForYamlField("note", group.note));
+}
+
+const categoryIds = new Set<string>();
+for (const category of Array.isArray(typedCatalog.categories) ? typedCatalog.categories : []) {
+  if (!isRecord(category)) {
+    fail("category must be an object", lineForYamlField("categories"));
+    continue;
+  }
+
+  const categoryId = category.id;
+  const categoryName = category.name;
+  const categoryIdText = isNonEmptyString(categoryId) ? categoryId : "<unknown>";
+  if (!isNonEmptyString(categoryId) || !ID_PATTERN.test(categoryId)) {
+    fail(
+      `category "${isNonEmptyString(categoryName) ? categoryName : "<unknown>"}" has invalid id "${String(categoryId)}"`,
+      lineForYamlField("id", categoryId)
+    );
+  } else if (categoryIds.has(categoryId)) {
+    fail(`duplicate category id "${categoryId}"`, lineForYamlField("id", categoryId));
+  } else {
+    categoryIds.add(categoryId);
+  }
+  if (!isNonEmptyString(categoryName)) fail(`category "${categoryIdText}" is missing name`, lineForYamlField("id", categoryId));
+
+  if (category.resources !== undefined && !Array.isArray(category.resources)) {
+    fail(`category "${categoryIdText}" resources must be an array`, lineForYamlField("resources"));
+  }
+
+  if (Array.isArray(category.resources)) {
+    resources.push(
+      ...collectResources({
+        resources: category.resources,
+        categoryId: isNonEmptyString(categoryId) ? categoryId : "",
+        categoryName: isNonEmptyString(categoryName) ? categoryName : ""
+      })
+    );
+  }
+
+  if (category.sections !== undefined && !Array.isArray(category.sections)) {
+    fail(`category "${categoryIdText}" sections must be an array`, lineForYamlField("sections"));
+  }
+
+  const sectionIds = new Set<string>();
+  for (const section of Array.isArray(category.sections) ? category.sections : []) {
+    if (!isRecord(section)) {
+      fail(`section in "${categoryIdText}" must be an object`, lineForYamlField("sections"));
+      continue;
+    }
+
+    const sectionId = section.id;
+    const sectionName = section.name;
+    const sectionIdText = isNonEmptyString(sectionId) ? sectionId : "<unknown>";
+    if (!isNonEmptyString(sectionId) || !ID_PATTERN.test(sectionId)) {
+      fail(
+        `section "${isNonEmptyString(sectionName) ? sectionName : "<unknown>"}" has invalid id "${String(sectionId)}"`,
+        lineForYamlField("id", sectionId)
+      );
+    } else if (sectionIds.has(sectionId)) {
+      fail(`duplicate section id "${categoryIdText}/${sectionId}"`, lineForYamlField("id", sectionId));
+    } else {
+      sectionIds.add(sectionId);
+    }
+    if (!isNonEmptyString(sectionName)) {
+      fail(`section "${categoryIdText}/${sectionIdText}" is missing name`, lineForYamlField("id", sectionId));
+    }
+
+    if (section.resources !== undefined && !Array.isArray(section.resources)) {
+      fail(`section "${categoryIdText}/${sectionIdText}" resources must be an array`, lineForYamlField("resources"));
+    }
+
+    if (Array.isArray(section.resources)) {
+      resources.push(
+        ...collectResources({
+          resources: section.resources,
+          categoryId: isNonEmptyString(categoryId) ? categoryId : "",
+          categoryName: isNonEmptyString(categoryName) ? categoryName : "",
+          sectionId: isNonEmptyString(sectionId) ? sectionId : "",
+          sectionName: isNonEmptyString(sectionName) ? sectionName : ""
+        })
+      );
+    }
+  }
+}
+
+const resourceIds = new Set<string>();
+const urls = new Map<string, FlattenedResource[]>();
+const duplicatePolicy = typedCatalog.duplicatePolicy;
+if (duplicatePolicy !== undefined && !isRecord(duplicatePolicy)) {
+  fail("catalog.duplicatePolicy must be an object", lineForYamlField("duplicatePolicy"));
+}
+
+const allowCategoryIds = isRecord(duplicatePolicy) ? duplicatePolicy.allowCategoryIds : undefined;
+if (allowCategoryIds !== undefined && !isStringArray(allowCategoryIds)) {
+  fail("catalog.duplicatePolicy.allowCategoryIds must be a string array", lineForYamlField("allowCategoryIds"));
+}
+const allowedDuplicateCategories = new Set(isStringArray(allowCategoryIds) ? allowCategoryIds : []);
+
+for (const resource of resources) {
+  const label = [resource.id, resource.title, resource.url].find(isNonEmptyString) ?? "<unknown>";
+  const line = lineForResource(resource);
+
+  if (!isNonEmptyString(resource.id) || !ID_PATTERN.test(resource.id)) {
+    fail(`${label}: invalid id`, line);
+  } else if (resourceIds.has(resource.id)) {
+    fail(`${label}: duplicate resource id`, line);
+  } else {
+    resourceIds.add(resource.id);
+  }
+
+  if (!isNonEmptyString(resource.title)) fail(`${label}: title is required`, line);
+  if (typeof resource.description !== "string") {
+    fail(`${label}: description must be a string`, line);
+  } else if (!resource.description && resource.categoryId !== "featured") {
+    fail(`${label}: description is required`, line);
+  }
+  if (resource.note !== undefined && typeof resource.note !== "string") {
+    fail(`${label}: note must be a string`, line);
+  }
+
+  const validUrl = validateHttpUrl(resource.url, label, line);
+  if (validUrl) {
+    const normalized = normalizeUrl(validUrl);
+    const existing = urls.get(normalized) ?? [];
+    existing.push(resource);
+    urls.set(normalized, existing);
+  }
+
+  const metadata = resource.metadata as unknown;
+  if (!isRecord(metadata)) {
     fail(`${label}: metadata is required`, line);
     continue;
   }
-  if (!Array.isArray(metadata.language) || metadata.language.length === 0) {
-    fail(`${label}: metadata.language must be a non-empty array`, line);
+  if (!isStringArray(metadata.language)) {
+    fail(`${label}: metadata.language must be a non-empty string array`, line);
   }
-  if (!DIFFICULTIES.has(metadata.difficulty)) {
+  if (!isNonEmptyString(metadata.difficulty) || !DIFFICULTIES.has(metadata.difficulty)) {
     fail(`${label}: metadata.difficulty is invalid`, line);
   }
-  if (!Array.isArray(metadata.topics) || metadata.topics.length === 0) {
-    fail(`${label}: metadata.topics must be a non-empty array`, line);
+  if (!isStringArray(metadata.topics)) {
+    fail(`${label}: metadata.topics must be a non-empty string array`, line);
   }
 }
 

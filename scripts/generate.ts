@@ -11,10 +11,18 @@ import {
   writeJson
 } from "./catalog.ts";
 
+function escapeMarkdownLinkText(value: string): string {
+  return value.replace(/[\\[\]]/g, "\\$&");
+}
+
+function escapeMarkdownLinkUrl(value: string): string {
+  return value.replace(/[()\\]/g, (character) => encodeURIComponent(character));
+}
+
 function renderResource(resource: Resource): string {
   const suffix = resource.description ? ` - ${resource.description}` : "";
   const note = resource.note ? ` ${resource.note}` : "";
-  return `- [${resource.title}](${resource.url})${note}${suffix}`;
+  return `- [${escapeMarkdownLinkText(resource.title)}](${escapeMarkdownLinkUrl(resource.url)})${note}${suffix}`;
 }
 
 function renderReadme(catalog: Catalog): string {
