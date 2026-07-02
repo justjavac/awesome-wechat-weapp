@@ -7,6 +7,9 @@ on:
   pull_request:
     paths:
       - "data/resources.yaml"
+      - "package.json"
+      - "package-lock.json"
+      - "scripts/catalog.ts"
       - "scripts/check-links.ts"
       - ".github/workflows/link-check.yml"
 

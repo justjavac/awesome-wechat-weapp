@@ -16,7 +16,11 @@ function escapeMarkdownLinkText(value: string): string {
 }
 
 function escapeMarkdownLinkUrl(value: string): string {
-  return value.replace(/[()\\]/g, (character) => encodeURIComponent(character));
+  return value.replace(/[()\\]/g, (character) => {
+    if (character === "(") return "%28";
+    if (character === ")") return "%29";
+    return "%5C";
+  });
 }
 
 function renderResource(resource: Resource): string {
